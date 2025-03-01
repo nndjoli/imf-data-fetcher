@@ -1,0 +1,595 @@
+{
+    "MCD Regional Economic Outlook January 2015": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR",
+        "Sample URL Description": "Returns all the MCDREO201501 indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "512",
+                "Region Name": "Afghanistan"
+            },
+            {
+                "Region Key": "612",
+                "Region Name": "Algeria"
+            },
+            {
+                "Region Key": "911",
+                "Region Name": "Armenia"
+            },
+            {
+                "Region Key": "912",
+                "Region Name": "Azerbaijan"
+            },
+            {
+                "Region Key": "419",
+                "Region Name": "Bahrain"
+            },
+            {
+                "Region Key": "611",
+                "Region Name": "Djibouti"
+            },
+            {
+                "Region Key": "469",
+                "Region Name": "Egypt"
+            },
+            {
+                "Region Key": "915",
+                "Region Name": "Georgia"
+            },
+            {
+                "Region Key": "429",
+                "Region Name": "Iran, Islamic Republic of"
+            },
+            {
+                "Region Key": "433",
+                "Region Name": "Iraq"
+            },
+            {
+                "Region Key": "439",
+                "Region Name": "Jordan"
+            },
+            {
+                "Region Key": "916",
+                "Region Name": "Kazakhstan"
+            },
+            {
+                "Region Key": "443",
+                "Region Name": "Kuwait"
+            },
+            {
+                "Region Key": "917",
+                "Region Name": "Kyrgyz Republic"
+            },
+            {
+                "Region Key": "446",
+                "Region Name": "Lebanon"
+            },
+            {
+                "Region Key": "672",
+                "Region Name": "Libya"
+            },
+            {
+                "Region Key": "682",
+                "Region Name": "Mauritania"
+            },
+            {
+                "Region Key": "686",
+                "Region Name": "Morocco"
+            },
+            {
+                "Region Key": "449",
+                "Region Name": "Oman"
+            },
+            {
+                "Region Key": "564",
+                "Region Name": "Pakistan"
+            },
+            {
+                "Region Key": "453",
+                "Region Name": "Qatar"
+            },
+            {
+                "Region Key": "456",
+                "Region Name": "Saudi Arabia"
+            },
+            {
+                "Region Key": "726",
+                "Region Name": "Somalia"
+            },
+            {
+                "Region Key": "732",
+                "Region Name": "Sudan"
+            },
+            {
+                "Region Key": "463",
+                "Region Name": "Syrian Arab Republic"
+            },
+            {
+                "Region Key": "923",
+                "Region Name": "Tajikistan"
+            },
+            {
+                "Region Key": "744",
+                "Region Name": "Tunisia"
+            },
+            {
+                "Region Key": "925",
+                "Region Name": "Turkmenistan"
+            },
+            {
+                "Region Key": "466",
+                "Region Name": "United Arab Emirates"
+            },
+            {
+                "Region Key": "927",
+                "Region Name": "Uzbekistan"
+            },
+            {
+                "Region Key": "487",
+                "Region Name": "West Bank and Gaza"
+            },
+            {
+                "Region Key": "474",
+                "Region Name": "Yemen, Republic of"
+            },
+            {
+                "Region Key": "400",
+                "Region Name": "All Countries"
+            },
+            {
+                "Region Key": "100",
+                "Region Name": "All Groups Agg"
+            },
+            {
+                "Region Key": "490",
+                "Region Name": "Arab Countries in Transition"
+            },
+            {
+                "Region Key": "491",
+                "Region Name": "Arab Countries in Transition (excl Libya)"
+            },
+            {
+                "Region Key": "489",
+                "Region Name": "Arab World"
+            },
+            {
+                "Region Key": "949",
+                "Region Name": "CCA"
+            },
+            {
+                "Region Key": "955",
+                "Region Name": "CCA Oil Exporters"
+            },
+            {
+                "Region Key": "956",
+                "Region Name": "CCA Oil Importers"
+            },
+            {
+                "Region Key": "450",
+                "Region Name": "GCC"
+            },
+            {
+                "Region Key": "460",
+                "Region Name": "Maghreb"
+            },
+            {
+                "Region Key": "470",
+                "Region Name": "Mashreq"
+            },
+            {
+                "Region Key": "441",
+                "Region Name": "MENA"
+            },
+            {
+                "Region Key": "445",
+                "Region Name": "MENA Oil Importers"
+            },
+            {
+                "Region Key": "440",
+                "Region Name": "MENAP"
+            },
+            {
+                "Region Key": "442",
+                "Region Name": "MENAP Oil Exporters"
+            },
+            {
+                "Region Key": "444",
+                "Region Name": "MENAP Oil Importers"
+            },
+            {
+                "Region Key": "480",
+                "Region Name": "Non-GCC oil exporters"
+            }
+        ],
+        "Indicators": {
+            "Balance on Current Account": {
+                "US Dollars": {
+                    "Indicator Key": "BCA_USD",
+                    "Indicator Name": "Balance on Current Account, US Dollars",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BCA_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BCA_USD",
+                    "Example URL Description": "Returns the Balance on Current Account, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Breakeven external oil price": {
+                "US dollars per barrel": {
+                    "Indicator Key": "PZPIOILBE_B_USD",
+                    "Indicator Name": "Breakeven external oil price, US dollars per barrel",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PZPIOILBE_B_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PZPIOILBE_B_USD",
+                    "Example URL Description": "Returns the Breakeven external oil price, US dollars per barrel indicator for France at A frequency."
+                }
+            },
+            "Breakeven fiscal oil price": {
+                "US dollars per barrel": {
+                    "Indicator Key": "PZPIOILBE_G_USD",
+                    "Indicator Name": "Breakeven fiscal oil price, US dollars per barrel",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PZPIOILBE_G_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PZPIOILBE_G_USD",
+                    "Example URL Description": "Returns the Breakeven fiscal oil price, US dollars per barrel indicator for France at A frequency."
+                }
+            },
+            "Broad money": {
+                "percent change": {
+                    "Indicator Key": "FMB_PCH_PT",
+                    "Indicator Name": "Broad money, percent change",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.FMB_PCH_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.FMB_PCH_PT",
+                    "Example URL Description": "Returns the Broad money, percent change indicator for France at A frequency."
+                }
+            },
+            "Central government net lending/borrowing (central govt fiscal balance)": {
+                "in percent of GDP": {
+                    "Indicator Key": "GCXCNL_GDP_GDP_PT",
+                    "Indicator Name": "Central government net lending/borrowing (central govt fiscal balance), in percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GCXCNL_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GCXCNL_GDP_GDP_PT",
+                    "Example URL Description": "Returns the Central government net lending/borrowing (central govt fiscal balance), in percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Consumer price inflation": {
+                "percent change": {
+                    "Indicator Key": "PCPI_PCH_PT",
+                    "Indicator Name": "Consumer price inflation, percent change, year average",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PCPI_PCH_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PCPI_PCH_PT",
+                    "Example URL Description": "Returns the Consumer price inflation, percent change, year average indicator for France at A frequency."
+                }
+            },
+            "Core consumer price inflation": {
+                "percent change": {
+                    "Indicator Key": "PCPICORE_PCH_PT",
+                    "Indicator Name": "Core consumer price inflation, percent change, period average",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PCPICORE_PCH_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.PCPICORE_PCH_PT",
+                    "Example URL Description": "Returns the Core consumer price inflation, percent change, period average indicator for France at A frequency."
+                }
+            },
+            "Crude oil exports": {
+                "millions of barrels per day": {
+                    "Indicator Key": "NXGOC_MBD",
+                    "Indicator Name": "Crude oil exports, millions of barrels per day",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NXGOC_MBD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NXGOC_MBD",
+                    "Example URL Description": "Returns the Crude oil exports, millions of barrels per day indicator for France at A frequency."
+                }
+            },
+            "Crude oil production": {
+                "millions of barrels per day": {
+                    "Indicator Key": "NGDPMO_MBD",
+                    "Indicator Name": "Crude oil production, millions of barrels per day",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPMO_MBD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPMO_MBD",
+                    "Example URL Description": "Returns the Crude oil production, millions of barrels per day indicator for France at A frequency."
+                }
+            },
+            "Current account balance": {
+                "in percent of GDP": {
+                    "Indicator Key": "BCA_GDP_GDP_PT",
+                    "Indicator Name": "Current account balance, in percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BCA_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BCA_GDP_GDP_PT",
+                    "Example URL Description": "Returns the Current account balance, in percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Exports of goods and services": {
+                "billions of US dollars": {
+                    "Indicator Key": "BX_USD",
+                    "Indicator Name": "Exports of goods and services, billions of US dollars",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BX_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BX_USD",
+                    "Example URL Description": "Returns the Exports of goods and services, billions of US dollars indicator for France at A frequency."
+                }
+            },
+            "Gas and condensates exports": {
+                "millions of barrels per day equivalent": {
+                    "Indicator Key": "NXGOG",
+                    "Indicator Name": "Gas and condensates exports, millions of barrels per day equivalent",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NXGOG?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NXGOG",
+                    "Example URL Description": "Returns the Gas and condensates exports, millions of barrels per day equivalent indicator for France at A frequency."
+                }
+            },
+            "Gas production": {
+                "millions of barrels per day equivalent": {
+                    "Indicator Key": "NGDPMG",
+                    "Indicator Name": "Gas production, millions of barrels per day equivalent",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPMG?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPMG",
+                    "Example URL Description": "Returns the Gas production, millions of barrels per day equivalent indicator for France at A frequency."
+                }
+            },
+            "General government net debt": {
+                "general government": {
+                    "Indicator Key": "GGND_GDP_GDP_PT",
+                    "Indicator Name": "General government net debt, general government, in percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGND_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGND_GDP_GDP_PT",
+                    "Example URL Description": "Returns the General government net debt, general government, in percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Gross domestic product": {
+                "constant prices": {
+                    "Indicator Key": "NGDP_R_PCH_PT",
+                    "Indicator Name": "Gross domestic product, constant prices, percent change",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDP_R_PCH_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDP_R_PCH_PT",
+                    "Example URL Description": "Returns the Gross domestic product, constant prices, percent change indicator for France at A frequency."
+                },
+                "current prices": {
+                    "Indicator Key": "NGDPD_USD",
+                    "Indicator Name": "Gross domestic product, current prices, billions of US dollars",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPD_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPD_USD",
+                    "Example URL Description": "Returns the Gross domestic product, current prices, billions of US dollars indicator for France at A frequency."
+                }
+            },
+            "Gross international reserves": {
+                "Central Bank": {
+                    "Indicator Key": "FAFAR_USD",
+                    "Indicator Name": "Gross international reserves, Central Bank, billions of US Dollars",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.FAFAR_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.FAFAR_USD",
+                    "Example URL Description": "Returns the Gross international reserves, Central Bank, billions of US Dollars indicator for France at A frequency."
+                }
+            },
+            "Imports of goods and services": {
+                "billions of US dollars": {
+                    "Indicator Key": "BM_USD",
+                    "Indicator Name": "Imports of goods and services, billions of US dollars",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BM_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.BM_USD",
+                    "Example URL Description": "Returns the Imports of goods and services, billions of US dollars indicator for France at A frequency."
+                }
+            },
+            "Non-Oil real GDP growth": {
+                "constant prices": {
+                    "Indicator Key": "NGDPXO_R_PCH_PT",
+                    "Indicator Name": "Non-Oil real GDP growth, constant prices, percent change",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPXO_R_PCH_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPXO_R_PCH_PT",
+                    "Example URL Description": "Returns the Non-Oil real GDP growth, constant prices, percent change indicator for France at A frequency."
+                }
+            },
+            "Non-oil revenue": {
+                "Gen govt": {
+                    "Indicator Key": "GGRXO_GDPXO_PT",
+                    "Indicator Name": "Non-oil revenue, Gen govt, in percent of Non-oil GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGRXO_GDPXO_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGRXO_GDPXO_PT",
+                    "Example URL Description": "Returns the Non-oil revenue, Gen govt, in percent of Non-oil GDP indicator for France at A frequency."
+                }
+            },
+            "Oil real GDP growth": {
+                "constant prices": {
+                    "Indicator Key": "NGDPO_R_PCH_PT",
+                    "Indicator Name": "Oil real GDP growth, constant prices, percent change",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPO_R_PCH_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NGDPO_R_PCH_PT",
+                    "Example URL Description": "Returns the Oil real GDP growth, constant prices, percent change indicator for France at A frequency."
+                }
+            },
+            "Overall fiscal balance": {
+                "Gen govt": {
+                    "Indicator Key": "GGB_GDP_GDP_PT",
+                    "Indicator Name": "Overall fiscal balance, Gen govt, percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGB_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGB_GDP_GDP_PT",
+                    "Example URL Description": "Returns the Overall fiscal balance, Gen govt, percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Overall Non-Oil fiscal balance": {
+                "Gen govt": {
+                    "Indicator Key": "GGBXO_GDPXO_GDPXO_PT",
+                    "Indicator Name": "Overall Non-Oil fiscal balance, Gen govt, percent of Non-oil GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGBXO_GDPXO_GDPXO_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGBXO_GDPXO_GDPXO_PT",
+                    "Example URL Description": "Returns the Overall Non-Oil fiscal balance, Gen govt, percent of Non-oil GDP indicator for France at A frequency."
+                }
+            },
+            "Total expenditure and net lending": {
+                "Gen govt": {
+                    "Indicator Key": "GGENL_GDP_GDP_PT",
+                    "Indicator Name": "Total expenditure and net lending, Gen govt, percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGENL_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGENL_GDP_GDP_PT",
+                    "Example URL Description": "Returns the Total expenditure and net lending, Gen govt, percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Total external debt": {
+                "in percent of GDP": {
+                    "Indicator Key": "D_GDP_GDP_PT",
+                    "Indicator Name": "Total external debt, in percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.D_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.D_GDP_GDP_PT",
+                    "Example URL Description": "Returns the Total external debt, in percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Total government debt": {
+                "Gen govt": {
+                    "Indicator Key": "GGD_GDP_GDP_PT",
+                    "Indicator Name": "Total government debt, Gen govt, percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGD_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGD_GDP_GDP_PT",
+                    "Example URL Description": "Returns the Total government debt, Gen govt, percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Total oil exports (incl. crude": {
+                "refined": {
+                    "Indicator Key": "NXGO",
+                    "Indicator Name": "Total oil exports (incl. crude, refined, and gas), millions of barrels per day",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NXGO?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.NXGO",
+                    "Example URL Description": "Returns the Total oil exports (incl. crude, refined, and gas), millions of barrels per day indicator for France at A frequency."
+                }
+            },
+            "Total revenue Excl. grants": {
+                "Gen govt": {
+                    "Indicator Key": "GGRXG_GDP_GDP_PT",
+                    "Indicator Name": "Total revenue Excl. grants, Gen govt, percent of GDP",
+                    "Indicator Database": "MCDREO201501",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGRXG_GDP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MCDREO201501/A.FR.GGRXG_GDP_GDP_PT",
+                    "Example URL Description": "Returns the Total revenue Excl. grants, Gen govt, percent of GDP indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

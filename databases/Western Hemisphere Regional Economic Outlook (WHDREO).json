@@ -1,0 +1,395 @@
+{
+    "Western Hemisphere Regional Economic Outlook (WHDREO)": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR",
+        "Sample URL Description": "Returns all the WHDREO indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "AI",
+                "Region Name": "Anguilla"
+            },
+            {
+                "Region Key": "AG",
+                "Region Name": "Antigua and Barbuda"
+            },
+            {
+                "Region Key": "AR",
+                "Region Name": "Argentina"
+            },
+            {
+                "Region Key": "AW",
+                "Region Name": "Aruba"
+            },
+            {
+                "Region Key": "BS",
+                "Region Name": "Bahamas"
+            },
+            {
+                "Region Key": "BB",
+                "Region Name": "Barbados"
+            },
+            {
+                "Region Key": "BZ",
+                "Region Name": "Belize"
+            },
+            {
+                "Region Key": "BO",
+                "Region Name": "Bolivia"
+            },
+            {
+                "Region Key": "BR",
+                "Region Name": "Brazil"
+            },
+            {
+                "Region Key": "CA",
+                "Region Name": "Canada"
+            },
+            {
+                "Region Key": "CL",
+                "Region Name": "Chile"
+            },
+            {
+                "Region Key": "CO",
+                "Region Name": "Colombia"
+            },
+            {
+                "Region Key": "CR",
+                "Region Name": "Costa Rica"
+            },
+            {
+                "Region Key": "DM",
+                "Region Name": "Dominica"
+            },
+            {
+                "Region Key": "DO",
+                "Region Name": "Dominican Republic"
+            },
+            {
+                "Region Key": "5Y",
+                "Region Name": "Eastern Caribbean Currency Union"
+            },
+            {
+                "Region Key": "EC",
+                "Region Name": "Ecuador"
+            },
+            {
+                "Region Key": "SV",
+                "Region Name": "El Salvador"
+            },
+            {
+                "Region Key": "GD",
+                "Region Name": "Grenada"
+            },
+            {
+                "Region Key": "GT",
+                "Region Name": "Guatemala"
+            },
+            {
+                "Region Key": "GY",
+                "Region Name": "Guyana"
+            },
+            {
+                "Region Key": "HT",
+                "Region Name": "Haiti"
+            },
+            {
+                "Region Key": "HN",
+                "Region Name": "Honduras"
+            },
+            {
+                "Region Key": "JM",
+                "Region Name": "Jamaica"
+            },
+            {
+                "Region Key": "MX",
+                "Region Name": "Mexico"
+            },
+            {
+                "Region Key": "MS",
+                "Region Name": "Montserrat"
+            },
+            {
+                "Region Key": "NI",
+                "Region Name": "Nicaragua"
+            },
+            {
+                "Region Key": "PA",
+                "Region Name": "Panama"
+            },
+            {
+                "Region Key": "PY",
+                "Region Name": "Paraguay"
+            },
+            {
+                "Region Key": "PE",
+                "Region Name": "Peru"
+            },
+            {
+                "Region Key": "PR",
+                "Region Name": "Puerto Rico"
+            },
+            {
+                "Region Key": "KN",
+                "Region Name": "Saint Kitts and Nevis"
+            },
+            {
+                "Region Key": "LC",
+                "Region Name": "Saint Lucia"
+            },
+            {
+                "Region Key": "VC",
+                "Region Name": "Saint Vincent and the Grenadines"
+            },
+            {
+                "Region Key": "SR",
+                "Region Name": "Suriname"
+            },
+            {
+                "Region Key": "TT",
+                "Region Name": "Trinidad and Tobago"
+            },
+            {
+                "Region Key": "US",
+                "Region Name": "United States"
+            },
+            {
+                "Region Key": "UY",
+                "Region Name": "Uruguay"
+            },
+            {
+                "Region Key": "VE",
+                "Region Name": "Venezuela, Bolivarian Republic"
+            },
+            {
+                "Region Key": "1C_ALLC",
+                "Region Name": "All Countries"
+            },
+            {
+                "Region Key": "1C_ALL",
+                "Region Name": "All Countries and Country Groups"
+            },
+            {
+                "Region Key": "1C_ALLG",
+                "Region Name": "All Country Groups"
+            },
+            {
+                "Region Key": "1218",
+                "Region Name": "Caribbean"
+            },
+            {
+                "Region Key": "1C_1221",
+                "Region Name": "Caribbean: Commodity exporters"
+            },
+            {
+                "Region Key": "1C_12191",
+                "Region Name": "Caribbean: Other"
+            },
+            {
+                "Region Key": "1C_1220",
+                "Region Name": "Caribbean: Tourism dependent"
+            },
+            {
+                "Region Key": "1C_1212",
+                "Region Name": "Central America/CAPDR"
+            },
+            {
+                "Region Key": "A10",
+                "Region Name": "Western Hemisphere"
+            },
+            {
+                "Region Key": "1C_1205",
+                "Region Name": "Latin America and the Caribbean: Excluding Argentina"
+            },
+            {
+                "Region Key": "A2",
+                "Region Name": "North American countries"
+            },
+            {
+                "Region Key": "A7",
+                "Region Name": "South American countries"
+            }
+        ],
+        "Indicators": {
+            "Balance of Payments": {
+                "Current Account": {
+                    "Indicator Key": "BCA_GDP_BP6",
+                    "Indicator Name": "Balance of Payments, Current Account, Total, Net(BPM6), percent of GDP in U.S. dollars",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.BCA_GDP_BP6?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.BCA_GDP_BP6",
+                    "Example URL Description": "Returns the Balance of Payments, Current Account, Total, Net(BPM6), percent of GDP in U.S. dollars indicator for France at A frequency."
+                }
+            },
+            "Consumer Prices": {
+                "end of period": {
+                    "Indicator Key": "PCPIE_PCH",
+                    "Indicator Name": "Consumer Prices, end of period, percent change",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.PCPIE_PCH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.PCPIE_PCH",
+                    "Example URL Description": "Returns the Consumer Prices, end of period, percent change indicator for France at A frequency."
+                },
+                "period average": {
+                    "Indicator Key": "PCPI_PCH",
+                    "Indicator Name": "Consumer Prices, period average, percent change",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.PCPI_PCH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.PCPI_PCH",
+                    "Example URL Description": "Returns the Consumer Prices, period average, percent change indicator for France at A frequency."
+                }
+            },
+            "General government net lending/borrowing": {
+                "percent of fiscal year GDP": {
+                    "Indicator Key": "GGXCNL_GDP",
+                    "Indicator Name": "General government net lending/borrowing, percent of fiscal year GDP",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.GGXCNL_GDP?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.GGXCNL_GDP",
+                    "Example URL Description": "Returns the General government net lending/borrowing, percent of fiscal year GDP indicator for France at A frequency."
+                }
+            },
+            "Gross debt in percent of GDP": {
+                "General": {
+                    "Indicator Key": "GGXWDG_GDP",
+                    "Indicator Name": "Gross debt in percent of GDP",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.GGXWDG_GDP?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.GGXWDG_GDP",
+                    "Example URL Description": "Returns the Gross debt in percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Gross domestic product": {
+                "constant prices": {
+                    "Indicator Key": "NGDP_R_PPP_PC_PCH",
+                    "Indicator Name": "Gross domestic product, constant prices, purchasing power parity, per capita, percent change",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.NGDP_R_PPP_PC_PCH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.NGDP_R_PPP_PC_PCH",
+                    "Example URL Description": "Returns the Gross domestic product, constant prices, purchasing power parity, per capita, percent change indicator for France at A frequency."
+                }
+            },
+            "Gross Domestic Product": {
+                "Real": {
+                    "Indicator Key": "NGDP_R_PC_SCR",
+                    "Indicator Name": "Gross Domestic Product, Real, Percent Change, Score",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.NGDP_R_PC_SCR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.NGDP_R_PC_SCR",
+                    "Example URL Description": "Returns the Gross Domestic Product, Real, Percent Change, Score indicator for France at A frequency."
+                }
+            },
+            "Nominal gross domestic product in purchasing-power-parity dollars": {
+                "General": {
+                    "Indicator Key": "PPPGDP",
+                    "Indicator Name": "Nominal gross domestic product in purchasing-power-parity dollars",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.PPPGDP?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.PPPGDP",
+                    "Example URL Description": "Returns the Nominal gross domestic product in purchasing-power-parity dollars indicator for France at A frequency."
+                }
+            },
+            "Primary balance in percent of GDP": {
+                "General": {
+                    "Indicator Key": "GGXONLB_GDP",
+                    "Indicator Name": "Primary balance in percent of GDP",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.GGXONLB_GDP?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.GGXONLB_GDP",
+                    "Example URL Description": "Returns the Primary balance in percent of GDP indicator for France at A frequency."
+                }
+            },
+            "Unemployment rate": {
+                "General": {
+                    "Indicator Key": "LUR",
+                    "Indicator Name": "Unemployment rate",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.LUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.LUR",
+                    "Example URL Description": "Returns the Unemployment rate indicator for France at A frequency."
+                }
+            },
+            "All Indicators": {
+                "General": {
+                    "Indicator Key": "All_Indicators",
+                    "Indicator Name": "All Indicators",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.All_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.All_Indicators",
+                    "Example URL Description": "Returns the All Indicators indicator for France at A frequency."
+                }
+            },
+            "All Indicators and Indicator Groups": {
+                "General": {
+                    "Indicator Key": "All_Indicators_and_Indicator_Groups",
+                    "Indicator Name": "All Indicators and Indicator Groups",
+                    "Indicator Database": "WHDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.All_Indicators_and_Indicator_Groups?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/WHDREO/A.FR.All_Indicators_and_Indicator_Groups",
+                    "Example URL Description": "Returns the All Indicators and Indicator Groups indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

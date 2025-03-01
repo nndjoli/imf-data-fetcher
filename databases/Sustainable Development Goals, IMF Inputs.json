@@ -1,0 +1,251 @@
+{
+    "Sustainable Development Goals, IMF Inputs": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR",
+        "Sample URL Description": "Returns all the UNSDG_IMF_INPUTS indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "G",
+                "Region Name": "Global"
+            },
+            {
+                "Region Key": "N",
+                "Region Name": "National"
+            },
+            {
+                "Region Key": "R",
+                "Region Name": "Regional"
+            }
+        ],
+        "Indicators": {
+            "Liquid assets to short term liabilities (%)": {
+                "General": {
+                    "Indicator Key": "FI_FSI_FSLS",
+                    "Indicator Name": "Liquid assets to short term liabilities (%)",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSLS?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSLS",
+                    "Example URL Description": "Returns the Liquid assets to short term liabilities (%) indicator for France at A frequency."
+                }
+            },
+            "Net open position in foreign exchange to capital (%)": {
+                "General": {
+                    "Indicator Key": "FI_FSI_FSSNO",
+                    "Indicator Name": "Net open position in foreign exchange to capital (%)",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSSNO?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSSNO",
+                    "Example URL Description": "Returns the Net open position in foreign exchange to capital (%) indicator for France at A frequency."
+                }
+            },
+            "Non-performing loans net of provisions to capital (%)": {
+                "General": {
+                    "Indicator Key": "FI_FSI_FSKNL",
+                    "Indicator Name": "Non-performing loans net of provisions to capital (%)",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSKNL?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSKNL",
+                    "Example URL Description": "Returns the Non-performing loans net of provisions to capital (%) indicator for France at A frequency."
+                }
+            },
+            "Non-performing loans to total gross loans (%)": {
+                "General": {
+                    "Indicator Key": "FI_FSI_FSANL",
+                    "Indicator Name": "Non-performing loans to total gross loans (%)",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSANL?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSANL",
+                    "Example URL Description": "Returns the Non-performing loans to total gross loans (%) indicator for France at A frequency."
+                }
+            },
+            "Number of automated teller machines (ATMs) per 100": {
+                "000 adults": {
+                    "Indicator Key": "FB_ATM_TOTL",
+                    "Indicator Name": "Number of automated teller machines (ATMs) per 100,000 adults",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FB_ATM_TOTL?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FB_ATM_TOTL",
+                    "Example URL Description": "Returns the Number of automated teller machines (ATMs) per 100,000 adults indicator for France at A frequency."
+                }
+            },
+            "Number of commercial bank branches per 100": {
+                "000 adults": {
+                    "Indicator Key": "FB_CBK_BRCH",
+                    "Indicator Name": "Number of commercial bank branches per 100,000 adults",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FB_CBK_BRCH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FB_CBK_BRCH",
+                    "Example URL Description": "Returns the Number of commercial bank branches per 100,000 adults indicator for France at A frequency."
+                }
+            },
+            "Proportion of domestic budget funded by domestic taxes": {
+                "General": {
+                    "Indicator Key": "GC_GOB_TAXD",
+                    "Indicator Name": "Proportion of domestic budget funded by domestic taxes",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.GC_GOB_TAXD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.GC_GOB_TAXD",
+                    "Example URL Description": "Returns the Proportion of domestic budget funded by domestic taxes indicator for France at A frequency."
+                }
+            },
+            "Proportion of total government spending on essential services": {
+                "education": {
+                    "Indicator Key": "SD_XPD_ESED|GG",
+                    "Indicator Name": "Proportion of total government spending on essential services, education, General Government",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SD_XPD_ESED|GG?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SD_XPD_ESED|GG",
+                    "Example URL Description": "Returns the Proportion of total government spending on essential services, education, General Government indicator for France at A frequency."
+                },
+                "health": {
+                    "Indicator Key": "SG_XPD_HLTH",
+                    "Indicator Name": "Proportion of total government spending on essential services, health",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SG_XPD_HLTH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SG_XPD_HLTH",
+                    "Example URL Description": "Returns the Proportion of total government spending on essential services, health indicator for France at A frequency."
+                },
+                "social protection": {
+                    "Indicator Key": "SG_XPD_PROT",
+                    "Indicator Name": "Proportion of total government spending on essential services, social protection",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SG_XPD_PROT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SG_XPD_PROT",
+                    "Example URL Description": "Returns the Proportion of total government spending on essential services, social protection indicator for France at A frequency."
+                },
+                "total": {
+                    "Indicator Key": "SG_XPD_ESSRV",
+                    "Indicator Name": "Proportion of total government spending on essential services, total",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SG_XPD_ESSRV?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.SG_XPD_ESSRV",
+                    "Example URL Description": "Returns the Proportion of total government spending on essential services, total indicator for France at A frequency."
+                }
+            },
+            "Regulatory capital to assets (%)": {
+                "General": {
+                    "Indicator Key": "FI_FSI_FSKA",
+                    "Indicator Name": "Regulatory capital to assets (%)",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSKA?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSKA",
+                    "Example URL Description": "Returns the Regulatory capital to assets (%) indicator for France at A frequency."
+                }
+            },
+            "Regulatory Tier 1 capital to risk-weighted assets (%)": {
+                "General": {
+                    "Indicator Key": "FI_FSI_FSKRTC",
+                    "Indicator Name": "Regulatory Tier 1 capital to risk-weighted assets (%)",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSKRTC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSKRTC",
+                    "Example URL Description": "Returns the Regulatory Tier 1 capital to risk-weighted assets (%) indicator for France at A frequency."
+                }
+            },
+            "Return on assets (%)": {
+                "General": {
+                    "Indicator Key": "FI_FSI_FSERA",
+                    "Indicator Name": "Return on assets (%)",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSERA?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.FI_FSI_FSERA",
+                    "Example URL Description": "Returns the Return on assets (%) indicator for France at A frequency."
+                }
+            },
+            "Total government revenue as a proportion of GDP": {
+                "General": {
+                    "Indicator Key": "GR_G14_GDP",
+                    "Indicator Name": "Total government revenue as a proportion of GDP",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.GR_G14_GDP?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.GR_G14_GDP",
+                    "Example URL Description": "Returns the Total government revenue as a proportion of GDP indicator for France at A frequency."
+                }
+            },
+            "Total government revenue": {
+                "in local currency": {
+                    "Indicator Key": "GR_G14_XDC",
+                    "Indicator Name": "Total government revenue, in local currency",
+                    "Indicator Database": "UNSDG_IMF_INPUTS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.GR_G14_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR.GR_G14_XDC",
+                    "Example URL Description": "Returns the Total government revenue, in local currency indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

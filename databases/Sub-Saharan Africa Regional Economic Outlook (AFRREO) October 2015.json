@@ -1,0 +1,664 @@
+{
+    "Sub-Saharan Africa Regional Economic Outlook (AFRREO) October 2015": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR",
+        "Sample URL Description": "Returns all the AFRREO201510 indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "AO",
+                "Region Name": "Angola"
+            },
+            {
+                "Region Key": "BJ",
+                "Region Name": "Benin"
+            },
+            {
+                "Region Key": "BW",
+                "Region Name": "Botswana"
+            },
+            {
+                "Region Key": "BF",
+                "Region Name": "Burkina Faso"
+            },
+            {
+                "Region Key": "BI",
+                "Region Name": "Burundi"
+            },
+            {
+                "Region Key": "CV",
+                "Region Name": "Cape Verde"
+            },
+            {
+                "Region Key": "CM",
+                "Region Name": "Cameroon"
+            },
+            {
+                "Region Key": "CF",
+                "Region Name": "Central African Republic"
+            },
+            {
+                "Region Key": "TD",
+                "Region Name": "Chad"
+            },
+            {
+                "Region Key": "KM",
+                "Region Name": "Comoros"
+            },
+            {
+                "Region Key": "CD",
+                "Region Name": "Congo, the Democratic Republic of the"
+            },
+            {
+                "Region Key": "CG",
+                "Region Name": "Congo"
+            },
+            {
+                "Region Key": "CI",
+                "Region Name": "Cote d`Ivoire"
+            },
+            {
+                "Region Key": "GQ",
+                "Region Name": "Equatorial Guinea"
+            },
+            {
+                "Region Key": "ER",
+                "Region Name": "Eritrea"
+            },
+            {
+                "Region Key": "ET",
+                "Region Name": "Ethiopia"
+            },
+            {
+                "Region Key": "GA",
+                "Region Name": "Gabon"
+            },
+            {
+                "Region Key": "GM",
+                "Region Name": "Gambia"
+            },
+            {
+                "Region Key": "GH",
+                "Region Name": "Ghana"
+            },
+            {
+                "Region Key": "GN",
+                "Region Name": "Guinea"
+            },
+            {
+                "Region Key": "GW",
+                "Region Name": "Guinea-Bissau"
+            },
+            {
+                "Region Key": "KE",
+                "Region Name": "Kenya"
+            },
+            {
+                "Region Key": "LS",
+                "Region Name": "Lesotho"
+            },
+            {
+                "Region Key": "LR",
+                "Region Name": "Liberia"
+            },
+            {
+                "Region Key": "MG",
+                "Region Name": "Madagascar"
+            },
+            {
+                "Region Key": "MW",
+                "Region Name": "Malawi"
+            },
+            {
+                "Region Key": "ML",
+                "Region Name": "Mali"
+            },
+            {
+                "Region Key": "MU",
+                "Region Name": "Mauritius"
+            },
+            {
+                "Region Key": "MZ",
+                "Region Name": "Mozambique"
+            },
+            {
+                "Region Key": "NA",
+                "Region Name": "Namibia"
+            },
+            {
+                "Region Key": "NE",
+                "Region Name": "Niger"
+            },
+            {
+                "Region Key": "NG",
+                "Region Name": "Nigeria"
+            },
+            {
+                "Region Key": "RW",
+                "Region Name": "Rwanda"
+            },
+            {
+                "Region Key": "ST",
+                "Region Name": "Sao Tome and Principe"
+            },
+            {
+                "Region Key": "SN",
+                "Region Name": "Senegal"
+            },
+            {
+                "Region Key": "SC",
+                "Region Name": "Seychelles"
+            },
+            {
+                "Region Key": "SL",
+                "Region Name": "Sierra Leone"
+            },
+            {
+                "Region Key": "ZA",
+                "Region Name": "South Africa"
+            },
+            {
+                "Region Key": "SS",
+                "Region Name": "South Sudan"
+            },
+            {
+                "Region Key": "SZ",
+                "Region Name": "Swaziland"
+            },
+            {
+                "Region Key": "TZ",
+                "Region Name": "Tanzania, United Republic of"
+            },
+            {
+                "Region Key": "TG",
+                "Region Name": "Togo"
+            },
+            {
+                "Region Key": "UG",
+                "Region Name": "Uganda"
+            },
+            {
+                "Region Key": "ZM",
+                "Region Name": "Zambia"
+            },
+            {
+                "Region Key": "ZW",
+                "Region Name": "Zimbabwe"
+            },
+            {
+                "Region Key": "1C_ALLC",
+                "Region Name": "All Countries"
+            },
+            {
+                "Region Key": "1C_ALL",
+                "Region Name": "All Countries and Country Groups"
+            },
+            {
+                "Region Key": "1C_ALLG",
+                "Region Name": "All Country Groups"
+            },
+            {
+                "Region Key": "5X",
+                "Region Name": "CEMAC"
+            },
+            {
+                "Region Key": "1C_609",
+                "Region Name": "CFA franc zone"
+            },
+            {
+                "Region Key": "1C_762",
+                "Region Name": "Common Market of Eastern and Southern Africa (COMESA)"
+            },
+            {
+                "Region Key": "R19",
+                "Region Name": "EAC (East African Community) deprecated"
+            },
+            {
+                "Region Key": "1C_776",
+                "Region Name": "Economic Community of West African States (ECOWAS)"
+            },
+            {
+                "Region Key": "1C_757",
+                "Region Name": "Southern African Customs Union (SACU)"
+            },
+            {
+                "Region Key": "R18",
+                "Region Name": "SADC (South African Development Community)"
+            },
+            {
+                "Region Key": "1C_860",
+                "Region Name": "SSA fixed exchange rate regime countries"
+            },
+            {
+                "Region Key": "1C_721",
+                "Region Name": "SSA floating exchange rate regime countries"
+            },
+            {
+                "Region Key": "1C_715",
+                "Region Name": "SSA fragile countries"
+            },
+            {
+                "Region Key": "1C_704",
+                "Region Name": "SSA low-income countries"
+            },
+            {
+                "Region Key": "1C_651",
+                "Region Name": "SSA low-income countries excluding fragile countries"
+            },
+            {
+                "Region Key": "1C_702",
+                "Region Name": "SSA middle-income countries"
+            },
+            {
+                "Region Key": "1C_703",
+                "Region Name": "SSA middle-income countries excluding South Africa"
+            },
+            {
+                "Region Key": "1C_048",
+                "Region Name": "SSA Multilateral Debt Relief Initiative Countries (MDRI)"
+            },
+            {
+                "Region Key": "1C_699",
+                "Region Name": "SSA oil-exporting countries"
+            },
+            {
+                "Region Key": "1C_700",
+                "Region Name": "SSA oil-exporting countries excluding Nigeria"
+            },
+            {
+                "Region Key": "1C_697",
+                "Region Name": "SSA oil-importing countries"
+            },
+            {
+                "Region Key": "1C_650",
+                "Region Name": "SSA oil-importing countries excluding South Africa"
+            },
+            {
+                "Region Key": "F6",
+                "Region Name": "Sub-Saharan Africa"
+            },
+            {
+                "Region Key": "1C_604",
+                "Region Name": "Sub-Saharan Africa excluding Nigeria and South Africa"
+            },
+            {
+                "Region Key": "1C_649",
+                "Region Name": "Sub-Saharan Africa excluding South Sudan"
+            },
+            {
+                "Region Key": "1C_602",
+                "Region Name": "Sub-Saharan Africa excluding Zimbabwe"
+            },
+            {
+                "Region Key": "7A",
+                "Region Name": "WAEMU (West African Economic and Monetary Union)"
+            }
+        ],
+        "Indicators": {
+            "Broad Money": {
+                "Percent change": {
+                    "Indicator Key": "FMB_PC_PP_PT",
+                    "Indicator Name": "Broad Money, Percent change, Previous period, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FMB_PC_PP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FMB_PC_PP_PT",
+                    "Example URL Description": "Returns the Broad Money, Percent change, Previous period, Percent indicator for France at A frequency."
+                },
+                "Percent of GDP": {
+                    "Indicator Key": "FMB_GDP_PT",
+                    "Indicator Name": "Broad Money, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FMB_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FMB_GDP_PT",
+                    "Example URL Description": "Returns the Broad Money, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Claims on Private Sector": {
+                "Percent change": {
+                    "Indicator Key": "FDSAOP_PC_PP_PT",
+                    "Indicator Name": "Claims on Private Sector, Percent change, Previous period, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FDSAOP_PC_PP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FDSAOP_PC_PP_PT",
+                    "Example URL Description": "Returns the Claims on Private Sector, Percent change, Previous period, Percent indicator for France at A frequency."
+                },
+                "Percent of GDP": {
+                    "Indicator Key": "FDSAOP_GDP_PT",
+                    "Indicator Name": "Claims on Private Sector, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FDSAOP_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.FDSAOP_GDP_PT",
+                    "Example URL Description": "Returns the Claims on Private Sector, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Consumer Prices": {
+                "All items": {
+                    "Indicator Key": "PCPI_PC_PP_PT",
+                    "Indicator Name": "Consumer Prices, All items, Percent change, Previous period, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.PCPI_PC_PP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.PCPI_PC_PP_PT",
+                    "Example URL Description": "Returns the Consumer Prices, All items, Percent change, Previous period, Percent indicator for France at A frequency."
+                },
+                "End of Period": {
+                    "Indicator Key": "PCPI_EOP_PC_PP_PT",
+                    "Indicator Name": "Consumer Prices, End of Period, Percent change, Previous period, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.PCPI_EOP_PC_PP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.PCPI_EOP_PC_PP_PT",
+                    "Example URL Description": "Returns the Consumer Prices, End of Period, Percent change, Previous period, Percent indicator for France at A frequency."
+                }
+            },
+            "Current Account": {
+                "Total": {
+                    "Indicator Key": "BCA_BP6_GDP_PT",
+                    "Indicator Name": "Current Account, Total, Net, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BCA_BP6_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BCA_BP6_GDP_PT",
+                    "Example URL Description": "Returns the Current Account, Total, Net, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Exchange Rates": {
+                "Nominal Effective Exchange Rate": {
+                    "Indicator Key": "ENEER_IX",
+                    "Indicator Name": "Exchange Rates, Nominal Effective Exchange Rate , based on Consumer Price Index, Index",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.ENEER_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.ENEER_IX",
+                    "Example URL Description": "Returns the Exchange Rates, Nominal Effective Exchange Rate , based on Consumer Price Index, Index indicator for France at A frequency."
+                },
+                "Real Effective Exchange Rate": {
+                    "Indicator Key": "EREER_IX",
+                    "Indicator Name": "Exchange Rates, Real Effective Exchange Rate , based on Consumer Price Index, Index",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.EREER_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.EREER_IX",
+                    "Example URL Description": "Returns the Exchange Rates, Real Effective Exchange Rate , based on Consumer Price Index, Index indicator for France at A frequency."
+                }
+            },
+            "GDP per Capita": {
+                "Real": {
+                    "Indicator Key": "NGDPRPC_PC_PP_PT",
+                    "Indicator Name": "GDP per Capita, Real, Percent change, Previous period, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGDPRPC_PC_PP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGDPRPC_PC_PP_PT",
+                    "Example URL Description": "Returns the GDP per Capita, Real, Percent change, Previous period, Percent indicator for France at A frequency."
+                }
+            },
+            "Goods and Services": {
+                "Credit": {
+                    "Indicator Key": "BXGS_BP6_GDP_PT",
+                    "Indicator Name": "Goods and Services, Credit, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BXGS_BP6_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BXGS_BP6_GDP_PT",
+                    "Example URL Description": "Returns the Goods and Services, Credit, Percent of GDP, Percent indicator for France at A frequency."
+                },
+                "Debit": {
+                    "Indicator Key": "BMGS_BP6_GDP_PT",
+                    "Indicator Name": "Goods and Services, Debit, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BMGS_BP6_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BMGS_BP6_GDP_PT",
+                    "Example URL Description": "Returns the Goods and Services, Debit, Percent of GDP, Percent indicator for France at A frequency."
+                },
+                "Net": {
+                    "Indicator Key": "BGS_BP6_GDP_PT",
+                    "Indicator Name": "Goods and Services, Net, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BGS_BP6_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BGS_BP6_GDP_PT",
+                    "Example URL Description": "Returns the Goods and Services, Net, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Gross Capital Formation": {
+                "Nominal": {
+                    "Indicator Key": "NI_GDP_PT",
+                    "Indicator Name": "Gross Capital Formation, Nominal, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NI_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NI_GDP_PT",
+                    "Example URL Description": "Returns the Gross Capital Formation, Nominal, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Gross debt position (Gen. Govt.)": {
+                "Percent of GDP": {
+                    "Indicator Key": "GGXWDG_G01_GDP_PT",
+                    "Indicator Name": "Gross debt position (Gen. Govt.), Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGXWDG_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGXWDG_G01_GDP_PT",
+                    "Example URL Description": "Returns the Gross debt position (Gen. Govt.), Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Gross Domestic Product": {
+                "Real": {
+                    "Indicator Key": "NGDP_R_PC_PP_PT",
+                    "Indicator Name": "Gross Domestic Product, Real, Percent change, Previous period, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGDP_R_PC_PP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGDP_R_PC_PP_PT",
+                    "Example URL Description": "Returns the Gross Domestic Product, Real, Percent change, Previous period, Percent indicator for France at A frequency."
+                }
+            },
+            "Gross National Saving": {
+                "Nominal": {
+                    "Indicator Key": "NGS_GDP_PT",
+                    "Indicator Name": "Gross National Saving, Nominal, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGS_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGS_GDP_PT",
+                    "Example URL Description": "Returns the Gross National Saving, Nominal, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Net lending (+) / net borrowing (-) (balance from financial account)": {
+                "Direct investment": {
+                    "Indicator Key": "BFD_BP6_GDP_PT",
+                    "Indicator Name": "Net lending (+) / net borrowing (-) (balance from financial account), Direct investment, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BFD_BP6_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BFD_BP6_GDP_PT",
+                    "Example URL Description": "Returns the Net lending (+) / net borrowing (-) (balance from financial account), Direct investment, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Net lending/borrowing (Gen. Govt.)": {
+                "Percent of GDP": {
+                    "Indicator Key": "GGXCNL_G01_GDP_PT",
+                    "Indicator Name": "Net lending/borrowing (Gen. Govt.), Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGXCNL_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGXCNL_G01_GDP_PT",
+                    "Example URL Description": "Returns the Net lending/borrowing (Gen. Govt.), Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Net lending/borrowing excluding Grants (Gen. Govt.)": {
+                "Percent of GDP": {
+                    "Indicator Key": "GGXCNLXG_G01_GDP_PT",
+                    "Indicator Name": "Net lending/borrowing excluding Grants (Gen. Govt.), Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGXCNLXG_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGXCNLXG_G01_GDP_PT",
+                    "Example URL Description": "Returns the Net lending/borrowing excluding Grants (Gen. Govt.), Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Non-Oil GDP": {
+                "Real": {
+                    "Indicator Key": "NGDPXO_R_PC_PP_PT",
+                    "Indicator Name": "Non-Oil GDP, Real, Percent change, Previous period, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGDPXO_R_PC_PP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.NGDPXO_R_PC_PP_PT",
+                    "Example URL Description": "Returns the Non-Oil GDP, Real, Percent change, Previous period, Percent indicator for France at A frequency."
+                }
+            },
+            "Official Debt": {
+                "Debtor": {
+                    "Indicator Key": "D_G_GDP_PT",
+                    "Indicator Name": "Official Debt, Debtor, Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.D_G_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.D_G_GDP_PT",
+                    "Example URL Description": "Returns the Official Debt, Debtor, Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Reserves": {
+                "Net": {
+                    "Indicator Key": "BRASS_MI_MH",
+                    "Indicator Name": "Reserves, Net, Months of imported goods and services, Months (BPM5)",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BRASS_MI_MH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.BRASS_MI_MH",
+                    "Example URL Description": "Returns the Reserves, Net, Months of imported goods and services, Months (BPM5) indicator for France at A frequency."
+                }
+            },
+            "Revenue (Gen. Govt.)": {
+                "Percent of GDP": {
+                    "Indicator Key": "GGR_G01_GDP_PT",
+                    "Indicator Name": "Revenue (Gen. Govt.), Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGR_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGR_G01_GDP_PT",
+                    "Example URL Description": "Returns the Revenue (Gen. Govt.), Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "Terms of Trade for Goods": {
+                "Index": {
+                    "Indicator Key": "TTT_IX",
+                    "Indicator Name": "Terms of Trade for Goods, Index",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.TTT_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.TTT_IX",
+                    "Example URL Description": "Returns the Terms of Trade for Goods, Index indicator for France at A frequency."
+                }
+            },
+            "Total Expenditure (Gen. Govt.)": {
+                "Percent of GDP": {
+                    "Indicator Key": "GGX_G01_GDP_PT",
+                    "Indicator Name": "Total Expenditure (Gen. Govt.), Percent of GDP, Percent",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGX_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.GGX_G01_GDP_PT",
+                    "Example URL Description": "Returns the Total Expenditure (Gen. Govt.), Percent of GDP, Percent indicator for France at A frequency."
+                }
+            },
+            "All Indicators": {
+                "General": {
+                    "Indicator Key": "All_Indicators",
+                    "Indicator Name": "All Indicators",
+                    "Indicator Database": "AFRREO201510",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.All_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201510/A.FR.All_Indicators",
+                    "Example URL Description": "Returns the All Indicators indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

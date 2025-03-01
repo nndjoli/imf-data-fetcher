@@ -1,0 +1,840 @@
+{
+    "Private and Public Capital Stock Dataset": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR",
+        "Sample URL Description": "Returns all the PGCS indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "914",
+                "Region Name": "Albania"
+            },
+            {
+                "Region Key": "612",
+                "Region Name": "Algeria"
+            },
+            {
+                "Region Key": "614",
+                "Region Name": "Angola"
+            },
+            {
+                "Region Key": "311",
+                "Region Name": "Antigua and Barbuda"
+            },
+            {
+                "Region Key": "213",
+                "Region Name": "Argentina"
+            },
+            {
+                "Region Key": "911",
+                "Region Name": "Armenia"
+            },
+            {
+                "Region Key": "193",
+                "Region Name": "Australia"
+            },
+            {
+                "Region Key": "122",
+                "Region Name": "Austria"
+            },
+            {
+                "Region Key": "313",
+                "Region Name": "Bahamas, The"
+            },
+            {
+                "Region Key": "419",
+                "Region Name": "Bahrain"
+            },
+            {
+                "Region Key": "513",
+                "Region Name": "Bangladesh"
+            },
+            {
+                "Region Key": "316",
+                "Region Name": "Barbados"
+            },
+            {
+                "Region Key": "124",
+                "Region Name": "Belgium"
+            },
+            {
+                "Region Key": "339",
+                "Region Name": "Belize"
+            },
+            {
+                "Region Key": "638",
+                "Region Name": "Benin"
+            },
+            {
+                "Region Key": "514",
+                "Region Name": "Bhutan"
+            },
+            {
+                "Region Key": "218",
+                "Region Name": "Bolivia"
+            },
+            {
+                "Region Key": "963",
+                "Region Name": "Bosnia and Herzegovina"
+            },
+            {
+                "Region Key": "616",
+                "Region Name": "Botswana"
+            },
+            {
+                "Region Key": "223",
+                "Region Name": "Brazil"
+            },
+            {
+                "Region Key": "918",
+                "Region Name": "Bulgaria"
+            },
+            {
+                "Region Key": "748",
+                "Region Name": "Burkina Faso"
+            },
+            {
+                "Region Key": "618",
+                "Region Name": "Burundi"
+            },
+            {
+                "Region Key": "624",
+                "Region Name": "Cabo Verde"
+            },
+            {
+                "Region Key": "522",
+                "Region Name": "Cambodia"
+            },
+            {
+                "Region Key": "622",
+                "Region Name": "Cameroon"
+            },
+            {
+                "Region Key": "156",
+                "Region Name": "Canada"
+            },
+            {
+                "Region Key": "626",
+                "Region Name": "Central African Republic"
+            },
+            {
+                "Region Key": "228",
+                "Region Name": "Chile"
+            },
+            {
+                "Region Key": "924",
+                "Region Name": "China"
+            },
+            {
+                "Region Key": "233",
+                "Region Name": "Colombia"
+            },
+            {
+                "Region Key": "632",
+                "Region Name": "Comoros"
+            },
+            {
+                "Region Key": "636",
+                "Region Name": "Congo, Democratic Republic of the"
+            },
+            {
+                "Region Key": "634",
+                "Region Name": "Congo, Republic of"
+            },
+            {
+                "Region Key": "238",
+                "Region Name": "Costa Rica"
+            },
+            {
+                "Region Key": "662",
+                "Region Name": "C\u00f4te d'Ivoire"
+            },
+            {
+                "Region Key": "960",
+                "Region Name": "Croatia"
+            },
+            {
+                "Region Key": "935",
+                "Region Name": "Czech Republic"
+            },
+            {
+                "Region Key": "321",
+                "Region Name": "Dominica"
+            },
+            {
+                "Region Key": "243",
+                "Region Name": "Dominican Republic"
+            },
+            {
+                "Region Key": "248",
+                "Region Name": "Ecuador"
+            },
+            {
+                "Region Key": "469",
+                "Region Name": "Egypt"
+            },
+            {
+                "Region Key": "253",
+                "Region Name": "El Salvador"
+            },
+            {
+                "Region Key": "642",
+                "Region Name": "Equatorial Guinea"
+            },
+            {
+                "Region Key": "939",
+                "Region Name": "Estonia"
+            },
+            {
+                "Region Key": "734",
+                "Region Name": "Eswatini"
+            },
+            {
+                "Region Key": "644",
+                "Region Name": "Ethiopia"
+            },
+            {
+                "Region Key": "819",
+                "Region Name": "Fiji"
+            },
+            {
+                "Region Key": "172",
+                "Region Name": "Finland"
+            },
+            {
+                "Region Key": "132",
+                "Region Name": "France"
+            },
+            {
+                "Region Key": "646",
+                "Region Name": "Gabon"
+            },
+            {
+                "Region Key": "915",
+                "Region Name": "Georgia"
+            },
+            {
+                "Region Key": "134",
+                "Region Name": "Germany"
+            },
+            {
+                "Region Key": "652",
+                "Region Name": "Ghana"
+            },
+            {
+                "Region Key": "174",
+                "Region Name": "Greece"
+            },
+            {
+                "Region Key": "328",
+                "Region Name": "Grenada"
+            },
+            {
+                "Region Key": "258",
+                "Region Name": "Guatemala"
+            },
+            {
+                "Region Key": "656",
+                "Region Name": "Guinea"
+            },
+            {
+                "Region Key": "654",
+                "Region Name": "Guinea-Bissau"
+            },
+            {
+                "Region Key": "263",
+                "Region Name": "Haiti"
+            },
+            {
+                "Region Key": "268",
+                "Region Name": "Honduras"
+            },
+            {
+                "Region Key": "532",
+                "Region Name": "Hong Kong SAR"
+            },
+            {
+                "Region Key": "176",
+                "Region Name": "Iceland"
+            },
+            {
+                "Region Key": "534",
+                "Region Name": "India"
+            },
+            {
+                "Region Key": "536",
+                "Region Name": "Indonesia"
+            },
+            {
+                "Region Key": "429",
+                "Region Name": "Iran"
+            },
+            {
+                "Region Key": "433",
+                "Region Name": "Iraq"
+            },
+            {
+                "Region Key": "178",
+                "Region Name": "Ireland"
+            },
+            {
+                "Region Key": "436",
+                "Region Name": "Israel"
+            },
+            {
+                "Region Key": "136",
+                "Region Name": "Italy"
+            },
+            {
+                "Region Key": "158",
+                "Region Name": "Japan"
+            },
+            {
+                "Region Key": "439",
+                "Region Name": "Jordan"
+            },
+            {
+                "Region Key": "916",
+                "Region Name": "Kazakhstan"
+            },
+            {
+                "Region Key": "664",
+                "Region Name": "Kenya"
+            },
+            {
+                "Region Key": "542",
+                "Region Name": "Korea"
+            },
+            {
+                "Region Key": "443",
+                "Region Name": "Kuwait"
+            },
+            {
+                "Region Key": "941",
+                "Region Name": "Latvia"
+            },
+            {
+                "Region Key": "446",
+                "Region Name": "Lebanon"
+            },
+            {
+                "Region Key": "666",
+                "Region Name": "Lesotho"
+            },
+            {
+                "Region Key": "946",
+                "Region Name": "Lithuania"
+            },
+            {
+                "Region Key": "137",
+                "Region Name": "Luxembourg"
+            },
+            {
+                "Region Key": "546",
+                "Region Name": "Macao SAR"
+            },
+            {
+                "Region Key": "674",
+                "Region Name": "Madagascar"
+            },
+            {
+                "Region Key": "676",
+                "Region Name": "Malawi"
+            },
+            {
+                "Region Key": "548",
+                "Region Name": "Malaysia"
+            },
+            {
+                "Region Key": "556",
+                "Region Name": "Maldives"
+            },
+            {
+                "Region Key": "678",
+                "Region Name": "Mali"
+            },
+            {
+                "Region Key": "684",
+                "Region Name": "Mauritius"
+            },
+            {
+                "Region Key": "273",
+                "Region Name": "Mexico"
+            },
+            {
+                "Region Key": "921",
+                "Region Name": "Moldova"
+            },
+            {
+                "Region Key": "948",
+                "Region Name": "Mongolia"
+            },
+            {
+                "Region Key": "943",
+                "Region Name": "Montenegro, Rep. of"
+            },
+            {
+                "Region Key": "686",
+                "Region Name": "Morocco"
+            },
+            {
+                "Region Key": "688",
+                "Region Name": "Mozambique"
+            },
+            {
+                "Region Key": "518",
+                "Region Name": "Myanmar"
+            },
+            {
+                "Region Key": "728",
+                "Region Name": "Namibia"
+            },
+            {
+                "Region Key": "558",
+                "Region Name": "Nepal"
+            },
+            {
+                "Region Key": "138",
+                "Region Name": "Netherlands"
+            },
+            {
+                "Region Key": "196",
+                "Region Name": "New Zealand"
+            },
+            {
+                "Region Key": "278",
+                "Region Name": "Nicaragua"
+            },
+            {
+                "Region Key": "692",
+                "Region Name": "Niger"
+            },
+            {
+                "Region Key": "694",
+                "Region Name": "Nigeria"
+            },
+            {
+                "Region Key": "449",
+                "Region Name": "Oman"
+            },
+            {
+                "Region Key": "564",
+                "Region Name": "Pakistan"
+            },
+            {
+                "Region Key": "283",
+                "Region Name": "Panama"
+            },
+            {
+                "Region Key": "288",
+                "Region Name": "Paraguay"
+            },
+            {
+                "Region Key": "293",
+                "Region Name": "Peru"
+            },
+            {
+                "Region Key": "566",
+                "Region Name": "Philippines"
+            },
+            {
+                "Region Key": "964",
+                "Region Name": "Poland"
+            },
+            {
+                "Region Key": "182",
+                "Region Name": "Portugal"
+            },
+            {
+                "Region Key": "968",
+                "Region Name": "Romania"
+            },
+            {
+                "Region Key": "922",
+                "Region Name": "Russia"
+            },
+            {
+                "Region Key": "714",
+                "Region Name": "Rwanda"
+            },
+            {
+                "Region Key": "716",
+                "Region Name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+            },
+            {
+                "Region Key": "456",
+                "Region Name": "Saudi Arabia"
+            },
+            {
+                "Region Key": "722",
+                "Region Name": "Senegal"
+            },
+            {
+                "Region Key": "942",
+                "Region Name": "Serbia"
+            },
+            {
+                "Region Key": "718",
+                "Region Name": "Seychelles"
+            },
+            {
+                "Region Key": "724",
+                "Region Name": "Sierra Leone"
+            },
+            {
+                "Region Key": "576",
+                "Region Name": "Singapore"
+            },
+            {
+                "Region Key": "936",
+                "Region Name": "Slovak Republic"
+            },
+            {
+                "Region Key": "199",
+                "Region Name": "South Africa"
+            },
+            {
+                "Region Key": "524",
+                "Region Name": "Sri Lanka"
+            },
+            {
+                "Region Key": "361",
+                "Region Name": "St. Kitts and Nevis"
+            },
+            {
+                "Region Key": "362",
+                "Region Name": "St. Lucia"
+            },
+            {
+                "Region Key": "364",
+                "Region Name": "St. Vincent and the Grenadines"
+            },
+            {
+                "Region Key": "732",
+                "Region Name": "Sudan"
+            },
+            {
+                "Region Key": "366",
+                "Region Name": "Suriname"
+            },
+            {
+                "Region Key": "146",
+                "Region Name": "Switzerland"
+            },
+            {
+                "Region Key": "463",
+                "Region Name": "Syria"
+            },
+            {
+                "Region Key": "528",
+                "Region Name": "Taiwan Province of China"
+            },
+            {
+                "Region Key": "923",
+                "Region Name": "Tajikistan"
+            },
+            {
+                "Region Key": "738",
+                "Region Name": "Tanzania"
+            },
+            {
+                "Region Key": "578",
+                "Region Name": "Thailand"
+            },
+            {
+                "Region Key": "742",
+                "Region Name": "Togo"
+            },
+            {
+                "Region Key": "369",
+                "Region Name": "Trinidad and Tobago"
+            },
+            {
+                "Region Key": "744",
+                "Region Name": "Tunisia"
+            },
+            {
+                "Region Key": "186",
+                "Region Name": "Turkey"
+            },
+            {
+                "Region Key": "746",
+                "Region Name": "Uganda"
+            },
+            {
+                "Region Key": "926",
+                "Region Name": "Ukraine"
+            },
+            {
+                "Region Key": "466",
+                "Region Name": "United Arab Emirates"
+            },
+            {
+                "Region Key": "112",
+                "Region Name": "United Kingdom"
+            },
+            {
+                "Region Key": "111",
+                "Region Name": "United States"
+            },
+            {
+                "Region Key": "298",
+                "Region Name": "Uruguay"
+            },
+            {
+                "Region Key": "927",
+                "Region Name": "Uzbekistan"
+            },
+            {
+                "Region Key": "299",
+                "Region Name": "Venezuela"
+            },
+            {
+                "Region Key": "582",
+                "Region Name": "Vietnam"
+            },
+            {
+                "Region Key": "474",
+                "Region Name": "Yemen"
+            },
+            {
+                "Region Key": "754",
+                "Region Name": "Zambia"
+            },
+            {
+                "Region Key": "ADV",
+                "Region Name": "Advanced Economy"
+            },
+            {
+                "Region Key": "EME",
+                "Region Name": "Emerging Economy"
+            },
+            {
+                "Region Key": "LIDCs",
+                "Region Name": "Low Income Developing"
+            }
+        ],
+        "Indicators": {
+            "Capital stock at constant 2011 national prices (in bil. 2011US$) - From PWT9.1": {
+                "General": {
+                    "Indicator Key": "rnna",
+                    "Indicator Name": "Capital stock at constant 2011 national prices (in bil. 2011US$) - From PWT9.1",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rnna?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rnna",
+                    "Example URL Description": "Returns the Capital stock at constant 2011 national prices (in bil. 2011US$) - From PWT9.1 indicator for France at A frequency."
+                }
+            },
+            "Growth rate in private capital (%)": {
+                "General": {
+                    "Indicator Key": "kpriv_pch",
+                    "Indicator Name": "Growth rate in private capital (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpriv_pch?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpriv_pch",
+                    "Example URL Description": "Returns the Growth rate in private capital (%) indicator for France at A frequency."
+                }
+            },
+            "Growth rate in public capital (%)": {
+                "General": {
+                    "Indicator Key": "kpubl_pch",
+                    "Indicator Name": "Growth rate in public capital (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpubl_pch?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpubl_pch",
+                    "Example URL Description": "Returns the Growth rate in public capital (%) indicator for France at A frequency."
+                }
+            },
+            "Growth rate in total capital (%)": {
+                "General": {
+                    "Indicator Key": "rnna_pch",
+                    "Indicator Name": "Growth rate in total capital (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rnna_pch?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rnna_pch",
+                    "Example URL Description": "Returns the Growth rate in total capital (%) indicator for France at A frequency."
+                }
+            },
+            "Private capital as percentage of GDP (%)": {
+                "General": {
+                    "Indicator Key": "kpriv_gdp",
+                    "Indicator Name": "Private capital as percentage of GDP (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpriv_gdp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpriv_gdp",
+                    "Example URL Description": "Returns the Private capital as percentage of GDP (%) indicator for France at A frequency."
+                }
+            },
+            "Private capital stock at constant 2011 national prices": {
+                "unadjusted (in bil. 2011US$)": {
+                    "Indicator Key": "kpriv",
+                    "Indicator Name": "Private capital stock at constant 2011 national prices, unadjusted (in bil. 2011US$)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpriv?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpriv",
+                    "Example URL Description": "Returns the Private capital stock at constant 2011 national prices, unadjusted (in bil. 2011US$) indicator for France at A frequency."
+                }
+            },
+            "Private investment as percentage of GDP (%)": {
+                "General": {
+                    "Indicator Key": "priv_rinv_gdp",
+                    "Indicator Name": "Private investment as percentage of GDP (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.priv_rinv_gdp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.priv_rinv_gdp",
+                    "Example URL Description": "Returns the Private investment as percentage of GDP (%) indicator for France at A frequency."
+                }
+            },
+            "Private investment at constant 2011 national prices (in bil. 2011US$)": {
+                "General": {
+                    "Indicator Key": "priv_rinv",
+                    "Indicator Name": "Private investment at constant 2011 national prices (in bil. 2011US$)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.priv_rinv?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.priv_rinv",
+                    "Example URL Description": "Returns the Private investment at constant 2011 national prices (in bil. 2011US$) indicator for France at A frequency."
+                }
+            },
+            "Public capital as percentage of GDP (%)": {
+                "General": {
+                    "Indicator Key": "kpubl_gdp",
+                    "Indicator Name": "Public capital as percentage of GDP (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpubl_gdp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpubl_gdp",
+                    "Example URL Description": "Returns the Public capital as percentage of GDP (%) indicator for France at A frequency."
+                }
+            },
+            "Public capital stock at constant 2011 national prices": {
+                "unadjusted (in bil. 2011US$)": {
+                    "Indicator Key": "kpubl",
+                    "Indicator Name": "Public capital stock at constant 2011 national prices, unadjusted (in bil. 2011US$)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpubl?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.kpubl",
+                    "Example URL Description": "Returns the Public capital stock at constant 2011 national prices, unadjusted (in bil. 2011US$) indicator for France at A frequency."
+                }
+            },
+            "Public investment as percentage of GDP (%)": {
+                "General": {
+                    "Indicator Key": "publ_rinv_gdp",
+                    "Indicator Name": "Public investment as percentage of GDP (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.publ_rinv_gdp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.publ_rinv_gdp",
+                    "Example URL Description": "Returns the Public investment as percentage of GDP (%) indicator for France at A frequency."
+                }
+            },
+            "Public investment at constant 2011 national prices (in bil. 2011US$)": {
+                "General": {
+                    "Indicator Key": "publ_rinv",
+                    "Indicator Name": "Public investment at constant 2011 national prices (in bil. 2011US$)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.publ_rinv?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.publ_rinv",
+                    "Example URL Description": "Returns the Public investment at constant 2011 national prices (in bil. 2011US$) indicator for France at A frequency."
+                }
+            },
+            "Real investment": {
+                "at constant 2011 national prices (in bil. 2011US$)": {
+                    "Indicator Key": "rinv",
+                    "Indicator Name": "Real investment, at constant 2011 national prices (in bil. 2011US$)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rinv?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rinv",
+                    "Example URL Description": "Returns the Real investment, at constant 2011 national prices (in bil. 2011US$) indicator for France at A frequency."
+                }
+            },
+            "Total capital as percentage of GDP (%)": {
+                "General": {
+                    "Indicator Key": "rnna_gdp",
+                    "Indicator Name": "Total capital as percentage of GDP (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rnna_gdp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rnna_gdp",
+                    "Example URL Description": "Returns the Total capital as percentage of GDP (%) indicator for France at A frequency."
+                }
+            },
+            "Total investment as percentage of GDP (%)": {
+                "General": {
+                    "Indicator Key": "rinv_gdp",
+                    "Indicator Name": "Total investment as percentage of GDP (%)",
+                    "Indicator Database": "PGCS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rinv_gdp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/PGCS/A.FR.rinv_gdp",
+                    "Example URL Description": "Returns the Total investment as percentage of GDP (%) indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}
