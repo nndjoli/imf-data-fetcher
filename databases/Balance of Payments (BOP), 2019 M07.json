@@ -1,0 +1,1870 @@
+{
+    "Balance of Payments (BOP), 2019 M07": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR",
+        "Sample URL Description": "Returns all the BOP_2019M7 indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "AF",
+                "Region Name": "Afghanistan"
+            },
+            {
+                "Region Key": "AL",
+                "Region Name": "Albania"
+            },
+            {
+                "Region Key": "DZ",
+                "Region Name": "Algeria"
+            },
+            {
+                "Region Key": "AO",
+                "Region Name": "Angola"
+            },
+            {
+                "Region Key": "AI",
+                "Region Name": "Anguilla"
+            },
+            {
+                "Region Key": "AG",
+                "Region Name": "Antigua and Barbuda"
+            },
+            {
+                "Region Key": "AR",
+                "Region Name": "Argentina"
+            },
+            {
+                "Region Key": "AM",
+                "Region Name": "Armenia"
+            },
+            {
+                "Region Key": "AW",
+                "Region Name": "Aruba"
+            },
+            {
+                "Region Key": "AU",
+                "Region Name": "Australia"
+            },
+            {
+                "Region Key": "AT",
+                "Region Name": "Austria"
+            },
+            {
+                "Region Key": "AZ",
+                "Region Name": "Azerbaijan"
+            },
+            {
+                "Region Key": "BS",
+                "Region Name": "Bahamas"
+            },
+            {
+                "Region Key": "BH",
+                "Region Name": "Bahrain"
+            },
+            {
+                "Region Key": "BD",
+                "Region Name": "Bangladesh"
+            },
+            {
+                "Region Key": "BB",
+                "Region Name": "Barbados"
+            },
+            {
+                "Region Key": "BY",
+                "Region Name": "Belarus"
+            },
+            {
+                "Region Key": "BE",
+                "Region Name": "Belgium"
+            },
+            {
+                "Region Key": "R1",
+                "Region Name": "Belgo-Luxembourg Economic Union"
+            },
+            {
+                "Region Key": "BZ",
+                "Region Name": "Belize"
+            },
+            {
+                "Region Key": "BJ",
+                "Region Name": "Benin"
+            },
+            {
+                "Region Key": "BM",
+                "Region Name": "Bermuda"
+            },
+            {
+                "Region Key": "BT",
+                "Region Name": "Bhutan"
+            },
+            {
+                "Region Key": "BO",
+                "Region Name": "Bolivia"
+            },
+            {
+                "Region Key": "BA",
+                "Region Name": "Bosnia and Herzegovina"
+            },
+            {
+                "Region Key": "BW",
+                "Region Name": "Botswana"
+            },
+            {
+                "Region Key": "BR",
+                "Region Name": "Brazil"
+            },
+            {
+                "Region Key": "BN",
+                "Region Name": "Brunei Darussalam"
+            },
+            {
+                "Region Key": "BG",
+                "Region Name": "Bulgaria"
+            },
+            {
+                "Region Key": "BF",
+                "Region Name": "Burkina Faso"
+            },
+            {
+                "Region Key": "BI",
+                "Region Name": "Burundi"
+            },
+            {
+                "Region Key": "CV",
+                "Region Name": "Cabo Verde"
+            },
+            {
+                "Region Key": "KH",
+                "Region Name": "Cambodia"
+            },
+            {
+                "Region Key": "CM",
+                "Region Name": "Cameroon"
+            },
+            {
+                "Region Key": "CA",
+                "Region Name": "Canada"
+            },
+            {
+                "Region Key": "CF",
+                "Region Name": "Central African Republic"
+            },
+            {
+                "Region Key": "TD",
+                "Region Name": "Chad"
+            },
+            {
+                "Region Key": "CL",
+                "Region Name": "Chile"
+            },
+            {
+                "Region Key": "HK",
+                "Region Name": "Hong Kong, China"
+            },
+            {
+                "Region Key": "MO",
+                "Region Name": "Macao"
+            },
+            {
+                "Region Key": "CN",
+                "Region Name": "China"
+            },
+            {
+                "Region Key": "CO",
+                "Region Name": "Colombia"
+            },
+            {
+                "Region Key": "KM",
+                "Region Name": "Comoros"
+            },
+            {
+                "Region Key": "CD",
+                "Region Name": "Congo, the Democratic Republic of the"
+            },
+            {
+                "Region Key": "CG",
+                "Region Name": "Congo"
+            },
+            {
+                "Region Key": "CR",
+                "Region Name": "Costa Rica"
+            },
+            {
+                "Region Key": "CI",
+                "Region Name": "Cote d`Ivoire"
+            },
+            {
+                "Region Key": "HR",
+                "Region Name": "Croatia"
+            },
+            {
+                "Region Key": "CW",
+                "Region Name": "Curacao"
+            },
+            {
+                "Region Key": "1C_355",
+                "Region Name": "Curacao & St. Maarten"
+            },
+            {
+                "Region Key": "CY",
+                "Region Name": "Cyprus"
+            },
+            {
+                "Region Key": "CZ",
+                "Region Name": "Czech Republic"
+            },
+            {
+                "Region Key": "CSH",
+                "Region Name": "Former Czechoslovakia"
+            },
+            {
+                "Region Key": "DK",
+                "Region Name": "Denmark"
+            },
+            {
+                "Region Key": "DJ",
+                "Region Name": "Djibouti"
+            },
+            {
+                "Region Key": "DM",
+                "Region Name": "Dominica"
+            },
+            {
+                "Region Key": "DO",
+                "Region Name": "Dominican Republic"
+            },
+            {
+                "Region Key": "5Y",
+                "Region Name": "Eastern Caribbean Currency Union"
+            },
+            {
+                "Region Key": "EC",
+                "Region Name": "Ecuador"
+            },
+            {
+                "Region Key": "EG",
+                "Region Name": "Egypt"
+            },
+            {
+                "Region Key": "SV",
+                "Region Name": "El Salvador"
+            },
+            {
+                "Region Key": "GQ",
+                "Region Name": "Equatorial Guinea"
+            },
+            {
+                "Region Key": "ER",
+                "Region Name": "Eritrea"
+            },
+            {
+                "Region Key": "EE",
+                "Region Name": "Estonia"
+            },
+            {
+                "Region Key": "SZ",
+                "Region Name": "Eswatini"
+            },
+            {
+                "Region Key": "ET",
+                "Region Name": "Ethiopia"
+            },
+            {
+                "Region Key": "U2",
+                "Region Name": "Euro area (Member States and Institutions of the Euro Area) changing composition"
+            },
+            {
+                "Region Key": "FO",
+                "Region Name": "Faroe Islands"
+            },
+            {
+                "Region Key": "FJ",
+                "Region Name": "Fiji"
+            },
+            {
+                "Region Key": "FI",
+                "Region Name": "Finland"
+            },
+            {
+                "Region Key": "FR",
+                "Region Name": "France"
+            },
+            {
+                "Region Key": "PF",
+                "Region Name": "French Polynesia"
+            },
+            {
+                "Region Key": "NC",
+                "Region Name": "New Caledonia"
+            },
+            {
+                "Region Key": "GA",
+                "Region Name": "Gabon"
+            },
+            {
+                "Region Key": "GM",
+                "Region Name": "Gambia"
+            },
+            {
+                "Region Key": "GE",
+                "Region Name": "Georgia"
+            },
+            {
+                "Region Key": "DE",
+                "Region Name": "Germany"
+            },
+            {
+                "Region Key": "GH",
+                "Region Name": "Ghana"
+            },
+            {
+                "Region Key": "GR",
+                "Region Name": "Greece"
+            },
+            {
+                "Region Key": "GD",
+                "Region Name": "Grenada"
+            },
+            {
+                "Region Key": "GT",
+                "Region Name": "Guatemala"
+            },
+            {
+                "Region Key": "GN",
+                "Region Name": "Guinea"
+            },
+            {
+                "Region Key": "GW",
+                "Region Name": "Guinea-Bissau"
+            },
+            {
+                "Region Key": "GY",
+                "Region Name": "Guyana"
+            },
+            {
+                "Region Key": "HT",
+                "Region Name": "Haiti"
+            },
+            {
+                "Region Key": "HN",
+                "Region Name": "Honduras"
+            },
+            {
+                "Region Key": "HU",
+                "Region Name": "Hungary"
+            },
+            {
+                "Region Key": "IS",
+                "Region Name": "Iceland"
+            },
+            {
+                "Region Key": "IN",
+                "Region Name": "India"
+            },
+            {
+                "Region Key": "ID",
+                "Region Name": "Indonesia"
+            },
+            {
+                "Region Key": "IR",
+                "Region Name": "Iran, Islamic Republic of"
+            },
+            {
+                "Region Key": "IQ",
+                "Region Name": "Iraq"
+            },
+            {
+                "Region Key": "IE",
+                "Region Name": "Ireland"
+            },
+            {
+                "Region Key": "IL",
+                "Region Name": "Israel"
+            },
+            {
+                "Region Key": "IT",
+                "Region Name": "Italy"
+            },
+            {
+                "Region Key": "JM",
+                "Region Name": "Jamaica"
+            },
+            {
+                "Region Key": "JP",
+                "Region Name": "Japan"
+            },
+            {
+                "Region Key": "JO",
+                "Region Name": "Jordan"
+            },
+            {
+                "Region Key": "KZ",
+                "Region Name": "Kazakhstan"
+            },
+            {
+                "Region Key": "KE",
+                "Region Name": "Kenya"
+            },
+            {
+                "Region Key": "KI",
+                "Region Name": "Kiribati"
+            },
+            {
+                "Region Key": "KR",
+                "Region Name": "Korea, Republic of"
+            },
+            {
+                "Region Key": "XK",
+                "Region Name": "Kosovo"
+            },
+            {
+                "Region Key": "KW",
+                "Region Name": "Kuwait"
+            },
+            {
+                "Region Key": "KG",
+                "Region Name": "Kyrgyzstan"
+            },
+            {
+                "Region Key": "LA",
+                "Region Name": "Lao People`s Democratic Republic"
+            },
+            {
+                "Region Key": "LV",
+                "Region Name": "Latvia"
+            },
+            {
+                "Region Key": "LB",
+                "Region Name": "Lebanon"
+            },
+            {
+                "Region Key": "LS",
+                "Region Name": "Lesotho"
+            },
+            {
+                "Region Key": "LR",
+                "Region Name": "Liberia"
+            },
+            {
+                "Region Key": "LY",
+                "Region Name": "Libya"
+            },
+            {
+                "Region Key": "LT",
+                "Region Name": "Lithuania"
+            },
+            {
+                "Region Key": "LU",
+                "Region Name": "Luxembourg"
+            },
+            {
+                "Region Key": "MG",
+                "Region Name": "Madagascar"
+            },
+            {
+                "Region Key": "MW",
+                "Region Name": "Malawi"
+            },
+            {
+                "Region Key": "MY",
+                "Region Name": "Malaysia"
+            },
+            {
+                "Region Key": "MV",
+                "Region Name": "Maldives"
+            },
+            {
+                "Region Key": "ML",
+                "Region Name": "Mali"
+            },
+            {
+                "Region Key": "MT",
+                "Region Name": "Malta"
+            },
+            {
+                "Region Key": "MH",
+                "Region Name": "Marshall islands"
+            },
+            {
+                "Region Key": "MR",
+                "Region Name": "Mauritania"
+            },
+            {
+                "Region Key": "MU",
+                "Region Name": "Mauritius"
+            },
+            {
+                "Region Key": "MX",
+                "Region Name": "Mexico"
+            },
+            {
+                "Region Key": "FM",
+                "Region Name": "Micronesia, Federated States of"
+            },
+            {
+                "Region Key": "MD",
+                "Region Name": "Moldova, Republic of"
+            },
+            {
+                "Region Key": "MN",
+                "Region Name": "Mongolia"
+            },
+            {
+                "Region Key": "ME",
+                "Region Name": "Montenegro"
+            },
+            {
+                "Region Key": "MS",
+                "Region Name": "Montserrat"
+            },
+            {
+                "Region Key": "MA",
+                "Region Name": "Morocco"
+            },
+            {
+                "Region Key": "MZ",
+                "Region Name": "Mozambique"
+            },
+            {
+                "Region Key": "MM",
+                "Region Name": "Myanmar"
+            },
+            {
+                "Region Key": "NA",
+                "Region Name": "Namibia"
+            },
+            {
+                "Region Key": "NP",
+                "Region Name": "Nepal"
+            },
+            {
+                "Region Key": "NL",
+                "Region Name": "Netherlands"
+            },
+            {
+                "Region Key": "AN",
+                "Region Name": "Netherlands Antilles"
+            },
+            {
+                "Region Key": "NZ",
+                "Region Name": "New Zealand"
+            },
+            {
+                "Region Key": "NI",
+                "Region Name": "Nicaragua"
+            },
+            {
+                "Region Key": "NE",
+                "Region Name": "Niger"
+            },
+            {
+                "Region Key": "NG",
+                "Region Name": "Nigeria"
+            },
+            {
+                "Region Key": "MK",
+                "Region Name": "North Macedonia, Republic of"
+            },
+            {
+                "Region Key": "NO",
+                "Region Name": "Norway"
+            },
+            {
+                "Region Key": "OM",
+                "Region Name": "Oman"
+            },
+            {
+                "Region Key": "PK",
+                "Region Name": "Pakistan"
+            },
+            {
+                "Region Key": "PW",
+                "Region Name": "Palau"
+            },
+            {
+                "Region Key": "PA",
+                "Region Name": "Panama"
+            },
+            {
+                "Region Key": "PG",
+                "Region Name": "Papua New Guinea"
+            },
+            {
+                "Region Key": "PY",
+                "Region Name": "Paraguay"
+            },
+            {
+                "Region Key": "PE",
+                "Region Name": "Peru"
+            },
+            {
+                "Region Key": "PH",
+                "Region Name": "Philippines"
+            },
+            {
+                "Region Key": "PL",
+                "Region Name": "Poland"
+            },
+            {
+                "Region Key": "PT",
+                "Region Name": "Portugal"
+            },
+            {
+                "Region Key": "QA",
+                "Region Name": "Qatar"
+            },
+            {
+                "Region Key": "RO",
+                "Region Name": "Romania"
+            },
+            {
+                "Region Key": "RU",
+                "Region Name": "Russian Federation"
+            },
+            {
+                "Region Key": "RW",
+                "Region Name": "Rwanda"
+            },
+            {
+                "Region Key": "WS",
+                "Region Name": "Samoa"
+            },
+            {
+                "Region Key": "ST",
+                "Region Name": "Sao Tome and Principe"
+            },
+            {
+                "Region Key": "SA",
+                "Region Name": "Saudi Arabia"
+            },
+            {
+                "Region Key": "SN",
+                "Region Name": "Senegal"
+            },
+            {
+                "Region Key": "RS",
+                "Region Name": "Serbia"
+            },
+            {
+                "Region Key": "SC",
+                "Region Name": "Seychelles"
+            },
+            {
+                "Region Key": "SL",
+                "Region Name": "Sierra Leone"
+            },
+            {
+                "Region Key": "SG",
+                "Region Name": "Singapore"
+            },
+            {
+                "Region Key": "SX",
+                "Region Name": "Sint Maarten (Dutch part)"
+            },
+            {
+                "Region Key": "SK",
+                "Region Name": "Slovakia"
+            },
+            {
+                "Region Key": "SI",
+                "Region Name": "Slovenia"
+            },
+            {
+                "Region Key": "SB",
+                "Region Name": "Solomon Islands"
+            },
+            {
+                "Region Key": "SO",
+                "Region Name": "Somalia"
+            },
+            {
+                "Region Key": "ZA",
+                "Region Name": "South Africa"
+            },
+            {
+                "Region Key": "SS",
+                "Region Name": "South Sudan"
+            },
+            {
+                "Region Key": "ES",
+                "Region Name": "Spain"
+            },
+            {
+                "Region Key": "LK",
+                "Region Name": "Sri Lanka"
+            },
+            {
+                "Region Key": "KN",
+                "Region Name": "Saint Kitts and Nevis"
+            },
+            {
+                "Region Key": "LC",
+                "Region Name": "Saint Lucia"
+            },
+            {
+                "Region Key": "VC",
+                "Region Name": "Saint Vincent and the Grenadines"
+            },
+            {
+                "Region Key": "SD",
+                "Region Name": "Sudan"
+            },
+            {
+                "Region Key": "SR",
+                "Region Name": "Suriname"
+            },
+            {
+                "Region Key": "SE",
+                "Region Name": "Sweden"
+            },
+            {
+                "Region Key": "CH",
+                "Region Name": "Switzerland"
+            },
+            {
+                "Region Key": "SY",
+                "Region Name": "Syrian Arab Republic"
+            },
+            {
+                "Region Key": "TW",
+                "Region Name": "Taiwan, Province of China"
+            },
+            {
+                "Region Key": "TJ",
+                "Region Name": "Tajikistan"
+            },
+            {
+                "Region Key": "TZ",
+                "Region Name": "Tanzania, United Republic of"
+            },
+            {
+                "Region Key": "TH",
+                "Region Name": "Thailand"
+            },
+            {
+                "Region Key": "TL",
+                "Region Name": "Timor-Leste"
+            },
+            {
+                "Region Key": "TG",
+                "Region Name": "Togo"
+            },
+            {
+                "Region Key": "TO",
+                "Region Name": "Tonga"
+            },
+            {
+                "Region Key": "TT",
+                "Region Name": "Trinidad and Tobago"
+            },
+            {
+                "Region Key": "TN",
+                "Region Name": "Tunisia"
+            },
+            {
+                "Region Key": "TR",
+                "Region Name": "Turkey"
+            },
+            {
+                "Region Key": "TM",
+                "Region Name": "Turkmenistan"
+            },
+            {
+                "Region Key": "TC",
+                "Region Name": "Turks and Caicos Islands"
+            },
+            {
+                "Region Key": "TV",
+                "Region Name": "Tuvalu"
+            },
+            {
+                "Region Key": "UG",
+                "Region Name": "Uganda"
+            },
+            {
+                "Region Key": "UA",
+                "Region Name": "Ukraine"
+            },
+            {
+                "Region Key": "GB",
+                "Region Name": "United Kingdom"
+            },
+            {
+                "Region Key": "US",
+                "Region Name": "United States"
+            },
+            {
+                "Region Key": "UY",
+                "Region Name": "Uruguay"
+            },
+            {
+                "Region Key": "UZ",
+                "Region Name": "Uzbekistan"
+            },
+            {
+                "Region Key": "VU",
+                "Region Name": "Vanuatu"
+            },
+            {
+                "Region Key": "VE",
+                "Region Name": "Venezuela, Bolivarian Republic"
+            },
+            {
+                "Region Key": "VN",
+                "Region Name": "Viet Nam"
+            },
+            {
+                "Region Key": "PS",
+                "Region Name": "Palestine, State of"
+            },
+            {
+                "Region Key": "1C_473",
+                "Region Name": "Yemen Arab Rep."
+            },
+            {
+                "Region Key": "1C_459",
+                "Region Name": "Yemen, P.D. Rep."
+            },
+            {
+                "Region Key": "YE",
+                "Region Name": "Yemen"
+            },
+            {
+                "Region Key": "YUC",
+                "Region Name": "Former Yugoslavia"
+            },
+            {
+                "Region Key": "ZM",
+                "Region Name": "Zambia"
+            },
+            {
+                "Region Key": "ZW",
+                "Region Name": "Zimbabwe"
+            },
+            {
+                "Region Key": "BOP_Reporters",
+                "Region Name": "All Balance of Payments (BOP) Reporters"
+            },
+            {
+                "Region Key": "All_Countries",
+                "Region Name": "All Countries"
+            },
+            {
+                "Region Key": "IIP_Reporters",
+                "Region Name": "All International Investment Positions (IIP) Reporters"
+            },
+            {
+                "Region Key": "CCR",
+                "Region Name": "Currenecy Composition Reporters"
+            }
+        ],
+        "Indicators": {
+            "Assets": {
+                "Currency Composition of Debt Claims on Nonresidents by Sector": {
+                    "Indicator Key": "IACCDC_NRES_UA_BP6_USD",
+                    "Indicator Name": "Assets, Currency Composition of Debt Claims on Nonresidents by Sector, Total, Unallocated, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IACCDC_NRES_UA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IACCDC_NRES_UA_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Currency Composition of Debt Claims on Nonresidents by Sector, Total, Unallocated, US Dollars indicator for France at A frequency."
+                },
+                "Currency Composition of Foreign Currency Derivatives by Sector": {
+                    "Indicator Key": "IACCFXD_NV_NRES_BP6_USD",
+                    "Indicator Name": "Assets, Currency Composition of Foreign Currency Derivatives by Sector, Notional Value of Contracts with Nonresidents, Total, Receive Foreign Currency, by Currency, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IACCFXD_NV_NRES_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IACCFXD_NV_NRES_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Currency Composition of Foreign Currency Derivatives by Sector, Notional Value of Contracts with Nonresidents, Total, Receive Foreign Currency, by Currency, US Dollars indicator for France at A frequency."
+                },
+                "Direct Investment": {
+                    "Indicator Key": "IAD_BP6_USD",
+                    "Indicator Name": "Assets, Direct Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAD_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Direct Investment, US Dollars indicator for France at A frequency."
+                },
+                "Financial Derivatives (Other Than Reserves) and Employee Stock Options": {
+                    "Indicator Key": "IADF_BP6_USD",
+                    "Indicator Name": "Assets, Financial Derivatives (Other Than Reserves) and Employee Stock Options, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IADF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IADF_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Financial Derivatives (Other Than Reserves) and Employee Stock Options, US Dollars indicator for France at A frequency."
+                },
+                "Other Investment": {
+                    "Indicator Key": "IAO_BP6_USD",
+                    "Indicator Name": "Assets, Other Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAO_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAO_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Other Investment, US Dollars indicator for France at A frequency."
+                },
+                "Other Investment: Debt Instruments": {
+                    "Indicator Key": "IAOD_BP6_USD",
+                    "Indicator Name": "Assets, Other Investment: Debt Instruments, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAOD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAOD_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Other Investment: Debt Instruments, US Dollars indicator for France at A frequency."
+                },
+                "Portfolio Investment": {
+                    "Indicator Key": "IAP_BP6_USD",
+                    "Indicator Name": "Assets, Portfolio Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAP_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAP_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Portfolio Investment, US Dollars indicator for France at A frequency."
+                },
+                "Reserve Assets": {
+                    "Indicator Key": "IAR_BP6_USD",
+                    "Indicator Name": "Assets, Reserve Assets, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAR_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Reserve Assets, US Dollars indicator for France at A frequency."
+                },
+                "Total": {
+                    "Indicator Key": "IA_BP6_USD",
+                    "Indicator Name": "Assets, Total, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IA_BP6_USD",
+                    "Example URL Description": "Returns the Assets, Total, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Capital Account": {
+                "Capital Transfers": {
+                    "Indicator Key": "BKTNP_BP6_USD",
+                    "Indicator Name": "Capital Account, Capital Transfers, Of which: For Each Item in Capital Transfers: Transfers to NPISHs, Net, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKTNP_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKTNP_BP6_USD",
+                    "Example URL Description": "Returns the Capital Account, Capital Transfers, Of which: For Each Item in Capital Transfers: Transfers to NPISHs, Net, US Dollars indicator for France at A frequency."
+                },
+                "Gross Acquisitions (DR) / Disposals (CR) of Nonproduced Nonfinancial Assets": {
+                    "Indicator Key": "BKA_BP6_USD",
+                    "Indicator Name": "Capital Account, Gross Acquisitions (DR) / Disposals (CR) of Nonproduced Nonfinancial Assets, Net, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKA_BP6_USD",
+                    "Example URL Description": "Returns the Capital Account, Gross Acquisitions (DR) / Disposals (CR) of Nonproduced Nonfinancial Assets, Net, US Dollars indicator for France at A frequency."
+                },
+                "Total": {
+                    "Indicator Key": "BK_BP6_USD",
+                    "Indicator Name": "Capital Account, Total, Net, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BK_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BK_BP6_USD",
+                    "Example URL Description": "Returns the Capital Account, Total, Net, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Current Account": {
+                "Goods and Services": {
+                    "Indicator Key": "BMSTROPC_BP6_USD",
+                    "Indicator Name": "Current Account, Goods and Services, Services: Transport Other (Including postal and courier), Debit, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMSTROPC_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMSTROPC_BP6_USD",
+                    "Example URL Description": "Returns the Current Account, Goods and Services, Services: Transport Other (Including postal and courier), Debit, US Dollars indicator for France at A frequency."
+                },
+                "Primary Income": {
+                    "Indicator Key": "BIPOTX_BP6_USD",
+                    "Indicator Name": "Current Account, Primary Income, Other Primary Income, Taxes on Products and Production, Net, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BIPOTX_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BIPOTX_BP6_USD",
+                    "Example URL Description": "Returns the Current Account, Primary Income, Other Primary Income, Taxes on Products and Production, Net, US Dollars indicator for France at A frequency."
+                },
+                "Secondary Income": {
+                    "Indicator Key": "BIS_BP6_USD",
+                    "Indicator Name": "Current Account, Secondary Income, Net, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BIS_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BIS_BP6_USD",
+                    "Example URL Description": "Returns the Current Account, Secondary Income, Net, US Dollars indicator for France at A frequency."
+                },
+                "Total": {
+                    "Indicator Key": "BCA_BP6_USD",
+                    "Indicator Name": "Current Account, Total, Net, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BCA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BCA_BP6_USD",
+                    "Example URL Description": "Returns the Current Account, Total, Net, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Exceptional Financing": {
+                "Capital Transfers": {
+                    "Indicator Key": "BEFT_BP6_USD",
+                    "Indicator Name": "Exceptional Financing, Capital Transfers, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFT_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFT_BP6_USD",
+                    "Example URL Description": "Returns the Exceptional Financing, Capital Transfers, US Dollars indicator for France at A frequency."
+                },
+                "Direct Investment": {
+                    "Indicator Key": "BEFD_BP6_USD",
+                    "Indicator Name": "Exceptional Financing, Direct Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFD_BP6_USD",
+                    "Example URL Description": "Returns the Exceptional Financing, Direct Investment, US Dollars indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "BEF_BP6_EUR",
+                    "Indicator Name": "Exceptional Financing, Euros",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEF_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEF_BP6_EUR",
+                    "Example URL Description": "Returns the Exceptional Financing, Euros indicator for France at A frequency."
+                },
+                "National Currency": {
+                    "Indicator Key": "BEF_BP6_XDC",
+                    "Indicator Name": "Exceptional Financing, National Currency",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEF_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEF_BP6_XDC",
+                    "Example URL Description": "Returns the Exceptional Financing, National Currency indicator for France at A frequency."
+                },
+                "Other Investment - Liabilities": {
+                    "Indicator Key": "BEFO_BP6_USD",
+                    "Indicator Name": "Exceptional Financing, Other Investment - Liabilities, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFO_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFO_BP6_USD",
+                    "Example URL Description": "Returns the Exceptional Financing, Other Investment - Liabilities, US Dollars indicator for France at A frequency."
+                },
+                "Portfolio Investment - Liabilities": {
+                    "Indicator Key": "BEFP_BP6_USD",
+                    "Indicator Name": "Exceptional Financing, Portfolio Investment - Liabilities, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFP_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFP_BP6_USD",
+                    "Example URL Description": "Returns the Exceptional Financing, Portfolio Investment - Liabilities, US Dollars indicator for France at A frequency."
+                },
+                "Secondary Income": {
+                    "Indicator Key": "BEFIS_BP6_USD",
+                    "Indicator Name": "Exceptional Financing, Secondary Income, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFIS_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEFIS_BP6_USD",
+                    "Example URL Description": "Returns the Exceptional Financing, Secondary Income, US Dollars indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "BEF_BP6_USD",
+                    "Indicator Name": "Exceptional Financing, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BEF_BP6_USD",
+                    "Example URL Description": "Returns the Exceptional Financing, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Financial Account": {
+                "Financial Derivatives (Other Than Reserves) and Employee Stock Options": {
+                    "Indicator Key": "BFF_BP6_USD",
+                    "Indicator Name": "Financial Account, Financial Derivatives (Other Than Reserves) and Employee Stock Options, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFF_BP6_USD",
+                    "Example URL Description": "Returns the Financial Account, Financial Derivatives (Other Than Reserves) and Employee Stock Options, US Dollars indicator for France at A frequency."
+                },
+                "Net Lending (+) / Net Borrowing (-) (Balance from Financial Account)": {
+                    "Indicator Key": "BF_BP6_USD",
+                    "Indicator Name": "Financial Account, Net Lending (+) / Net Borrowing (-) (Balance from Financial Account), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BF_BP6_USD",
+                    "Example URL Description": "Returns the Financial Account, Net Lending (+) / Net Borrowing (-) (Balance from Financial Account), US Dollars indicator for France at A frequency."
+                },
+                "Other Investment": {
+                    "Indicator Key": "BFO_BP6_USD",
+                    "Indicator Name": "Financial Account, Other Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFO_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFO_BP6_USD",
+                    "Example URL Description": "Returns the Financial Account, Other Investment, US Dollars indicator for France at A frequency."
+                },
+                "Portfolio Investment": {
+                    "Indicator Key": "BFP_BP6_USD",
+                    "Indicator Name": "Financial Account, Portfolio Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFP_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFP_BP6_USD",
+                    "Example URL Description": "Returns the Financial Account, Portfolio Investment, US Dollars indicator for France at A frequency."
+                },
+                "Reserve Assets": {
+                    "Indicator Key": "BFRA_BP6_USD",
+                    "Indicator Name": "Financial Account, Reserve Assets, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRA_BP6_USD",
+                    "Example URL Description": "Returns the Financial Account, Reserve Assets, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Assets (with Fund Record)": {
+                "Euros": {
+                    "Indicator Key": "IAFR_BP6_EUR",
+                    "Indicator Name": "Assets (with Fund Record), Euros",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAFR_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAFR_BP6_EUR",
+                    "Example URL Description": "Returns the Assets (with Fund Record), Euros indicator for France at A frequency."
+                },
+                "National Currency": {
+                    "Indicator Key": "IAFR_BP6_XDC",
+                    "Indicator Name": "Assets (with Fund Record), National Currency",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAFR_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAFR_BP6_XDC",
+                    "Example URL Description": "Returns the Assets (with Fund Record), National Currency indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IAFR_BP6_USD",
+                    "Indicator Name": "Assets (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IAFR_BP6_USD",
+                    "Example URL Description": "Returns the Assets (with Fund Record), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Liabilities": {
+                "Currency Composition of Debt Liabilities to Nonresidents by Sector": {
+                    "Indicator Key": "ILCCDL_NRES_UA_BP6_USD",
+                    "Indicator Name": "Liabilities, Currency Composition of Debt Liabilities to Nonresidents by Sector, Total, Unallocated, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILCCDL_NRES_UA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILCCDL_NRES_UA_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Currency Composition of Debt Liabilities to Nonresidents by Sector, Total, Unallocated, US Dollars indicator for France at A frequency."
+                },
+                "Currency Composition of Foreign Currency Derivatives by Sector": {
+                    "Indicator Key": "ILCCFXD_NV_NRES_BP6_USD",
+                    "Indicator Name": "Liabilities, Currency Composition of Foreign Currency Derivatives by Sector, Notional Value of Contracts with Nonresidents, Total, Pay Foreign Currency, by Currency, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILCCFXD_NV_NRES_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILCCFXD_NV_NRES_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Currency Composition of Foreign Currency Derivatives by Sector, Notional Value of Contracts with Nonresidents, Total, Pay Foreign Currency, by Currency, US Dollars indicator for France at A frequency."
+                },
+                "Direct Investment": {
+                    "Indicator Key": "ILD_BP6_USD",
+                    "Indicator Name": "Liabilities, Direct Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILD_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Direct Investment, US Dollars indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "ILFR_BP6_EUR",
+                    "Indicator Name": "Liabilities, Euros",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILFR_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILFR_BP6_EUR",
+                    "Example URL Description": "Returns the Liabilities, Euros indicator for France at A frequency."
+                },
+                "Financial Derivatives (Other Than Reserves) and Employee Stock Options": {
+                    "Indicator Key": "ILF_BP6_USD",
+                    "Indicator Name": "Liabilities, Financial Derivatives (Other Than Reserves) and Employee Stock Options, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILF_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Financial Derivatives (Other Than Reserves) and Employee Stock Options, US Dollars indicator for France at A frequency."
+                },
+                "National Currency": {
+                    "Indicator Key": "ILFR_BP6_XDC",
+                    "Indicator Name": "Liabilities, National Currency",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILFR_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILFR_BP6_XDC",
+                    "Example URL Description": "Returns the Liabilities, National Currency indicator for France at A frequency."
+                },
+                "Other Investment": {
+                    "Indicator Key": "ILO_BP6_USD",
+                    "Indicator Name": "Liabilities, Other Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILO_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILO_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Other Investment, US Dollars indicator for France at A frequency."
+                },
+                "Other Investment: Other Equity: Net Incurrence of Liabilities": {
+                    "Indicator Key": "ILOOO_BP6_USD",
+                    "Indicator Name": "Liabilities, Other Investment: Other Equity: Net Incurrence of Liabilities, Other Debt Instruments, Other Sectors, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILOOO_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILOOO_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Other Investment: Other Equity: Net Incurrence of Liabilities, Other Debt Instruments, Other Sectors, US Dollars indicator for France at A frequency."
+                },
+                "Portfolio Investment": {
+                    "Indicator Key": "ILP_BP6_USD",
+                    "Indicator Name": "Liabilities, Portfolio Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILP_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILP_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Portfolio Investment, US Dollars indicator for France at A frequency."
+                },
+                "Reserve-related Liabilities (RRL) to Nonresidents": {
+                    "Indicator Key": "ILRRL_NRES_S_BP6_USD",
+                    "Indicator Name": "Liabilities, Reserve-related Liabilities (RRL) to Nonresidents, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILRRL_NRES_S_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILRRL_NRES_S_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Reserve-related Liabilities (RRL) to Nonresidents, US Dollars indicator for France at A frequency."
+                },
+                "Total": {
+                    "Indicator Key": "IL_BP6_USD",
+                    "Indicator Name": "Liabilities, Total, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IL_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IL_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, Total, US Dollars indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "ILFR_BP6_USD",
+                    "Indicator Name": "Liabilities, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.ILFR_BP6_USD",
+                    "Example URL Description": "Returns the Liabilities, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Net Errors and Omissions": {
+                "Euros": {
+                    "Indicator Key": "BOP_BP6_EUR",
+                    "Indicator Name": "Net Errors and Omissions, Euros",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOP_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOP_BP6_EUR",
+                    "Example URL Description": "Returns the Net Errors and Omissions, Euros indicator for France at A frequency."
+                },
+                "National Currency": {
+                    "Indicator Key": "BOP_BP6_XDC",
+                    "Indicator Name": "Net Errors and Omissions, National Currency",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOP_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOP_BP6_XDC",
+                    "Example URL Description": "Returns the Net Errors and Omissions, National Currency indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "BOP_BP6_USD",
+                    "Indicator Name": "Net Errors and Omissions, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOP_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOP_BP6_USD",
+                    "Example URL Description": "Returns the Net Errors and Omissions, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Net International Investment Position (With Fund Record)": {
+                "Euros": {
+                    "Indicator Key": "IFR_BP6_EUR",
+                    "Indicator Name": "Net International Investment Position (With Fund Record), Euros",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IFR_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IFR_BP6_EUR",
+                    "Example URL Description": "Returns the Net International Investment Position (With Fund Record), Euros indicator for France at A frequency."
+                },
+                "National Currency": {
+                    "Indicator Key": "IFR_BP6_XDC",
+                    "Indicator Name": "Net International Investment Position (With Fund Record), National Currency",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IFR_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IFR_BP6_XDC",
+                    "Example URL Description": "Returns the Net International Investment Position (With Fund Record), National Currency indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IFR_BP6_USD",
+                    "Indicator Name": "Net International Investment Position (With Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IFR_BP6_USD",
+                    "Example URL Description": "Returns the Net International Investment Position (With Fund Record), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Net Lending (+) / Net Borrowing (-) (Balance from Current and Capital Account)": {
+                "Euros": {
+                    "Indicator Key": "BACK_BP6_EUR",
+                    "Indicator Name": "Net Lending (+) / Net Borrowing (-) (Balance from Current and Capital Account), Euros",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BACK_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BACK_BP6_EUR",
+                    "Example URL Description": "Returns the Net Lending (+) / Net Borrowing (-) (Balance from Current and Capital Account), Euros indicator for France at A frequency."
+                },
+                "National Currency": {
+                    "Indicator Key": "BACK_BP6_XDC",
+                    "Indicator Name": "Net Lending (+) / Net Borrowing (-) (Balance from Current and Capital Account), National Currency",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BACK_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BACK_BP6_XDC",
+                    "Example URL Description": "Returns the Net Lending (+) / Net Borrowing (-) (Balance from Current and Capital Account), National Currency indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "BACK_BP6_USD",
+                    "Indicator Name": "Net Lending (+) / Net Borrowing (-) (Balance from Current and Capital Account), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BACK_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BACK_BP6_USD",
+                    "Example URL Description": "Returns the Net Lending (+) / Net Borrowing (-) (Balance from Current and Capital Account), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Supplementary Items": {
+                "Arrears not in Exceptional Financing": {
+                    "Indicator Key": "BAXEF_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Arrears not in Exceptional Financing, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BAXEF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BAXEF_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Arrears not in Exceptional Financing, US Dollars indicator for France at A frequency."
+                },
+                "Balance on Goods": {
+                    "Indicator Key": "BTGSI_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Balance on Goods, Services, and Income, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTGSI_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTGSI_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Balance on Goods, Services, and Income, US Dollars indicator for France at A frequency."
+                },
+                "Capital Account (Excludes Reserves and Related Items)": {
+                    "Indicator Key": "BKAA_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Capital Account (Excludes Reserves and Related Items), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKAA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKAA_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Capital Account (Excludes Reserves and Related Items), US Dollars indicator for France at A frequency."
+                },
+                "Capital Account": {
+                    "Indicator Key": "BKAA_CD_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Capital Account, Credit (Excludes Reserves and Related Items), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKAA_CD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BKAA_CD_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Capital Account, Credit (Excludes Reserves and Related Items), US Dollars indicator for France at A frequency."
+                },
+                "Current Account": {
+                    "Indicator Key": "BCAXF_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Current Account, Net (Excluding Exceptional Financing), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BCAXF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BCAXF_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Current Account, Net (Excluding Exceptional Financing), US Dollars indicator for France at A frequency."
+                },
+                "Current Acct + Capital Acct + Financial Acct": {
+                    "Indicator Key": "BTCKFA_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Current Acct + Capital Acct + Financial Acct, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTCKFA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTCKFA_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Current Acct + Capital Acct + Financial Acct, US Dollars indicator for France at A frequency."
+                },
+                "Direct Investment": {
+                    "Indicator Key": "IRD_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Direct Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IRD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IRD_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Direct Investment, US Dollars indicator for France at A frequency."
+                },
+                "Direct Investment: Net Incurrence of Liabilities: Debt Instruments (Excluding Exceptional Financing)": {
+                    "Indicator Key": "BFDLDXF_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Direct Investment: Net Incurrence of Liabilities: Debt Instruments (Excluding Exceptional Financing), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFDLDXF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFDLDXF_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Direct Investment: Net Incurrence of Liabilities: Debt Instruments (Excluding Exceptional Financing), US Dollars indicator for France at A frequency."
+                },
+                "Errors and Omissions (with Fund Record)": {
+                    "Indicator Key": "BOPFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Errors and Omissions (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOPFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BOPFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Errors and Omissions (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Financial Account": {
+                    "Indicator Key": "BFFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Financial Account, Net (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Financial Account, Net (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Net Credit and Loans from the IMF (Excluding Reserve Position)": {
+                    "Indicator Key": "BIMF_CD_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Net Credit and Loans from the IMF (Excluding Reserve Position), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BIMF_CD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BIMF_CD_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Net Credit and Loans from the IMF (Excluding Reserve Position), US Dollars indicator for France at A frequency."
+                },
+                "Other Investment Net (with Fund Record)": {
+                    "Indicator Key": "BFOFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Other Investment Net (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Other Investment Net (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Other Investment": {
+                    "Indicator Key": "IRO_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Other Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IRO_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IRO_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Other Investment, US Dollars indicator for France at A frequency."
+                },
+                "Other Investment: Net Incurrence of Liabilities": {
+                    "Indicator Key": "BFOLFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Other Investment: Net Incurrence of Liabilities, Debt Instruments, Of which: Other Financial Corporations Of which: Other Financial Corporations (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Other Investment: Net Incurrence of Liabilities, Debt Instruments, Of which: Other Financial Corporations Of which: Other Financial Corporations (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Other Investment: Other Debt Instruments: Net Incurrence of Liabilities (with Fund Record)": {
+                    "Indicator Key": "BFOLOFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Other Investment: Other Debt Instruments: Net Incurrence of Liabilities (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLOFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLOFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Other Investment: Other Debt Instruments: Net Incurrence of Liabilities (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Other Investment: Other Debt Instruments: Net Incurrence of Liabilities": {
+                    "Indicator Key": "BFOLOGFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Other Investment: Other Debt Instruments: Net Incurrence of Liabilities, General Government (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLOGFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLOGFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Other Investment: Other Debt Instruments: Net Incurrence of Liabilities, General Government (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Other Investment: Other Equity: Net Incurrence of Liabilities (Excluding Exceptional Financing)": {
+                    "Indicator Key": "BFOLEXF_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Other Investment: Other Equity: Net Incurrence of Liabilities (Excluding Exceptional Financing), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLEXF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLEXF_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Other Investment: Other Equity: Net Incurrence of Liabilities (Excluding Exceptional Financing), US Dollars indicator for France at A frequency."
+                },
+                "Personal Remittances: Credit": {
+                    "Indicator Key": "BXPR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Personal Remittances: Credit, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXPR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXPR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Personal Remittances: Credit, US Dollars indicator for France at A frequency."
+                },
+                "Personal Remittances: Debit": {
+                    "Indicator Key": "BMPR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Personal Remittances: Debit, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMPR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMPR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Personal Remittances: Debit, US Dollars indicator for France at A frequency."
+                },
+                "Portfolio Investment": {
+                    "Indicator Key": "IRP_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Portfolio Investment, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IRP_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.IRP_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Portfolio Investment, US Dollars indicator for France at A frequency."
+                },
+                "Reserve Assets (with Fund Record)": {
+                    "Indicator Key": "BFRAFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Reserve Assets (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRAFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRAFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Reserve Assets (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Reserve Position in the Fund (with Fund Record)": {
+                    "Indicator Key": "BFRAIMFFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Reserve Position in the Fund (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRAIMFFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRAIMFFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Reserve Position in the Fund (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Reserves and Related items": {
+                    "Indicator Key": "BTRUE_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Reserves and Related items, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTRUE_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTRUE_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Reserves and Related items, US Dollars indicator for France at A frequency."
+                },
+                "SDR Holdings (with Fund Record)": {
+                    "Indicator Key": "BFRASDRFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, SDR Holdings (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRASDRFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFRASDRFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, SDR Holdings (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Secondary Income": {
+                    "Indicator Key": "BXISXF_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Secondary Income, Credit (Excluding Exceptional Financing), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXISXF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXISXF_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Secondary Income, Credit (Excluding Exceptional Financing), US Dollars indicator for France at A frequency."
+                },
+                "Special Drawing Rights (Allocations) (with Fund Record)": {
+                    "Indicator Key": "BFOLSDRFR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Special Drawing Rights (Allocations) (with Fund Record), US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLSDRFR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BFOLSDRFR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Special Drawing Rights (Allocations) (with Fund Record), US Dollars indicator for France at A frequency."
+                },
+                "Total Current + Capital Account": {
+                    "Indicator Key": "BTCC_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Total Current + Capital Account, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTCC_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BTCC_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Total Current + Capital Account, US Dollars indicator for France at A frequency."
+                },
+                "Total Remittances and Transfers to NPISHs: Credit": {
+                    "Indicator Key": "BXTRTNIPISHS_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Total Remittances and Transfers to NPISHs: Credit, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXTRTNIPISHS_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXTRTNIPISHS_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Total Remittances and Transfers to NPISHs: Credit, US Dollars indicator for France at A frequency."
+                },
+                "Total Remittances and Transfers to NPISHs: Debit": {
+                    "Indicator Key": "BMTRTNIPISHS_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Total Remittances and Transfers to NPISHs: Debit, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMTRTNIPISHS_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMTRTNIPISHS_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Total Remittances and Transfers to NPISHs: Debit, US Dollars indicator for France at A frequency."
+                },
+                "Total Remittances: Credit": {
+                    "Indicator Key": "BXTR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Total Remittances: Credit, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXTR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BXTR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Total Remittances: Credit, US Dollars indicator for France at A frequency."
+                },
+                "Total Remittances: Debit": {
+                    "Indicator Key": "BMTR_BP6_USD",
+                    "Indicator Name": "Supplementary Items, Total Remittances: Debit, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMTR_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.BMTR_BP6_USD",
+                    "Example URL Description": "Returns the Supplementary Items, Total Remittances: Debit, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Total": {
+                "Euros": {
+                    "Indicator Key": "I_BP6_EUR",
+                    "Indicator Name": "Total, Euros",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.I_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.I_BP6_EUR",
+                    "Example URL Description": "Returns the Total, Euros indicator for France at A frequency."
+                },
+                "National Currency": {
+                    "Indicator Key": "I_BP6_XDC",
+                    "Indicator Name": "Total, National Currency",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.I_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.I_BP6_XDC",
+                    "Example URL Description": "Returns the Total, National Currency indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "I_BP6_USD",
+                    "Indicator Name": "Total, US Dollars",
+                    "Indicator Database": "BOP_2019M7",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.I_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/BOP_2019M7/A.FR.I_BP6_USD",
+                    "Example URL Description": "Returns the Total, US Dollars indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

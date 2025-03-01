@@ -1,0 +1,306 @@
+{
+    "Asia and Pacific Regional Economic Outlook (APDREO)": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR",
+        "Sample URL Description": "Returns all the APDREO indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "AU",
+                "Region Name": "Australia"
+            },
+            {
+                "Region Key": "BD",
+                "Region Name": "Bangladesh"
+            },
+            {
+                "Region Key": "BT",
+                "Region Name": "Bhutan"
+            },
+            {
+                "Region Key": "BN",
+                "Region Name": "Brunei Darussalam"
+            },
+            {
+                "Region Key": "KH",
+                "Region Name": "Cambodia"
+            },
+            {
+                "Region Key": "HK",
+                "Region Name": "Hong Kong"
+            },
+            {
+                "Region Key": "MO",
+                "Region Name": "Macao"
+            },
+            {
+                "Region Key": "CN",
+                "Region Name": "China"
+            },
+            {
+                "Region Key": "FJ",
+                "Region Name": "Fiji"
+            },
+            {
+                "Region Key": "IN",
+                "Region Name": "India"
+            },
+            {
+                "Region Key": "ID",
+                "Region Name": "Indonesia"
+            },
+            {
+                "Region Key": "JP",
+                "Region Name": "Japan"
+            },
+            {
+                "Region Key": "KI",
+                "Region Name": "Kiribati"
+            },
+            {
+                "Region Key": "KR",
+                "Region Name": "Korea, Republic of"
+            },
+            {
+                "Region Key": "LA",
+                "Region Name": "Lao People`s Democratic Republic"
+            },
+            {
+                "Region Key": "MY",
+                "Region Name": "Malaysia"
+            },
+            {
+                "Region Key": "MV",
+                "Region Name": "Maldives"
+            },
+            {
+                "Region Key": "MH",
+                "Region Name": "Marshall islands"
+            },
+            {
+                "Region Key": "FM",
+                "Region Name": "Micronesia, Federated States of"
+            },
+            {
+                "Region Key": "MN",
+                "Region Name": "Mongolia"
+            },
+            {
+                "Region Key": "MM",
+                "Region Name": "Myanmar"
+            },
+            {
+                "Region Key": "NP",
+                "Region Name": "Nepal"
+            },
+            {
+                "Region Key": "NZ",
+                "Region Name": "New Zealand"
+            },
+            {
+                "Region Key": "PW",
+                "Region Name": "Palau"
+            },
+            {
+                "Region Key": "PG",
+                "Region Name": "Papua New Guinea"
+            },
+            {
+                "Region Key": "PH",
+                "Region Name": "Philippines"
+            },
+            {
+                "Region Key": "WS",
+                "Region Name": "Samoa"
+            },
+            {
+                "Region Key": "SG",
+                "Region Name": "Singapore"
+            },
+            {
+                "Region Key": "SB",
+                "Region Name": "Solomon Islands"
+            },
+            {
+                "Region Key": "LK",
+                "Region Name": "Sri Lanka"
+            },
+            {
+                "Region Key": "TW",
+                "Region Name": "Taiwan, Province of China"
+            },
+            {
+                "Region Key": "TH",
+                "Region Name": "Thailand"
+            },
+            {
+                "Region Key": "TL",
+                "Region Name": "Timor-Leste"
+            },
+            {
+                "Region Key": "TO",
+                "Region Name": "Tonga"
+            },
+            {
+                "Region Key": "TV",
+                "Region Name": "Tuvalu"
+            },
+            {
+                "Region Key": "VU",
+                "Region Name": "Vanuatu"
+            },
+            {
+                "Region Key": "VN",
+                "Region Name": "Viet Nam"
+            },
+            {
+                "Region Key": "1C_ALLC",
+                "Region Name": "All Countries"
+            },
+            {
+                "Region Key": "1C_ALLG",
+                "Region Name": "All Country Groups"
+            },
+            {
+                "Region Key": "R4",
+                "Region Name": "ASEAN (Countries for the Association of South-East Asian Nations)"
+            },
+            {
+                "Region Key": "1C_229",
+                "Region Name": "Asia"
+            },
+            {
+                "Region Key": "S2",
+                "Region Name": "Eastern Asia"
+            },
+            {
+                "Region Key": "1C_Industrial_Asia",
+                "Region Name": "Industrial Asia"
+            },
+            {
+                "Region Key": "1C_PICs_and_Small_States",
+                "Region Name": "PICs and Small States"
+            },
+            {
+                "Region Key": "1C_9502",
+                "Region Name": "South Asia"
+            }
+        ],
+        "Indicators": {
+            "Balance of Payments": {
+                "Current Account": {
+                    "Indicator Key": "BCA_GDP_BP6",
+                    "Indicator Name": "Balance of Payments, Current Account, Total, Net(BPM6), percent of GDP in U.S. dollars",
+                    "Indicator Database": "APDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.BCA_GDP_BP6?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.BCA_GDP_BP6",
+                    "Example URL Description": "Returns the Balance of Payments, Current Account, Total, Net(BPM6), percent of GDP in U.S. dollars indicator for France at A frequency."
+                }
+            },
+            "Consumer Prices": {
+                "end of period": {
+                    "Indicator Key": "PCPIE_PCH",
+                    "Indicator Name": "Consumer Prices, end of period, percent change",
+                    "Indicator Database": "APDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.PCPIE_PCH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.PCPIE_PCH",
+                    "Example URL Description": "Returns the Consumer Prices, end of period, percent change indicator for France at A frequency."
+                },
+                "period average": {
+                    "Indicator Key": "PCPI_PCH",
+                    "Indicator Name": "Consumer Prices, period average, percent change",
+                    "Indicator Database": "APDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.PCPI_PCH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.PCPI_PCH",
+                    "Example URL Description": "Returns the Consumer Prices, period average, percent change indicator for France at A frequency."
+                }
+            },
+            "General government net lending/borrowing": {
+                "percent of fiscal year GDP": {
+                    "Indicator Key": "GGXCNL_GDP",
+                    "Indicator Name": "General government net lending/borrowing, percent of fiscal year GDP",
+                    "Indicator Database": "APDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.GGXCNL_GDP?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.GGXCNL_GDP",
+                    "Example URL Description": "Returns the General government net lending/borrowing, percent of fiscal year GDP indicator for France at A frequency."
+                }
+            },
+            "Gross domestic product": {
+                "constant prices": {
+                    "Indicator Key": "NGDP_R_PPP_PC_PCH",
+                    "Indicator Name": "Gross domestic product, constant prices, purchasing power parity, per capita, percent change ",
+                    "Indicator Database": "APDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.NGDP_R_PPP_PC_PCH?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.NGDP_R_PPP_PC_PCH",
+                    "Example URL Description": "Returns the Gross domestic product, constant prices, purchasing power parity, per capita, percent change  indicator for France at A frequency."
+                }
+            },
+            "Unemployment rate": {
+                "General": {
+                    "Indicator Key": "LUR",
+                    "Indicator Name": "Unemployment rate",
+                    "Indicator Database": "APDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.LUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.LUR",
+                    "Example URL Description": "Returns the Unemployment rate indicator for France at A frequency."
+                }
+            },
+            "All Indicators": {
+                "General": {
+                    "Indicator Key": "All_Indicators",
+                    "Indicator Name": "All Indicators",
+                    "Indicator Database": "APDREO",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.All_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/APDREO/A.FR.All_Indicators",
+                    "Example URL Description": "Returns the All Indicators indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}
