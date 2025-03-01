@@ -1,0 +1,766 @@
+{
+    "Fiscal Monitor (FM) April 2017": {
+        "Base": {
+            "Database ID": "FM201704",
+            "Database Name": "Fiscal Monitor (FM) April 2017",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR",
+            "Example URL Description": "Returns all the FM201704 indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ],
+        "Country": [
+            {
+                "ID": "DZ",
+                "Value": "Algeria"
+            },
+            {
+                "ID": "AO",
+                "Value": "Angola"
+            },
+            {
+                "ID": "AR",
+                "Value": "Argentina"
+            },
+            {
+                "ID": "AM",
+                "Value": "Armenia"
+            },
+            {
+                "ID": "AU",
+                "Value": "Australia"
+            },
+            {
+                "ID": "AT",
+                "Value": "Austria"
+            },
+            {
+                "ID": "AZ",
+                "Value": "Azerbaijan"
+            },
+            {
+                "ID": "BH",
+                "Value": "Bahrain"
+            },
+            {
+                "ID": "BD",
+                "Value": "Bangladesh"
+            },
+            {
+                "ID": "BY",
+                "Value": "Belarus"
+            },
+            {
+                "ID": "BE",
+                "Value": "Belgium"
+            },
+            {
+                "ID": "BJ",
+                "Value": "Benin"
+            },
+            {
+                "ID": "BO",
+                "Value": "Bolivia"
+            },
+            {
+                "ID": "BR",
+                "Value": "Brazil"
+            },
+            {
+                "ID": "BN",
+                "Value": "Brunei Darussalam"
+            },
+            {
+                "ID": "BG",
+                "Value": "Bulgaria"
+            },
+            {
+                "ID": "BF",
+                "Value": "Burkina Faso"
+            },
+            {
+                "ID": "KH",
+                "Value": "Cambodia"
+            },
+            {
+                "ID": "CM",
+                "Value": "Cameroon"
+            },
+            {
+                "ID": "CA",
+                "Value": "Canada"
+            },
+            {
+                "ID": "TD",
+                "Value": "Chad"
+            },
+            {
+                "ID": "CL",
+                "Value": "Chile"
+            },
+            {
+                "ID": "HK",
+                "Value": "Hong Kong, China"
+            },
+            {
+                "ID": "CN",
+                "Value": "China"
+            },
+            {
+                "ID": "CO",
+                "Value": "Colombia"
+            },
+            {
+                "ID": "CD",
+                "Value": "Congo, the Democratic Republic of the"
+            },
+            {
+                "ID": "CG",
+                "Value": "Congo"
+            },
+            {
+                "ID": "CI",
+                "Value": "Cote d`Ivoire"
+            },
+            {
+                "ID": "HR",
+                "Value": "Croatia"
+            },
+            {
+                "ID": "CY",
+                "Value": "Cyprus"
+            },
+            {
+                "ID": "CZ",
+                "Value": "Czech Republic"
+            },
+            {
+                "ID": "DK",
+                "Value": "Denmark"
+            },
+            {
+                "ID": "DO",
+                "Value": "Dominican Republic"
+            },
+            {
+                "ID": "EC",
+                "Value": "Ecuador"
+            },
+            {
+                "ID": "EG",
+                "Value": "Egypt"
+            },
+            {
+                "ID": "GQ",
+                "Value": "Equatorial Guinea"
+            },
+            {
+                "ID": "EE",
+                "Value": "Estonia"
+            },
+            {
+                "ID": "ET",
+                "Value": "Ethiopia"
+            },
+            {
+                "ID": "U2",
+                "Value": "Euro area (Member States and Institutions of the Euro Area) changing composition"
+            },
+            {
+                "ID": "FI",
+                "Value": "Finland"
+            },
+            {
+                "ID": "FR",
+                "Value": "France"
+            },
+            {
+                "ID": "GA",
+                "Value": "Gabon"
+            },
+            {
+                "ID": "GE",
+                "Value": "Georgia"
+            },
+            {
+                "ID": "DE",
+                "Value": "Germany"
+            },
+            {
+                "ID": "GH",
+                "Value": "Ghana"
+            },
+            {
+                "ID": "GR",
+                "Value": "Greece"
+            },
+            {
+                "ID": "GN",
+                "Value": "Guinea"
+            },
+            {
+                "ID": "HT",
+                "Value": "Haiti"
+            },
+            {
+                "ID": "HN",
+                "Value": "Honduras"
+            },
+            {
+                "ID": "HU",
+                "Value": "Hungary"
+            },
+            {
+                "ID": "IS",
+                "Value": "Iceland"
+            },
+            {
+                "ID": "IN",
+                "Value": "India"
+            },
+            {
+                "ID": "ID",
+                "Value": "Indonesia"
+            },
+            {
+                "ID": "IR",
+                "Value": "Iran, Islamic Republic of"
+            },
+            {
+                "ID": "IQ",
+                "Value": "Iraq"
+            },
+            {
+                "ID": "IE",
+                "Value": "Ireland"
+            },
+            {
+                "ID": "IL",
+                "Value": "Israel"
+            },
+            {
+                "ID": "IT",
+                "Value": "Italy"
+            },
+            {
+                "ID": "JP",
+                "Value": "Japan"
+            },
+            {
+                "ID": "JO",
+                "Value": "Jordan"
+            },
+            {
+                "ID": "KZ",
+                "Value": "Kazakhstan"
+            },
+            {
+                "ID": "KE",
+                "Value": "Kenya"
+            },
+            {
+                "ID": "KR",
+                "Value": "Korea, Republic of"
+            },
+            {
+                "ID": "KW",
+                "Value": "Kuwait"
+            },
+            {
+                "ID": "KG",
+                "Value": "Kyrgyzstan"
+            },
+            {
+                "ID": "LA",
+                "Value": "Lao People`s Democratic Republic"
+            },
+            {
+                "ID": "LV",
+                "Value": "Latvia"
+            },
+            {
+                "ID": "LY",
+                "Value": "Libya"
+            },
+            {
+                "ID": "LT",
+                "Value": "Lithuania"
+            },
+            {
+                "ID": "LU",
+                "Value": "Luxembourg"
+            },
+            {
+                "ID": "MG",
+                "Value": "Madagascar"
+            },
+            {
+                "ID": "MY",
+                "Value": "Malaysia"
+            },
+            {
+                "ID": "ML",
+                "Value": "Mali"
+            },
+            {
+                "ID": "MT",
+                "Value": "Malta"
+            },
+            {
+                "ID": "MX",
+                "Value": "Mexico"
+            },
+            {
+                "ID": "MD",
+                "Value": "Moldova, Republic of"
+            },
+            {
+                "ID": "MN",
+                "Value": "Mongolia"
+            },
+            {
+                "ID": "MA",
+                "Value": "Morocco"
+            },
+            {
+                "ID": "MZ",
+                "Value": "Mozambique"
+            },
+            {
+                "ID": "MM",
+                "Value": "Myanmar"
+            },
+            {
+                "ID": "NP",
+                "Value": "Nepal"
+            },
+            {
+                "ID": "NL",
+                "Value": "Netherlands"
+            },
+            {
+                "ID": "NZ",
+                "Value": "New Zealand"
+            },
+            {
+                "ID": "NI",
+                "Value": "Nicaragua"
+            },
+            {
+                "ID": "NE",
+                "Value": "Niger"
+            },
+            {
+                "ID": "NG",
+                "Value": "Nigeria"
+            },
+            {
+                "ID": "NO",
+                "Value": "Norway"
+            },
+            {
+                "ID": "OM",
+                "Value": "Oman"
+            },
+            {
+                "ID": "PK",
+                "Value": "Pakistan"
+            },
+            {
+                "ID": "PG",
+                "Value": "Papua New Guinea"
+            },
+            {
+                "ID": "PE",
+                "Value": "Peru"
+            },
+            {
+                "ID": "PH",
+                "Value": "Philippines"
+            },
+            {
+                "ID": "PL",
+                "Value": "Poland"
+            },
+            {
+                "ID": "PT",
+                "Value": "Portugal"
+            },
+            {
+                "ID": "QA",
+                "Value": "Qatar"
+            },
+            {
+                "ID": "RO",
+                "Value": "Romania"
+            },
+            {
+                "ID": "RU",
+                "Value": "Russian Federation"
+            },
+            {
+                "ID": "RW",
+                "Value": "Rwanda"
+            },
+            {
+                "ID": "SA",
+                "Value": "Saudi Arabia"
+            },
+            {
+                "ID": "SN",
+                "Value": "Senegal"
+            },
+            {
+                "ID": "SG",
+                "Value": "Singapore"
+            },
+            {
+                "ID": "SK",
+                "Value": "Slovakia"
+            },
+            {
+                "ID": "SI",
+                "Value": "Slovenia"
+            },
+            {
+                "ID": "ZA",
+                "Value": "South Africa"
+            },
+            {
+                "ID": "ES",
+                "Value": "Spain"
+            },
+            {
+                "ID": "LK",
+                "Value": "Sri Lanka"
+            },
+            {
+                "ID": "SD",
+                "Value": "Sudan"
+            },
+            {
+                "ID": "SE",
+                "Value": "Sweden"
+            },
+            {
+                "ID": "CH",
+                "Value": "Switzerland"
+            },
+            {
+                "ID": "SY",
+                "Value": "Syrian Arab Republic"
+            },
+            {
+                "ID": "TJ",
+                "Value": "Tajikistan"
+            },
+            {
+                "ID": "TZ",
+                "Value": "Tanzania, United Republic of"
+            },
+            {
+                "ID": "TH",
+                "Value": "Thailand"
+            },
+            {
+                "ID": "TL",
+                "Value": "Timor-Leste"
+            },
+            {
+                "ID": "TT",
+                "Value": "Trinidad and Tobago"
+            },
+            {
+                "ID": "TR",
+                "Value": "Turkey"
+            },
+            {
+                "ID": "TM",
+                "Value": "Turkmenistan"
+            },
+            {
+                "ID": "UG",
+                "Value": "Uganda"
+            },
+            {
+                "ID": "UA",
+                "Value": "Ukraine"
+            },
+            {
+                "ID": "AE",
+                "Value": "United Arab Emirates"
+            },
+            {
+                "ID": "GB",
+                "Value": "United Kingdom"
+            },
+            {
+                "ID": "US",
+                "Value": "United States"
+            },
+            {
+                "ID": "UY",
+                "Value": "Uruguay"
+            },
+            {
+                "ID": "UZ",
+                "Value": "Uzbekistan"
+            },
+            {
+                "ID": "VE",
+                "Value": "Venezuela, Bolivarian Republic"
+            },
+            {
+                "ID": "VN",
+                "Value": "Viet Nam"
+            },
+            {
+                "ID": "YE",
+                "Value": "Yemen"
+            },
+            {
+                "ID": "ZM",
+                "Value": "Zambia"
+            },
+            {
+                "ID": "ZW",
+                "Value": "Zimbabwe"
+            },
+            {
+                "ID": "XR29",
+                "Value": "Advanced Economies (IMF)"
+            },
+            {
+                "ID": "XR23",
+                "Value": "Advanced Economies G-20 (IMF)"
+            },
+            {
+                "ID": "1C_ALLC",
+                "Value": "All Countries"
+            },
+            {
+                "ID": "1C_ALL",
+                "Value": "All Countries and Country Groups"
+            },
+            {
+                "ID": "1C_ALLG",
+                "Value": "All Country Groups"
+            },
+            {
+                "ID": "XR24",
+                "Value": "Emerging Economies G-20 (IMF)"
+            },
+            {
+                "ID": "1C_EMMA",
+                "Value": "Emerging Market and Middle-Income Africa"
+            },
+            {
+                "ID": "XS2",
+                "Value": "Emerging Asia (IMF)"
+            },
+            {
+                "ID": "1C_035",
+                "Value": "Emerging Market and Middle-Income Economies"
+            },
+            {
+                "ID": "1C_EMEUR",
+                "Value": "Emerging Europe"
+            },
+            {
+                "ID": "1C_EMFLAT",
+                "Value": "Emerging Market Latin America"
+            },
+            {
+                "ID": "1C_EMMENA",
+                "Value": "Emerging Market Middle East and North Africa"
+            },
+            {
+                "ID": "1C_EMMENAP",
+                "Value": "Emerging Market and Middle-Income Middle East and North Africa and Pakistan"
+            },
+            {
+                "ID": "R22",
+                "Value": "G20 (Argentina, Australia, Brazil, Canada, China, European Union, France, Germany, India,Indonesia, Italy, Japan, Mexico, Russia, Saudi Arabia, South Africa, South Korea, Turkey, United Kingdom, United States)"
+            },
+            {
+                "ID": "R23",
+                "Value": "Major Advanced Economies - G7"
+            },
+            {
+                "ID": "1C_230",
+                "Value": "Low-Income Asia"
+            },
+            {
+                "ID": "1C_229",
+                "Value": "Low-Income Countries"
+            },
+            {
+                "ID": "1C_231",
+                "Value": "Low-Income Latin America"
+            },
+            {
+                "ID": "1C_234",
+                "Value": "Low-Income Others"
+            },
+            {
+                "ID": "1C_232",
+                "Value": "Low-Income Sub-Saharan Africa"
+            },
+            {
+                "ID": "1C_235",
+                "Value": "Low-Income Oil Producers"
+            },
+            {
+                "ID": "1C_Metadata by Country",
+                "Value": "Metadata by Country"
+            },
+            {
+                "ID": "1C_Oil producers",
+                "Value": "Oil producers"
+            }
+        ],
+        "Indicator": {
+            "Cyclically adjusted balance (% of potential GDP)": {
+                "General": {
+                    "ID": "GGCB_G01_PGDP_PT",
+                    "Value": "Cyclically adjusted balance (% of potential GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGCB_G01_PGDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGCB_G01_PGDP_PT",
+                    "Example URL Description": "Returns the Cyclically adjusted balance (% of potential GDP) indicator for France at A frequency."
+                }
+            },
+            "Cyclically adjusted primary balance (% of potential GDP)": {
+                "General": {
+                    "ID": "GGCBP_G01_PGDP_PT",
+                    "Value": "Cyclically adjusted primary balance (% of potential GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGCBP_G01_PGDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGCBP_G01_PGDP_PT",
+                    "Example URL Description": "Returns the Cyclically adjusted primary balance (% of potential GDP) indicator for France at A frequency."
+                }
+            },
+            "Expenditure (% of GDP)": {
+                "General": {
+                    "ID": "G_X_G01_GDP_PT",
+                    "Value": "Expenditure (% of GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.G_X_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.G_X_G01_GDP_PT",
+                    "Example URL Description": "Returns the Expenditure (% of GDP) indicator for France at A frequency."
+                }
+            },
+            "Gross debt (% of GDP)": {
+                "General": {
+                    "ID": "G_XWDG_G01_GDP_PT",
+                    "Value": "Gross debt (% of GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.G_XWDG_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.G_XWDG_G01_GDP_PT",
+                    "Example URL Description": "Returns the Gross debt (% of GDP) indicator for France at A frequency."
+                }
+            },
+            "Net debt (% of GDP)": {
+                "General": {
+                    "ID": "GGXWDN_G01_GDP_PT",
+                    "Value": "Net debt (% of GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGXWDN_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGXWDN_G01_GDP_PT",
+                    "Example URL Description": "Returns the Net debt (% of GDP) indicator for France at A frequency."
+                }
+            },
+            "Net lending/borrowing (also referred as overall balance) (% of GDP)": {
+                "General": {
+                    "ID": "GGXCNL_G01_GDP_PT",
+                    "Value": "Net lending/borrowing (also referred as overall balance) (% of GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGXCNL_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGXCNL_G01_GDP_PT",
+                    "Example URL Description": "Returns the Net lending/borrowing (also referred as overall balance) (% of GDP) indicator for France at A frequency."
+                }
+            },
+            "Primary net lending/borrowing (also referred as primary balance) (% of GDP)": {
+                "General": {
+                    "ID": "GGXONLB_G01_GDP_PT",
+                    "Value": "Primary net lending/borrowing (also referred as primary balance) (% of GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGXONLB_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGXONLB_G01_GDP_PT",
+                    "Example URL Description": "Returns the Primary net lending/borrowing (also referred as primary balance) (% of GDP) indicator for France at A frequency."
+                }
+            },
+            "Revenue (% of GDP)": {
+                "General": {
+                    "ID": "GGR_G01_GDP_PT",
+                    "Value": "Revenue (% of GDP)",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGR_G01_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.GGR_G01_GDP_PT",
+                    "Example URL Description": "Returns the Revenue (% of GDP) indicator for France at A frequency."
+                }
+            },
+            "All Indicators": {
+                "General": {
+                    "ID": "All_Indicators",
+                    "Value": "All Indicators",
+                    "Indicator Database": "FM201704",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.All_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FM201704/A.FR.All_Indicators",
+                    "Example URL Description": "Returns the All Indicators indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

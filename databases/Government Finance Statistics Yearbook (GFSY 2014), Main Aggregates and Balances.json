@@ -1,0 +1,1350 @@
+{
+    "Government Finance Statistics Yearbook (GFSY 2014), Main Aggregates and Balances": {
+        "Base": {
+            "Database ID": "GFSYMAB2014",
+            "Database Name": "Government Finance Statistics Yearbook (GFSY 2014), Main Aggregates and Balances",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR",
+            "Example URL Description": "Returns all the GFSYMAB2014 indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ],
+        "Area": [
+            {
+                "ID": "512",
+                "Value": "Afghanistan, Islamic Republic of"
+            },
+            {
+                "ID": "914",
+                "Value": "Albania"
+            },
+            {
+                "ID": "612",
+                "Value": "Algeria"
+            },
+            {
+                "ID": "614",
+                "Value": "Angola"
+            },
+            {
+                "ID": "312",
+                "Value": "Anguilla"
+            },
+            {
+                "ID": "311",
+                "Value": "Antigua and Barbuda"
+            },
+            {
+                "ID": "213",
+                "Value": "Argentina"
+            },
+            {
+                "ID": "911",
+                "Value": "Armenia, Republic of"
+            },
+            {
+                "ID": "314",
+                "Value": "Aruba"
+            },
+            {
+                "ID": "193",
+                "Value": "Australia"
+            },
+            {
+                "ID": "122",
+                "Value": "Austria"
+            },
+            {
+                "ID": "912",
+                "Value": "Azerbaijan, Republic of"
+            },
+            {
+                "ID": "313",
+                "Value": "Bahamas, The"
+            },
+            {
+                "ID": "419",
+                "Value": "Bahrain, Kingdom of"
+            },
+            {
+                "ID": "513",
+                "Value": "Bangladesh"
+            },
+            {
+                "ID": "316",
+                "Value": "Barbados"
+            },
+            {
+                "ID": "913",
+                "Value": "Belarus"
+            },
+            {
+                "ID": "124",
+                "Value": "Belgium"
+            },
+            {
+                "ID": "339",
+                "Value": "Belize"
+            },
+            {
+                "ID": "638",
+                "Value": "Benin"
+            },
+            {
+                "ID": "514",
+                "Value": "Bhutan"
+            },
+            {
+                "ID": "218",
+                "Value": "Bolivia"
+            },
+            {
+                "ID": "963",
+                "Value": "Bosnia and Herzegovina"
+            },
+            {
+                "ID": "616",
+                "Value": "Botswana"
+            },
+            {
+                "ID": "223",
+                "Value": "Brazil"
+            },
+            {
+                "ID": "516",
+                "Value": "Brunei Darussalam"
+            },
+            {
+                "ID": "918",
+                "Value": "Bulgaria"
+            },
+            {
+                "ID": "748",
+                "Value": "Burkina Faso"
+            },
+            {
+                "ID": "618",
+                "Value": "Burundi"
+            },
+            {
+                "ID": "624",
+                "Value": "Cabo Verde"
+            },
+            {
+                "ID": "522",
+                "Value": "Cambodia"
+            },
+            {
+                "ID": "622",
+                "Value": "Cameroon"
+            },
+            {
+                "ID": "156",
+                "Value": "Canada"
+            },
+            {
+                "ID": "377",
+                "Value": "Cayman Islands"
+            },
+            {
+                "ID": "626",
+                "Value": "Central African Republic"
+            },
+            {
+                "ID": "628",
+                "Value": "Chad"
+            },
+            {
+                "ID": "228",
+                "Value": "Chile"
+            },
+            {
+                "ID": "532",
+                "Value": "China, P.R.: Hong Kong"
+            },
+            {
+                "ID": "546",
+                "Value": "China, P.R.: Macao"
+            },
+            {
+                "ID": "924",
+                "Value": "China, P.R.: Mainland"
+            },
+            {
+                "ID": "233",
+                "Value": "Colombia"
+            },
+            {
+                "ID": "632",
+                "Value": "Comoros"
+            },
+            {
+                "ID": "636",
+                "Value": "Congo, Democratic Republic of"
+            },
+            {
+                "ID": "634",
+                "Value": "Congo, Republic of"
+            },
+            {
+                "ID": "815",
+                "Value": "Cook Islands"
+            },
+            {
+                "ID": "238",
+                "Value": "Costa Rica"
+            },
+            {
+                "ID": "662",
+                "Value": "Cote d'Ivoire"
+            },
+            {
+                "ID": "960",
+                "Value": "Croatia"
+            },
+            {
+                "ID": "355",
+                "Value": "Curacao & St. Maarten"
+            },
+            {
+                "ID": "423",
+                "Value": "Cyprus"
+            },
+            {
+                "ID": "935",
+                "Value": "Czech Republic"
+            },
+            {
+                "ID": "128",
+                "Value": "Denmark"
+            },
+            {
+                "ID": "611",
+                "Value": "Djibouti"
+            },
+            {
+                "ID": "321",
+                "Value": "Dominica"
+            },
+            {
+                "ID": "243",
+                "Value": "Dominican Republic"
+            },
+            {
+                "ID": "248",
+                "Value": "Ecuador"
+            },
+            {
+                "ID": "469",
+                "Value": "Egypt"
+            },
+            {
+                "ID": "253",
+                "Value": "El Salvador"
+            },
+            {
+                "ID": "642",
+                "Value": "Equatorial Guinea"
+            },
+            {
+                "ID": "643",
+                "Value": "Eritrea"
+            },
+            {
+                "ID": "939",
+                "Value": "Estonia"
+            },
+            {
+                "ID": "644",
+                "Value": "Ethiopia"
+            },
+            {
+                "ID": "163",
+                "Value": "Euro Area"
+            },
+            {
+                "ID": "819",
+                "Value": "Fiji"
+            },
+            {
+                "ID": "172",
+                "Value": "Finland"
+            },
+            {
+                "ID": "132",
+                "Value": "France"
+            },
+            {
+                "ID": "646",
+                "Value": "Gabon"
+            },
+            {
+                "ID": "648",
+                "Value": "Gambia, The"
+            },
+            {
+                "ID": "915",
+                "Value": "Georgia"
+            },
+            {
+                "ID": "134",
+                "Value": "Germany"
+            },
+            {
+                "ID": "652",
+                "Value": "Ghana"
+            },
+            {
+                "ID": "174",
+                "Value": "Greece"
+            },
+            {
+                "ID": "328",
+                "Value": "Grenada"
+            },
+            {
+                "ID": "258",
+                "Value": "Guatemala"
+            },
+            {
+                "ID": "656",
+                "Value": "Guinea"
+            },
+            {
+                "ID": "654",
+                "Value": "Guinea-Bissau"
+            },
+            {
+                "ID": "336",
+                "Value": "Guyana"
+            },
+            {
+                "ID": "263",
+                "Value": "Haiti"
+            },
+            {
+                "ID": "268",
+                "Value": "Honduras"
+            },
+            {
+                "ID": "944",
+                "Value": "Hungary"
+            },
+            {
+                "ID": "176",
+                "Value": "Iceland"
+            },
+            {
+                "ID": "534",
+                "Value": "India"
+            },
+            {
+                "ID": "536",
+                "Value": "Indonesia"
+            },
+            {
+                "ID": "429",
+                "Value": "Iran, Islamic Republic of"
+            },
+            {
+                "ID": "433",
+                "Value": "Iraq"
+            },
+            {
+                "ID": "178",
+                "Value": "Ireland"
+            },
+            {
+                "ID": "436",
+                "Value": "Israel"
+            },
+            {
+                "ID": "136",
+                "Value": "Italy"
+            },
+            {
+                "ID": "343",
+                "Value": "Jamaica"
+            },
+            {
+                "ID": "158",
+                "Value": "Japan"
+            },
+            {
+                "ID": "439",
+                "Value": "Jordan"
+            },
+            {
+                "ID": "916",
+                "Value": "Kazakhstan"
+            },
+            {
+                "ID": "664",
+                "Value": "Kenya"
+            },
+            {
+                "ID": "826",
+                "Value": "Kiribati"
+            },
+            {
+                "ID": "542",
+                "Value": "Korea, Republic of"
+            },
+            {
+                "ID": "967",
+                "Value": "Kosovo, Republic of"
+            },
+            {
+                "ID": "443",
+                "Value": "Kuwait"
+            },
+            {
+                "ID": "917",
+                "Value": "Kyrgyz Republic"
+            },
+            {
+                "ID": "544",
+                "Value": "Lao People's Democratic Republic"
+            },
+            {
+                "ID": "941",
+                "Value": "Latvia"
+            },
+            {
+                "ID": "446",
+                "Value": "Lebanon"
+            },
+            {
+                "ID": "666",
+                "Value": "Lesotho"
+            },
+            {
+                "ID": "668",
+                "Value": "Liberia"
+            },
+            {
+                "ID": "672",
+                "Value": "Libya"
+            },
+            {
+                "ID": "946",
+                "Value": "Lithuania"
+            },
+            {
+                "ID": "137",
+                "Value": "Luxembourg"
+            },
+            {
+                "ID": "962",
+                "Value": "Macedonia, FYR"
+            },
+            {
+                "ID": "674",
+                "Value": "Madagascar"
+            },
+            {
+                "ID": "676",
+                "Value": "Malawi"
+            },
+            {
+                "ID": "548",
+                "Value": "Malaysia"
+            },
+            {
+                "ID": "556",
+                "Value": "Maldives"
+            },
+            {
+                "ID": "678",
+                "Value": "Mali"
+            },
+            {
+                "ID": "181",
+                "Value": "Malta"
+            },
+            {
+                "ID": "867",
+                "Value": "Marshall Islands, Republic of"
+            },
+            {
+                "ID": "682",
+                "Value": "Mauritania"
+            },
+            {
+                "ID": "684",
+                "Value": "Mauritius"
+            },
+            {
+                "ID": "273",
+                "Value": "Mexico"
+            },
+            {
+                "ID": "868",
+                "Value": "Micronesia, Federated States of"
+            },
+            {
+                "ID": "921",
+                "Value": "Moldova"
+            },
+            {
+                "ID": "183",
+                "Value": "Monaco"
+            },
+            {
+                "ID": "948",
+                "Value": "Mongolia"
+            },
+            {
+                "ID": "943",
+                "Value": "Montenegro"
+            },
+            {
+                "ID": "351",
+                "Value": "Montserrat"
+            },
+            {
+                "ID": "686",
+                "Value": "Morocco"
+            },
+            {
+                "ID": "688",
+                "Value": "Mozambique"
+            },
+            {
+                "ID": "518",
+                "Value": "Myanmar"
+            },
+            {
+                "ID": "728",
+                "Value": "Namibia"
+            },
+            {
+                "ID": "836",
+                "Value": "Nauru"
+            },
+            {
+                "ID": "558",
+                "Value": "Nepal"
+            },
+            {
+                "ID": "138",
+                "Value": "Netherlands"
+            },
+            {
+                "ID": "353",
+                "Value": "Netherlands Antilles"
+            },
+            {
+                "ID": "196",
+                "Value": "New Zealand"
+            },
+            {
+                "ID": "278",
+                "Value": "Nicaragua"
+            },
+            {
+                "ID": "692",
+                "Value": "Niger"
+            },
+            {
+                "ID": "694",
+                "Value": "Nigeria"
+            },
+            {
+                "ID": "142",
+                "Value": "Norway"
+            },
+            {
+                "ID": "449",
+                "Value": "Oman"
+            },
+            {
+                "ID": "564",
+                "Value": "Pakistan"
+            },
+            {
+                "ID": "565",
+                "Value": "Palau"
+            },
+            {
+                "ID": "283",
+                "Value": "Panama"
+            },
+            {
+                "ID": "853",
+                "Value": "Papua New Guinea"
+            },
+            {
+                "ID": "288",
+                "Value": "Paraguay"
+            },
+            {
+                "ID": "293",
+                "Value": "Peru"
+            },
+            {
+                "ID": "566",
+                "Value": "Philippines"
+            },
+            {
+                "ID": "964",
+                "Value": "Poland"
+            },
+            {
+                "ID": "182",
+                "Value": "Portugal"
+            },
+            {
+                "ID": "453",
+                "Value": "Qatar"
+            },
+            {
+                "ID": "968",
+                "Value": "Romania"
+            },
+            {
+                "ID": "922",
+                "Value": "Russian Federation"
+            },
+            {
+                "ID": "714",
+                "Value": "Rwanda"
+            },
+            {
+                "ID": "862",
+                "Value": "Samoa"
+            },
+            {
+                "ID": "135",
+                "Value": "San Marino"
+            },
+            {
+                "ID": "716",
+                "Value": "Sao Tome and Principe"
+            },
+            {
+                "ID": "456",
+                "Value": "Saudi Arabia"
+            },
+            {
+                "ID": "722",
+                "Value": "Senegal"
+            },
+            {
+                "ID": "965",
+                "Value": "Serbia and Montenegro"
+            },
+            {
+                "ID": "942",
+                "Value": "Serbia, Republic of"
+            },
+            {
+                "ID": "718",
+                "Value": "Seychelles"
+            },
+            {
+                "ID": "724",
+                "Value": "Sierra Leone"
+            },
+            {
+                "ID": "576",
+                "Value": "Singapore"
+            },
+            {
+                "ID": "936",
+                "Value": "Slovak Republic"
+            },
+            {
+                "ID": "961",
+                "Value": "Slovenia"
+            },
+            {
+                "ID": "813",
+                "Value": "Solomon Islands"
+            },
+            {
+                "ID": "726",
+                "Value": "Somalia"
+            },
+            {
+                "ID": "199",
+                "Value": "South Africa"
+            },
+            {
+                "ID": "733",
+                "Value": "South Sudan"
+            },
+            {
+                "ID": "184",
+                "Value": "Spain"
+            },
+            {
+                "ID": "524",
+                "Value": "Sri Lanka"
+            },
+            {
+                "ID": "361",
+                "Value": "St. Kitts and Nevis"
+            },
+            {
+                "ID": "362",
+                "Value": "St. Lucia"
+            },
+            {
+                "ID": "364",
+                "Value": "St. Vincent and the Grenadines"
+            },
+            {
+                "ID": "732",
+                "Value": "Sudan"
+            },
+            {
+                "ID": "366",
+                "Value": "Suriname"
+            },
+            {
+                "ID": "734",
+                "Value": "Swaziland"
+            },
+            {
+                "ID": "144",
+                "Value": "Sweden"
+            },
+            {
+                "ID": "146",
+                "Value": "Switzerland"
+            },
+            {
+                "ID": "463",
+                "Value": "Syrian Arab Republic"
+            },
+            {
+                "ID": "923",
+                "Value": "Tajikistan"
+            },
+            {
+                "ID": "738",
+                "Value": "Tanzania"
+            },
+            {
+                "ID": "578",
+                "Value": "Thailand"
+            },
+            {
+                "ID": "537",
+                "Value": "Timor-Leste, Dem. Rep. of"
+            },
+            {
+                "ID": "742",
+                "Value": "Togo"
+            },
+            {
+                "ID": "866",
+                "Value": "Tonga"
+            },
+            {
+                "ID": "369",
+                "Value": "Trinidad and Tobago"
+            },
+            {
+                "ID": "744",
+                "Value": "Tunisia"
+            },
+            {
+                "ID": "186",
+                "Value": "Turkey"
+            },
+            {
+                "ID": "925",
+                "Value": "Turkmenistan"
+            },
+            {
+                "ID": "869",
+                "Value": "Tuvalu"
+            },
+            {
+                "ID": "746",
+                "Value": "Uganda"
+            },
+            {
+                "ID": "926",
+                "Value": "Ukraine"
+            },
+            {
+                "ID": "466",
+                "Value": "United Arab Emirates"
+            },
+            {
+                "ID": "112",
+                "Value": "United Kingdom"
+            },
+            {
+                "ID": "111",
+                "Value": "United States"
+            },
+            {
+                "ID": "298",
+                "Value": "Uruguay"
+            },
+            {
+                "ID": "927",
+                "Value": "Uzbekistan"
+            },
+            {
+                "ID": "846",
+                "Value": "Vanuatu"
+            },
+            {
+                "ID": "299",
+                "Value": "Venezuela, Republica Bolivariana de"
+            },
+            {
+                "ID": "582",
+                "Value": "Vietnam"
+            },
+            {
+                "ID": "487",
+                "Value": "West Bank and Gaza"
+            },
+            {
+                "ID": "473",
+                "Value": "Yemen Arab Rep."
+            },
+            {
+                "ID": "474",
+                "Value": "Yemen, Republic of"
+            },
+            {
+                "ID": "754",
+                "Value": "Zambia"
+            },
+            {
+                "ID": "698",
+                "Value": "Zimbabwe"
+            }
+        ],
+        "Sector": [
+            {
+                "ID": "S1311B",
+                "Value": "Budgetary central government"
+            },
+            {
+                "ID": "S1311",
+                "Value": "Central government (excl. social security funds)"
+            },
+            {
+                "ID": "S1321",
+                "Value": "Central government (incl. social security funds)"
+            },
+            {
+                "ID": "S13112",
+                "Value": "Extrabudgetary central government"
+            },
+            {
+                "ID": "S13",
+                "Value": "General government"
+            },
+            {
+                "ID": "S1313",
+                "Value": "Local governments"
+            },
+            {
+                "ID": "S1314",
+                "Value": "Social security funds"
+            },
+            {
+                "ID": "S1312",
+                "Value": "State governments"
+            }
+        ],
+        "Unit": [
+            {
+                "ID": "XDC",
+                "Value": "Domestic currency"
+            },
+            {
+                "ID": "XDC_R_B1GQ",
+                "Value": "Percent of GDP"
+            }
+        ],
+        "Indicator": {
+            "Compensation of employees": {
+                "General": {
+                    "ID": "GF21",
+                    "Value": "Compensation of employees",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF21?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF21",
+                    "Example URL Description": "Returns the Compensation of employees indicator for France at A frequency."
+                }
+            },
+            "Consumption of fixed capital": {
+                "General": {
+                    "ID": "GF23",
+                    "Value": "Consumption of fixed capital",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF23?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF23",
+                    "Example URL Description": "Returns the Consumption of fixed capital indicator for France at A frequency."
+                }
+            },
+            "D1 debt liabilities at market value": {
+                "General": {
+                    "ID": "GF6M3D1",
+                    "Value": "D1 debt liabilities at market value ",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3D1?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3D1",
+                    "Example URL Description": "Returns the D1 debt liabilities at market value  indicator for France at A frequency."
+                }
+            },
+            "D2 debt liabilities at market value": {
+                "General": {
+                    "ID": "GF6M3D2",
+                    "Value": "D2 debt liabilities at market value ",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3D2?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3D2",
+                    "Example URL Description": "Returns the D2 debt liabilities at market value  indicator for France at A frequency."
+                }
+            },
+            "D3 debt liabilities at market value": {
+                "General": {
+                    "ID": "GF6M3D3",
+                    "Value": "D3 debt liabilities at market value ",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3D3?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3D3",
+                    "Example URL Description": "Returns the D3 debt liabilities at market value  indicator for France at A frequency."
+                }
+            },
+            "Debt": {
+                "net of highly liquid assets": {
+                    "ID": "GF6M91",
+                    "Value": "Debt, net of highly liquid assets",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M91?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M91",
+                    "Example URL Description": "Returns the Debt, net of highly liquid assets indicator for France at A frequency."
+                }
+            },
+            "Expenditure": {
+                "General": {
+                    "ID": "GF2M",
+                    "Value": "Expenditure",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF2M?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF2M",
+                    "Example URL Description": "Returns the Expenditure indicator for France at A frequency."
+                }
+            },
+            "Expense": {
+                "General": {
+                    "ID": "GF2",
+                    "Value": "Expense",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF2?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF2",
+                    "Example URL Description": "Returns the Expense indicator for France at A frequency."
+                },
+                "excluding consumption of fixed capital": {
+                    "ID": "GF2g",
+                    "Value": "Expense, excluding consumption of fixed capital",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF2g?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF2g",
+                    "Example URL Description": "Returns the Expense, excluding consumption of fixed capital indicator for France at A frequency."
+                }
+            },
+            "Grants expense": {
+                "General": {
+                    "ID": "GF26",
+                    "Value": "Grants expense",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF26?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF26",
+                    "Example URL Description": "Returns the Grants expense indicator for France at A frequency."
+                }
+            },
+            "Grants revenue": {
+                "General": {
+                    "ID": "GF13",
+                    "Value": "Grants revenue",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF13?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF13",
+                    "Example URL Description": "Returns the Grants revenue indicator for France at A frequency."
+                }
+            },
+            "Gross debt (D4) at market value": {
+                "General": {
+                    "ID": "GF6M3",
+                    "Value": "Gross debt (D4) at market value ",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M3",
+                    "Example URL Description": "Returns the Gross debt (D4) at market value  indicator for France at A frequency."
+                }
+            },
+            "Gross operating balance": {
+                "General": {
+                    "ID": "GFGOB",
+                    "Value": "Gross operating balance",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFGOB?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFGOB",
+                    "Example URL Description": "Returns the Gross operating balance indicator for France at A frequency."
+                }
+            },
+            "Interest expense": {
+                "General": {
+                    "ID": "GF24",
+                    "Value": "Interest expense",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF24?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF24",
+                    "Example URL Description": "Returns the Interest expense indicator for France at A frequency."
+                }
+            },
+            "Investment in nonfinancial assets": {
+                "General": {
+                    "ID": "GF31g",
+                    "Value": "Investment in nonfinancial assets",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF31g?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF31g",
+                    "Example URL Description": "Returns the Investment in nonfinancial assets indicator for France at A frequency."
+                }
+            },
+            "Net acquisition of financial assets": {
+                "General": {
+                    "ID": "GF32",
+                    "Value": "Net acquisition of financial assets",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF32?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF32",
+                    "Example URL Description": "Returns the Net acquisition of financial assets indicator for France at A frequency."
+                }
+            },
+            "Net debt": {
+                "General": {
+                    "ID": "GF6M36",
+                    "Value": "Net debt",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M36?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M36",
+                    "Example URL Description": "Returns the Net debt indicator for France at A frequency."
+                }
+            },
+            "Net financial worth": {
+                "General": {
+                    "ID": "GF6M2",
+                    "Value": "Net financial worth",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M2?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6M2",
+                    "Example URL Description": "Returns the Net financial worth indicator for France at A frequency."
+                }
+            },
+            "Net incurrence of liabilities": {
+                "General": {
+                    "ID": "GF33",
+                    "Value": "Net incurrence of liabilities",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF33?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF33",
+                    "Example URL Description": "Returns the Net incurrence of liabilities indicator for France at A frequency."
+                }
+            },
+            "Net lending (+) / Net borrowing (-)": {
+                "General": {
+                    "ID": "GFNLB",
+                    "Value": "Net lending (+) / Net borrowing (-)",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFNLB?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFNLB",
+                    "Example URL Description": "Returns the Net lending (+) / Net borrowing (-) indicator for France at A frequency."
+                }
+            },
+            "Net operating balance": {
+                "General": {
+                    "ID": "GFNOB",
+                    "Value": "Net operating balance",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFNOB?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFNOB",
+                    "Example URL Description": "Returns the Net operating balance indicator for France at A frequency."
+                }
+            },
+            "Net worth": {
+                "General": {
+                    "ID": "GF6",
+                    "Value": "Net worth",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF6",
+                    "Example URL Description": "Returns the Net worth indicator for France at A frequency."
+                }
+            },
+            "Net/gross investment in nonfinancial assets": {
+                "General": {
+                    "ID": "GF31",
+                    "Value": "Net/gross investment in nonfinancial assets",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF31?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF31",
+                    "Example URL Description": "Returns the Net/gross investment in nonfinancial assets indicator for France at A frequency."
+                }
+            },
+            "Other expense": {
+                "General": {
+                    "ID": "GF28",
+                    "Value": "Other expense",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF28?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF28",
+                    "Example URL Description": "Returns the Other expense indicator for France at A frequency."
+                }
+            },
+            "Other revenue": {
+                "General": {
+                    "ID": "GF14",
+                    "Value": "Other revenue",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF14?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF14",
+                    "Example URL Description": "Returns the Other revenue indicator for France at A frequency."
+                }
+            },
+            "Primary net lending / borrowing": {
+                "General": {
+                    "ID": "GFPB",
+                    "Value": "Primary net lending / borrowing",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFPB?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GFPB",
+                    "Example URL Description": "Returns the Primary net lending / borrowing indicator for France at A frequency."
+                }
+            },
+            "Revenue": {
+                "General": {
+                    "ID": "GF1",
+                    "Value": "Revenue",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF1?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF1",
+                    "Example URL Description": "Returns the Revenue indicator for France at A frequency."
+                }
+            },
+            "Social benefits": {
+                "General": {
+                    "ID": "GF27",
+                    "Value": "Social benefits",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF27?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF27",
+                    "Example URL Description": "Returns the Social benefits indicator for France at A frequency."
+                }
+            },
+            "Social contributions": {
+                "General": {
+                    "ID": "GF12",
+                    "Value": "Social contributions",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF12?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF12",
+                    "Example URL Description": "Returns the Social contributions indicator for France at A frequency."
+                }
+            },
+            "Stock position of financial assets": {
+                "General": {
+                    "ID": "GF62",
+                    "Value": "Stock position of financial assets",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF62?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF62",
+                    "Example URL Description": "Returns the Stock position of financial assets indicator for France at A frequency."
+                }
+            },
+            "Stock position of liabilities": {
+                "General": {
+                    "ID": "GF63",
+                    "Value": "Stock position of liabilities",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF63?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF63",
+                    "Example URL Description": "Returns the Stock position of liabilities indicator for France at A frequency."
+                }
+            },
+            "Stock position of nonfinancial assets": {
+                "General": {
+                    "ID": "GF61",
+                    "Value": "Stock position of nonfinancial assets",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF61?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF61",
+                    "Example URL Description": "Returns the Stock position of nonfinancial assets indicator for France at A frequency."
+                }
+            },
+            "Subsidies": {
+                "General": {
+                    "ID": "GF25",
+                    "Value": "Subsidies",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF25?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF25",
+                    "Example URL Description": "Returns the Subsidies indicator for France at A frequency."
+                }
+            },
+            "Tax revenue": {
+                "General": {
+                    "ID": "GF11",
+                    "Value": "Tax revenue",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF11?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF11",
+                    "Example URL Description": "Returns the Tax revenue indicator for France at A frequency."
+                }
+            },
+            "Use of goods and services": {
+                "General": {
+                    "ID": "GF22",
+                    "Value": "Use of goods and services",
+                    "Indicator Database": "GFSYMAB2014",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF22?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYMAB2014/A.FR.GF22",
+                    "Example URL Description": "Returns the Use of goods and services indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

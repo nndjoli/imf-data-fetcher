@@ -1,0 +1,37 @@
+{
+    "Revenue Administration Fiscal Information Tool (RA-FIT) Round 2 Aggregates": {
+        "Base": {
+            "Database ID": "RAFIT2AGG",
+            "Database Name": "Revenue Administration Fiscal Information Tool (RA-FIT) Round 2 Aggregates",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/RAFIT2AGG/A.FR",
+            "Example URL Description": "Returns all the RAFIT2AGG indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ]
+    }
+}

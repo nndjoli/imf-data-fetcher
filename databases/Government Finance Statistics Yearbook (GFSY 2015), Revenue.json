@@ -1,0 +1,1958 @@
+{
+    "Government Finance Statistics Yearbook (GFSY 2015), Revenue": {
+        "Base": {
+            "Database ID": "GFSR2015",
+            "Database Name": "Government Finance Statistics Yearbook (GFSY 2015), Revenue",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR",
+            "Example URL Description": "Returns all the GFSR2015 indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ],
+        "Area": [
+            {
+                "ID": "AF",
+                "Value": "Afghanistan"
+            },
+            {
+                "ID": "AL",
+                "Value": "Albania"
+            },
+            {
+                "ID": "DZ",
+                "Value": "Algeria"
+            },
+            {
+                "ID": "AO",
+                "Value": "Angola"
+            },
+            {
+                "ID": "AI",
+                "Value": "Anguilla"
+            },
+            {
+                "ID": "AG",
+                "Value": "Antigua and Barbuda"
+            },
+            {
+                "ID": "AR",
+                "Value": "Argentina"
+            },
+            {
+                "ID": "AM",
+                "Value": "Armenia"
+            },
+            {
+                "ID": "AW",
+                "Value": "Aruba"
+            },
+            {
+                "ID": "AU",
+                "Value": "Australia"
+            },
+            {
+                "ID": "AT",
+                "Value": "Austria"
+            },
+            {
+                "ID": "AZ",
+                "Value": "Azerbaijan"
+            },
+            {
+                "ID": "BS",
+                "Value": "Bahamas"
+            },
+            {
+                "ID": "BH",
+                "Value": "Bahrain"
+            },
+            {
+                "ID": "BD",
+                "Value": "Bangladesh"
+            },
+            {
+                "ID": "BB",
+                "Value": "Barbados"
+            },
+            {
+                "ID": "BY",
+                "Value": "Belarus"
+            },
+            {
+                "ID": "BE",
+                "Value": "Belgium"
+            },
+            {
+                "ID": "BZ",
+                "Value": "Belize"
+            },
+            {
+                "ID": "BJ",
+                "Value": "Benin"
+            },
+            {
+                "ID": "BT",
+                "Value": "Bhutan"
+            },
+            {
+                "ID": "BO",
+                "Value": "Bolivia"
+            },
+            {
+                "ID": "BA",
+                "Value": "Bosnia and Herzegovina"
+            },
+            {
+                "ID": "BW",
+                "Value": "Botswana"
+            },
+            {
+                "ID": "BR",
+                "Value": "Brazil"
+            },
+            {
+                "ID": "BN",
+                "Value": "Brunei Darussalam"
+            },
+            {
+                "ID": "BG",
+                "Value": "Bulgaria"
+            },
+            {
+                "ID": "BF",
+                "Value": "Burkina Faso"
+            },
+            {
+                "ID": "BI",
+                "Value": "Burundi"
+            },
+            {
+                "ID": "CV",
+                "Value": "Cape Verde"
+            },
+            {
+                "ID": "KH",
+                "Value": "Cambodia"
+            },
+            {
+                "ID": "CM",
+                "Value": "Cameroon"
+            },
+            {
+                "ID": "CA",
+                "Value": "Canada"
+            },
+            {
+                "ID": "KY",
+                "Value": "Cayman Islands"
+            },
+            {
+                "ID": "CF",
+                "Value": "Central African Republic"
+            },
+            {
+                "ID": "TD",
+                "Value": "Chad"
+            },
+            {
+                "ID": "CL",
+                "Value": "Chile"
+            },
+            {
+                "ID": "HK",
+                "Value": "Hong Kong, China"
+            },
+            {
+                "ID": "MO",
+                "Value": "Macao"
+            },
+            {
+                "ID": "CN",
+                "Value": "China"
+            },
+            {
+                "ID": "CO",
+                "Value": "Colombia"
+            },
+            {
+                "ID": "KM",
+                "Value": "Comoros"
+            },
+            {
+                "ID": "CD",
+                "Value": "Congo, the Democratic Republic of the"
+            },
+            {
+                "ID": "CG",
+                "Value": "Congo"
+            },
+            {
+                "ID": "CK",
+                "Value": "Cook Islands"
+            },
+            {
+                "ID": "CR",
+                "Value": "Costa Rica"
+            },
+            {
+                "ID": "CI",
+                "Value": "Cote d`Ivoire"
+            },
+            {
+                "ID": "HR",
+                "Value": "Croatia"
+            },
+            {
+                "ID": "1C_355",
+                "Value": "Curacao & St. Maarten"
+            },
+            {
+                "ID": "CY",
+                "Value": "Cyprus"
+            },
+            {
+                "ID": "CZ",
+                "Value": "Czech Republic"
+            },
+            {
+                "ID": "DK",
+                "Value": "Denmark"
+            },
+            {
+                "ID": "DJ",
+                "Value": "Djibouti"
+            },
+            {
+                "ID": "DM",
+                "Value": "Dominica"
+            },
+            {
+                "ID": "DO",
+                "Value": "Dominican Republic"
+            },
+            {
+                "ID": "EC",
+                "Value": "Ecuador"
+            },
+            {
+                "ID": "EG",
+                "Value": "Egypt"
+            },
+            {
+                "ID": "SV",
+                "Value": "El Salvador"
+            },
+            {
+                "ID": "GQ",
+                "Value": "Equatorial Guinea"
+            },
+            {
+                "ID": "ER",
+                "Value": "Eritrea"
+            },
+            {
+                "ID": "EE",
+                "Value": "Estonia"
+            },
+            {
+                "ID": "ET",
+                "Value": "Ethiopia"
+            },
+            {
+                "ID": "U2",
+                "Value": "Euro area (Member States and Institutions of the Euro Area) changing composition"
+            },
+            {
+                "ID": "FJ",
+                "Value": "Fiji"
+            },
+            {
+                "ID": "FI",
+                "Value": "Finland"
+            },
+            {
+                "ID": "FR",
+                "Value": "France"
+            },
+            {
+                "ID": "GA",
+                "Value": "Gabon"
+            },
+            {
+                "ID": "GM",
+                "Value": "Gambia"
+            },
+            {
+                "ID": "GE",
+                "Value": "Georgia"
+            },
+            {
+                "ID": "DE",
+                "Value": "Germany"
+            },
+            {
+                "ID": "GH",
+                "Value": "Ghana"
+            },
+            {
+                "ID": "GR",
+                "Value": "Greece"
+            },
+            {
+                "ID": "GD",
+                "Value": "Grenada"
+            },
+            {
+                "ID": "GT",
+                "Value": "Guatemala"
+            },
+            {
+                "ID": "GN",
+                "Value": "Guinea"
+            },
+            {
+                "ID": "GW",
+                "Value": "Guinea-Bissau"
+            },
+            {
+                "ID": "GY",
+                "Value": "Guyana"
+            },
+            {
+                "ID": "HT",
+                "Value": "Haiti"
+            },
+            {
+                "ID": "HN",
+                "Value": "Honduras"
+            },
+            {
+                "ID": "HU",
+                "Value": "Hungary"
+            },
+            {
+                "ID": "IS",
+                "Value": "Iceland"
+            },
+            {
+                "ID": "IN",
+                "Value": "India"
+            },
+            {
+                "ID": "ID",
+                "Value": "Indonesia"
+            },
+            {
+                "ID": "IR",
+                "Value": "Iran, Islamic Republic of"
+            },
+            {
+                "ID": "IQ",
+                "Value": "Iraq"
+            },
+            {
+                "ID": "IE",
+                "Value": "Ireland"
+            },
+            {
+                "ID": "IL",
+                "Value": "Israel"
+            },
+            {
+                "ID": "IT",
+                "Value": "Italy"
+            },
+            {
+                "ID": "JM",
+                "Value": "Jamaica"
+            },
+            {
+                "ID": "JP",
+                "Value": "Japan"
+            },
+            {
+                "ID": "JO",
+                "Value": "Jordan"
+            },
+            {
+                "ID": "KZ",
+                "Value": "Kazakhstan"
+            },
+            {
+                "ID": "KE",
+                "Value": "Kenya"
+            },
+            {
+                "ID": "KI",
+                "Value": "Kiribati"
+            },
+            {
+                "ID": "KR",
+                "Value": "Korea, Republic of"
+            },
+            {
+                "ID": "XK",
+                "Value": "Kosovo"
+            },
+            {
+                "ID": "KW",
+                "Value": "Kuwait"
+            },
+            {
+                "ID": "KG",
+                "Value": "Kyrgyzstan"
+            },
+            {
+                "ID": "LA",
+                "Value": "Lao People`s Democratic Republic"
+            },
+            {
+                "ID": "LV",
+                "Value": "Latvia"
+            },
+            {
+                "ID": "LB",
+                "Value": "Lebanon"
+            },
+            {
+                "ID": "LS",
+                "Value": "Lesotho"
+            },
+            {
+                "ID": "LR",
+                "Value": "Liberia"
+            },
+            {
+                "ID": "LY",
+                "Value": "Libya"
+            },
+            {
+                "ID": "LT",
+                "Value": "Lithuania"
+            },
+            {
+                "ID": "LU",
+                "Value": "Luxembourg"
+            },
+            {
+                "ID": "MK",
+                "Value": "Macedonia, The Former Yugoslav Republic of"
+            },
+            {
+                "ID": "MG",
+                "Value": "Madagascar"
+            },
+            {
+                "ID": "MW",
+                "Value": "Malawi"
+            },
+            {
+                "ID": "MY",
+                "Value": "Malaysia"
+            },
+            {
+                "ID": "MV",
+                "Value": "Maldives"
+            },
+            {
+                "ID": "ML",
+                "Value": "Mali"
+            },
+            {
+                "ID": "MT",
+                "Value": "Malta"
+            },
+            {
+                "ID": "MH",
+                "Value": "Marshall islands"
+            },
+            {
+                "ID": "MR",
+                "Value": "Mauritania"
+            },
+            {
+                "ID": "MU",
+                "Value": "Mauritius"
+            },
+            {
+                "ID": "MX",
+                "Value": "Mexico"
+            },
+            {
+                "ID": "FM",
+                "Value": "Micronesia, Federated States of"
+            },
+            {
+                "ID": "MD",
+                "Value": "Moldova, Republic of"
+            },
+            {
+                "ID": "MC",
+                "Value": "Monaco"
+            },
+            {
+                "ID": "MN",
+                "Value": "Mongolia"
+            },
+            {
+                "ID": "ME",
+                "Value": "Montenegro"
+            },
+            {
+                "ID": "MS",
+                "Value": "Montserrat"
+            },
+            {
+                "ID": "MA",
+                "Value": "Morocco"
+            },
+            {
+                "ID": "MZ",
+                "Value": "Mozambique"
+            },
+            {
+                "ID": "MM",
+                "Value": "Myanmar"
+            },
+            {
+                "ID": "NA",
+                "Value": "Namibia"
+            },
+            {
+                "ID": "NR",
+                "Value": "Nauru"
+            },
+            {
+                "ID": "NP",
+                "Value": "Nepal"
+            },
+            {
+                "ID": "NL",
+                "Value": "Netherlands"
+            },
+            {
+                "ID": "AN",
+                "Value": "Netherlands Antilles"
+            },
+            {
+                "ID": "NZ",
+                "Value": "New Zealand"
+            },
+            {
+                "ID": "NI",
+                "Value": "Nicaragua"
+            },
+            {
+                "ID": "NE",
+                "Value": "Niger"
+            },
+            {
+                "ID": "NG",
+                "Value": "Nigeria"
+            },
+            {
+                "ID": "NO",
+                "Value": "Norway"
+            },
+            {
+                "ID": "OM",
+                "Value": "Oman"
+            },
+            {
+                "ID": "PK",
+                "Value": "Pakistan"
+            },
+            {
+                "ID": "PW",
+                "Value": "Palau"
+            },
+            {
+                "ID": "PA",
+                "Value": "Panama"
+            },
+            {
+                "ID": "PG",
+                "Value": "Papua New Guinea"
+            },
+            {
+                "ID": "PY",
+                "Value": "Paraguay"
+            },
+            {
+                "ID": "PE",
+                "Value": "Peru"
+            },
+            {
+                "ID": "PH",
+                "Value": "Philippines"
+            },
+            {
+                "ID": "PL",
+                "Value": "Poland"
+            },
+            {
+                "ID": "PT",
+                "Value": "Portugal"
+            },
+            {
+                "ID": "QA",
+                "Value": "Qatar"
+            },
+            {
+                "ID": "RO",
+                "Value": "Romania"
+            },
+            {
+                "ID": "RU",
+                "Value": "Russian Federation"
+            },
+            {
+                "ID": "RW",
+                "Value": "Rwanda"
+            },
+            {
+                "ID": "WS",
+                "Value": "Samoa"
+            },
+            {
+                "ID": "SM",
+                "Value": "San Marino"
+            },
+            {
+                "ID": "ST",
+                "Value": "Sao Tome and Principe"
+            },
+            {
+                "ID": "SA",
+                "Value": "Saudi Arabia"
+            },
+            {
+                "ID": "SN",
+                "Value": "Senegal"
+            },
+            {
+                "ID": "CS",
+                "Value": "Serbia and Montenegro"
+            },
+            {
+                "ID": "RS",
+                "Value": "Serbia"
+            },
+            {
+                "ID": "SC",
+                "Value": "Seychelles"
+            },
+            {
+                "ID": "SL",
+                "Value": "Sierra Leone"
+            },
+            {
+                "ID": "SG",
+                "Value": "Singapore"
+            },
+            {
+                "ID": "SK",
+                "Value": "Slovakia"
+            },
+            {
+                "ID": "SI",
+                "Value": "Slovenia"
+            },
+            {
+                "ID": "SB",
+                "Value": "Solomon Islands"
+            },
+            {
+                "ID": "SO",
+                "Value": "Somalia"
+            },
+            {
+                "ID": "ZA",
+                "Value": "South Africa"
+            },
+            {
+                "ID": "SS",
+                "Value": "South Sudan"
+            },
+            {
+                "ID": "ES",
+                "Value": "Spain"
+            },
+            {
+                "ID": "LK",
+                "Value": "Sri Lanka"
+            },
+            {
+                "ID": "KN",
+                "Value": "Saint Kitts and Nevis"
+            },
+            {
+                "ID": "LC",
+                "Value": "Saint Lucia"
+            },
+            {
+                "ID": "VC",
+                "Value": "Saint Vincent and the Grenadines"
+            },
+            {
+                "ID": "SD",
+                "Value": "Sudan"
+            },
+            {
+                "ID": "SR",
+                "Value": "Suriname"
+            },
+            {
+                "ID": "SZ",
+                "Value": "Swaziland"
+            },
+            {
+                "ID": "SE",
+                "Value": "Sweden"
+            },
+            {
+                "ID": "CH",
+                "Value": "Switzerland"
+            },
+            {
+                "ID": "SY",
+                "Value": "Syrian Arab Republic"
+            },
+            {
+                "ID": "TJ",
+                "Value": "Tajikistan"
+            },
+            {
+                "ID": "TZ",
+                "Value": "Tanzania, United Republic of"
+            },
+            {
+                "ID": "TH",
+                "Value": "Thailand"
+            },
+            {
+                "ID": "TL",
+                "Value": "Timor-Leste"
+            },
+            {
+                "ID": "TG",
+                "Value": "Togo"
+            },
+            {
+                "ID": "TO",
+                "Value": "Tonga"
+            },
+            {
+                "ID": "TT",
+                "Value": "Trinidad and Tobago"
+            },
+            {
+                "ID": "TN",
+                "Value": "Tunisia"
+            },
+            {
+                "ID": "TR",
+                "Value": "Turkey"
+            },
+            {
+                "ID": "TM",
+                "Value": "Turkmenistan"
+            },
+            {
+                "ID": "TV",
+                "Value": "Tuvalu"
+            },
+            {
+                "ID": "UG",
+                "Value": "Uganda"
+            },
+            {
+                "ID": "UA",
+                "Value": "Ukraine"
+            },
+            {
+                "ID": "AE",
+                "Value": "United Arab Emirates"
+            },
+            {
+                "ID": "GB",
+                "Value": "United Kingdom"
+            },
+            {
+                "ID": "US",
+                "Value": "United States"
+            },
+            {
+                "ID": "UY",
+                "Value": "Uruguay"
+            },
+            {
+                "ID": "UZ",
+                "Value": "Uzbekistan"
+            },
+            {
+                "ID": "VU",
+                "Value": "Vanuatu"
+            },
+            {
+                "ID": "VE",
+                "Value": "Venezuela, Bolivarian Republic"
+            },
+            {
+                "ID": "VN",
+                "Value": "Viet Nam"
+            },
+            {
+                "ID": "PS",
+                "Value": "Palestine, State of"
+            },
+            {
+                "ID": "1C_473",
+                "Value": "Yemen Arab Rep."
+            },
+            {
+                "ID": "YE",
+                "Value": "Yemen"
+            },
+            {
+                "ID": "ZM",
+                "Value": "Zambia"
+            },
+            {
+                "ID": "ZW",
+                "Value": "Zimbabwe"
+            },
+            {
+                "ID": "1C_ALLC",
+                "Value": "All Countries"
+            },
+            {
+                "ID": "1C_All_Countries_for_Dissemination",
+                "Value": "All Countries for Dissemination"
+            },
+            {
+                "ID": "1C_GFSY_2014_Country_Pages",
+                "Value": "All Countries for Dissemination - Print"
+            }
+        ],
+        "Sector": [
+            {
+                "ID": "S1311B",
+                "Value": "Budgetary central government"
+            },
+            {
+                "ID": "S1311",
+                "Value": "Central government (excl. social security funds)"
+            },
+            {
+                "ID": "S1321",
+                "Value": "Central government (incl. social security funds)"
+            },
+            {
+                "ID": "S13112",
+                "Value": "Extrabudgetary central government"
+            },
+            {
+                "ID": "S13",
+                "Value": "General government"
+            },
+            {
+                "ID": "S1313",
+                "Value": "Local governments"
+            },
+            {
+                "ID": "S1314",
+                "Value": "Social security funds"
+            },
+            {
+                "ID": "S1312",
+                "Value": "State governments"
+            }
+        ],
+        "Unit": [
+            {
+                "ID": "XDC",
+                "Value": "Domestic currency"
+            },
+            {
+                "ID": "XDC_R_B1GQ",
+                "Value": "Percent of GDP"
+            }
+        ],
+        "Indicator": {
+            "Customs & other import duties": {
+                "General": {
+                    "ID": "GF1151",
+                    "Value": "Customs & other import duties",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1151?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1151",
+                    "Example URL Description": "Returns the Customs & other import duties indicator for France at A frequency."
+                }
+            },
+            "Dividend revenue": {
+                "General": {
+                    "ID": "GF1412",
+                    "Value": "Dividend revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1412?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1412",
+                    "Example URL Description": "Returns the Dividend revenue indicator for France at A frequency."
+                }
+            },
+            "Excise taxes": {
+                "General": {
+                    "ID": "GF1142",
+                    "Value": "Excise taxes",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1142?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1142",
+                    "Example URL Description": "Returns the Excise taxes indicator for France at A frequency."
+                }
+            },
+            "General taxes on goods & services": {
+                "General": {
+                    "ID": "GF1141",
+                    "Value": "General taxes on goods & services",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1141?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1141",
+                    "Example URL Description": "Returns the General taxes on goods & services indicator for France at A frequency."
+                }
+            },
+            "Grants in cash": {
+                "General": {
+                    "ID": "GF1M13A",
+                    "Value": "Grants in cash",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1M13A?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1M13A",
+                    "Example URL Description": "Returns the Grants in cash indicator for France at A frequency."
+                }
+            },
+            "Grants in kind": {
+                "General": {
+                    "ID": "GF1M13B",
+                    "Value": "Grants in kind",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1M13B?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1M13B",
+                    "Example URL Description": "Returns the Grants in kind indicator for France at A frequency."
+                }
+            },
+            "Grants revenue": {
+                "General": {
+                    "ID": "GF13",
+                    "Value": "Grants revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF13?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF13",
+                    "Example URL Description": "Returns the Grants revenue indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from foreign govts": {
+                "General": {
+                    "ID": "GF131",
+                    "Value": "Grants revenue from foreign govts",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF131?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF131",
+                    "Example URL Description": "Returns the Grants revenue from foreign govts indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from foreign govts: capital": {
+                "General": {
+                    "ID": "GF1312",
+                    "Value": "Grants revenue from foreign govts: capital",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1312?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1312",
+                    "Example URL Description": "Returns the Grants revenue from foreign govts: capital indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from foreign govts: current": {
+                "General": {
+                    "ID": "GF1311",
+                    "Value": "Grants revenue from foreign govts: current",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1311?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1311",
+                    "Example URL Description": "Returns the Grants revenue from foreign govts: current indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from int orgs": {
+                "General": {
+                    "ID": "GF132",
+                    "Value": "Grants revenue from int orgs",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF132?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF132",
+                    "Example URL Description": "Returns the Grants revenue from int orgs indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from int orgs: capital": {
+                "General": {
+                    "ID": "GF1322",
+                    "Value": "Grants revenue from int orgs: capital",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1322?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1322",
+                    "Example URL Description": "Returns the Grants revenue from int orgs: capital indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from int orgs: current": {
+                "General": {
+                    "ID": "GF1321",
+                    "Value": "Grants revenue from int orgs: current",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1321?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1321",
+                    "Example URL Description": "Returns the Grants revenue from int orgs: current indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from other gen govt": {
+                "General": {
+                    "ID": "GF133",
+                    "Value": "Grants revenue from other gen govt",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF133?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF133",
+                    "Example URL Description": "Returns the Grants revenue from other gen govt indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from other gen govt: capital": {
+                "General": {
+                    "ID": "GF1332",
+                    "Value": "Grants revenue from other gen govt: capital",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1332?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1332",
+                    "Example URL Description": "Returns the Grants revenue from other gen govt: capital indicator for France at A frequency."
+                }
+            },
+            "Grants revenue from other gen govt: current": {
+                "General": {
+                    "ID": "GF1331",
+                    "Value": "Grants revenue from other gen govt: current",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1331?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1331",
+                    "Example URL Description": "Returns the Grants revenue from other gen govt: current indicator for France at A frequency."
+                }
+            },
+            "Imputed social contributions revenue": {
+                "General": {
+                    "ID": "GF1223",
+                    "Value": "Imputed social contributions revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1223?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1223",
+                    "Example URL Description": "Returns the Imputed social contributions revenue indicator for France at A frequency."
+                }
+            },
+            "Interest revenue": {
+                "General": {
+                    "ID": "GF1411",
+                    "Value": "Interest revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1411?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1411",
+                    "Example URL Description": "Returns the Interest revenue indicator for France at A frequency."
+                }
+            },
+            "Interest revenue from nonresidents": {
+                "General": {
+                    "ID": "GF14111",
+                    "Value": "Interest revenue from nonresidents",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14111?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14111",
+                    "Example URL Description": "Returns the Interest revenue from nonresidents indicator for France at A frequency."
+                }
+            },
+            "Interest revenue from other gen govt": {
+                "General": {
+                    "ID": "GF14113",
+                    "Value": "Interest revenue from other gen govt",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14113?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14113",
+                    "Example URL Description": "Returns the Interest revenue from other gen govt indicator for France at A frequency."
+                }
+            },
+            "Interest revenue from residents other than gen govt": {
+                "General": {
+                    "ID": "GF14112",
+                    "Value": "Interest revenue from residents other than gen govt",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14112?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14112",
+                    "Example URL Description": "Returns the Interest revenue from residents other than gen govt indicator for France at A frequency."
+                }
+            },
+            "Other recurrent taxes on property": {
+                "General": {
+                    "ID": "GF1136",
+                    "Value": "Other recurrent taxes on property",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1136?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1136",
+                    "Example URL Description": "Returns the Other recurrent taxes on property indicator for France at A frequency."
+                }
+            },
+            "Other revenue": {
+                "General": {
+                    "ID": "GF14",
+                    "Value": "Other revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14",
+                    "Example URL Description": "Returns the Other revenue indicator for France at A frequency."
+                }
+            },
+            "Other social contributions revenue": {
+                "General": {
+                    "ID": "GF122",
+                    "Value": "Other social contributions revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF122?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF122",
+                    "Example URL Description": "Returns the Other social contributions revenue indicator for France at A frequency."
+                }
+            },
+            "Other social contributions revenue: employees": {
+                "General": {
+                    "ID": "GF1221",
+                    "Value": "Other social contributions revenue: employees",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1221?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1221",
+                    "Example URL Description": "Returns the Other social contributions revenue: employees indicator for France at A frequency."
+                }
+            },
+            "Other social contributions revenue: employers": {
+                "General": {
+                    "ID": "GF1222",
+                    "Value": "Other social contributions revenue: employers",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1222?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1222",
+                    "Example URL Description": "Returns the Other social contributions revenue: employers indicator for France at A frequency."
+                }
+            },
+            "Other taxes n.e.c.": {
+                "General": {
+                    "ID": "GF116",
+                    "Value": "Other taxes n.e.c.",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF116?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF116",
+                    "Example URL Description": "Returns the Other taxes n.e.c. indicator for France at A frequency."
+                }
+            },
+            "Other taxes on goods & services": {
+                "General": {
+                    "ID": "GF1146",
+                    "Value": "Other taxes on goods & services",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1146?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1146",
+                    "Example URL Description": "Returns the Other taxes on goods & services indicator for France at A frequency."
+                }
+            },
+            "Other taxes on int trade & transactions": {
+                "General": {
+                    "ID": "GF1156",
+                    "Value": "Other taxes on int trade & transactions",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1156?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1156",
+                    "Example URL Description": "Returns the Other taxes on int trade & transactions indicator for France at A frequency."
+                }
+            },
+            "Property income from investment income disbursements": {
+                "General": {
+                    "ID": "GF1414",
+                    "Value": "Property income from investment income disbursements",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1414?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1414",
+                    "Example URL Description": "Returns the Property income from investment income disbursements indicator for France at A frequency."
+                }
+            },
+            "Property income revenue": {
+                "General": {
+                    "ID": "GF141",
+                    "Value": "Property income revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF141?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF141",
+                    "Example URL Description": "Returns the Property income revenue indicator for France at A frequency."
+                }
+            },
+            "Recurrent taxes on immovable property": {
+                "General": {
+                    "ID": "GF1131",
+                    "Value": "Recurrent taxes on immovable property",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1131?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1131",
+                    "Example URL Description": "Returns the Recurrent taxes on immovable property indicator for France at A frequency."
+                }
+            },
+            "Recurrent taxes on net wealth": {
+                "General": {
+                    "ID": "GF1132",
+                    "Value": "Recurrent taxes on net wealth",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1132?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1132",
+                    "Example URL Description": "Returns the Recurrent taxes on net wealth indicator for France at A frequency."
+                }
+            },
+            "Reinvested earnings on FDI": {
+                "General": {
+                    "ID": "GF1416",
+                    "Value": "Reinvested earnings on FDI",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1416?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1416",
+                    "Example URL Description": "Returns the Reinvested earnings on FDI indicator for France at A frequency."
+                }
+            },
+            "Rent revenue": {
+                "General": {
+                    "ID": "GF1415",
+                    "Value": "Rent revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1415?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1415",
+                    "Example URL Description": "Returns the Rent revenue indicator for France at A frequency."
+                }
+            },
+            "Revenue": {
+                "General": {
+                    "ID": "GF1",
+                    "Value": "Revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1",
+                    "Example URL Description": "Returns the Revenue indicator for France at A frequency."
+                }
+            },
+            "Revenue from  NI & SGS: capital claims": {
+                "General": {
+                    "ID": "GF1452",
+                    "Value": "Revenue from  NI & SGS: capital claims",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1452?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1452",
+                    "Example URL Description": "Returns the Revenue from  NI & SGS: capital claims indicator for France at A frequency."
+                }
+            },
+            "Revenue from  NI & SGS: current claims": {
+                "General": {
+                    "ID": "GF14513",
+                    "Value": "Revenue from  NI & SGS: current claims",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14513?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14513",
+                    "Example URL Description": "Returns the Revenue from  NI & SGS: current claims indicator for France at A frequency."
+                }
+            },
+            "Revenue from  NI & SGS: fees": {
+                "General": {
+                    "ID": "GF14512",
+                    "Value": "Revenue from  NI & SGS: fees",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14512?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14512",
+                    "Example URL Description": "Returns the Revenue from  NI & SGS: fees indicator for France at A frequency."
+                }
+            },
+            "Revenue from  NI & SGS: premiums": {
+                "General": {
+                    "ID": "GF14511",
+                    "Value": "Revenue from  NI & SGS: premiums",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14511?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14511",
+                    "Example URL Description": "Returns the Revenue from  NI & SGS: premiums indicator for France at A frequency."
+                },
+                "fees & claims": {
+                    "ID": "GF145",
+                    "Value": "Revenue from  NI & SGS: premiums, fees & claims",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF145?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF145",
+                    "Example URL Description": "Returns the Revenue from  NI & SGS: premiums, fees & claims indicator for France at A frequency."
+                },
+                "fees & current claims": {
+                    "ID": "GF1451",
+                    "Value": "Revenue from  NI & SGS: premiums, fees & current claims",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1451?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1451",
+                    "Example URL Description": "Returns the Revenue from  NI & SGS: premiums, fees & current claims indicator for France at A frequency."
+                }
+            },
+            "Revenue from administrative fees": {
+                "General": {
+                    "ID": "GF1422",
+                    "Value": "Revenue from administrative fees",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1422?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1422",
+                    "Example URL Description": "Returns the Revenue from administrative fees indicator for France at A frequency."
+                }
+            },
+            "Revenue from fines": {
+                "penalties & forfeits": {
+                    "ID": "GF143",
+                    "Value": "Revenue from fines, penalties & forfeits",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF143?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF143",
+                    "Example URL Description": "Returns the Revenue from fines, penalties & forfeits indicator for France at A frequency."
+                }
+            },
+            "Revenue from imputed sales of goods & services": {
+                "General": {
+                    "ID": "GF1424",
+                    "Value": "Revenue from imputed sales of goods & services",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1424?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1424",
+                    "Example URL Description": "Returns the Revenue from imputed sales of goods & services indicator for France at A frequency."
+                }
+            },
+            "Revenue from other current transfers: not subsidies": {
+                "General": {
+                    "ID": "GF14412",
+                    "Value": "Revenue from other current transfers: not subsidies",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14412?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14412",
+                    "Example URL Description": "Returns the Revenue from other current transfers: not subsidies indicator for France at A frequency."
+                }
+            },
+            "Revenue from other current transfers: subsidies": {
+                "General": {
+                    "ID": "GF14411",
+                    "Value": "Revenue from other current transfers: subsidies",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14411?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF14411",
+                    "Example URL Description": "Returns the Revenue from other current transfers: subsidies indicator for France at A frequency."
+                }
+            },
+            "Revenue from other transfers": {
+                "General": {
+                    "ID": "GF144",
+                    "Value": "Revenue from other transfers",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF144?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF144",
+                    "Example URL Description": "Returns the Revenue from other transfers indicator for France at A frequency."
+                }
+            },
+            "Revenue from other transfers: capital": {
+                "General": {
+                    "ID": "GF1442",
+                    "Value": "Revenue from other transfers: capital",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1442?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1442",
+                    "Example URL Description": "Returns the Revenue from other transfers: capital indicator for France at A frequency."
+                }
+            },
+            "Revenue from other transfers: current": {
+                "General": {
+                    "ID": "GF1441",
+                    "Value": "Revenue from other transfers: current",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1441?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1441",
+                    "Example URL Description": "Returns the Revenue from other transfers: current indicator for France at A frequency."
+                }
+            },
+            "Revenue from sales of goods & services": {
+                "General": {
+                    "ID": "GF142",
+                    "Value": "Revenue from sales of goods & services",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF142?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF142",
+                    "Example URL Description": "Returns the Revenue from sales of goods & services indicator for France at A frequency."
+                }
+            },
+            "Revenue from sales of market establishments": {
+                "General": {
+                    "ID": "GF1421",
+                    "Value": "Revenue from sales of market establishments",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1421?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1421",
+                    "Example URL Description": "Returns the Revenue from sales of market establishments indicator for France at A frequency."
+                }
+            },
+            "Revenue from sales of nonmarket establishments": {
+                "General": {
+                    "ID": "GF1423",
+                    "Value": "Revenue from sales of nonmarket establishments",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1423?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1423",
+                    "Example URL Description": "Returns the Revenue from sales of nonmarket establishments indicator for France at A frequency."
+                }
+            },
+            "Sales taxes": {
+                "General": {
+                    "ID": "GF11412",
+                    "Value": "Sales taxes",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11412?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11412",
+                    "Example URL Description": "Returns the Sales taxes indicator for France at A frequency."
+                }
+            },
+            "Self/non-employed social contributions revenue": {
+                "General": {
+                    "ID": "GF1213",
+                    "Value": "Self/non-employed social contributions revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1213?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1213",
+                    "Example URL Description": "Returns the Self/non-employed social contributions revenue indicator for France at A frequency."
+                }
+            },
+            "Social contributions": {
+                "General": {
+                    "ID": "GF12",
+                    "Value": "Social contributions",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF12?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF12",
+                    "Example URL Description": "Returns the Social contributions indicator for France at A frequency."
+                }
+            },
+            "Social security contributions revenue": {
+                "General": {
+                    "ID": "GF121",
+                    "Value": "Social security contributions revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF121?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF121",
+                    "Example URL Description": "Returns the Social security contributions revenue indicator for France at A frequency."
+                }
+            },
+            "Social security contributions revenue: employers": {
+                "General": {
+                    "ID": "GF1212",
+                    "Value": "Social security contributions revenue: employers",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1212?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1212",
+                    "Example URL Description": "Returns the Social security contributions revenue: employers indicator for France at A frequency."
+                }
+            },
+            "Social security contributions: revenue employees": {
+                "General": {
+                    "ID": "GF1211",
+                    "Value": "Social security contributions: revenue employees",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1211?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1211",
+                    "Example URL Description": "Returns the Social security contributions: revenue employees indicator for France at A frequency."
+                }
+            },
+            "Tax revenue": {
+                "General": {
+                    "ID": "GF11",
+                    "Value": "Tax revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11",
+                    "Example URL Description": "Returns the Tax revenue indicator for France at A frequency."
+                }
+            },
+            "Taxes in the form of capital levies on property": {
+                "General": {
+                    "ID": "GF1135",
+                    "Value": "Taxes in the form of capital levies on property",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1135?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1135",
+                    "Example URL Description": "Returns the Taxes in the form of capital levies on property indicator for France at A frequency."
+                }
+            },
+            "Taxes in the form of profits of fiscal monopolies": {
+                "General": {
+                    "ID": "GF1143",
+                    "Value": "Taxes in the form of profits of fiscal monopolies",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1143?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1143",
+                    "Example URL Description": "Returns the Taxes in the form of profits of fiscal monopolies indicator for France at A frequency."
+                }
+            },
+            "Taxes on estate": {
+                "inheritance": {
+                    "ID": "GF1133",
+                    "Value": "Taxes on estate, inheritance, & gifts",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1133?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1133",
+                    "Example URL Description": "Returns the Taxes on estate, inheritance, & gifts indicator for France at A frequency."
+                }
+            },
+            "Taxes on exchange profits": {
+                "General": {
+                    "ID": "GF1154",
+                    "Value": "Taxes on exchange profits",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1154?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1154",
+                    "Example URL Description": "Returns the Taxes on exchange profits indicator for France at A frequency."
+                }
+            },
+            "Taxes on exports": {
+                "General": {
+                    "ID": "GF1152",
+                    "Value": "Taxes on exports",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1152?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1152",
+                    "Example URL Description": "Returns the Taxes on exports indicator for France at A frequency."
+                }
+            },
+            "Taxes on financial & capital transactions": {
+                "General": {
+                    "ID": "GF11414",
+                    "Value": "Taxes on financial & capital transactions",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11414?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11414",
+                    "Example URL Description": "Returns the Taxes on financial & capital transactions indicator for France at A frequency."
+                }
+            },
+            "Taxes on foreign exchange": {
+                "General": {
+                    "ID": "GF1155",
+                    "Value": "Taxes on foreign exchange ",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1155?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1155",
+                    "Example URL Description": "Returns the Taxes on foreign exchange  indicator for France at A frequency."
+                }
+            },
+            "Taxes on goods & services": {
+                "General": {
+                    "ID": "GF114",
+                    "Value": "Taxes on goods & services",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF114?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF114",
+                    "Example URL Description": "Returns the Taxes on goods & services indicator for France at A frequency."
+                }
+            },
+            "Taxes on income": {
+                "profits": {
+                    "ID": "GF1113",
+                    "Value": "Taxes on income, profits, & capital gains: other",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1113?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1113",
+                    "Example URL Description": "Returns the Taxes on income, profits, & capital gains: other indicator for France at A frequency."
+                }
+            },
+            "Taxes on int trade & transactions": {
+                "General": {
+                    "ID": "GF115",
+                    "Value": "Taxes on int trade & transactions",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF115?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF115",
+                    "Example URL Description": "Returns the Taxes on int trade & transactions indicator for France at A frequency."
+                }
+            },
+            "Taxes on payroll & workforce": {
+                "General": {
+                    "ID": "GF112",
+                    "Value": "Taxes on payroll & workforce",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF112?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF112",
+                    "Example URL Description": "Returns the Taxes on payroll & workforce indicator for France at A frequency."
+                }
+            },
+            "Taxes on profits of export/import monopolies": {
+                "General": {
+                    "ID": "GF1153",
+                    "Value": "Taxes on profits of export/import monopolies",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1153?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1153",
+                    "Example URL Description": "Returns the Taxes on profits of export/import monopolies indicator for France at A frequency."
+                }
+            },
+            "Taxes on property": {
+                "General": {
+                    "ID": "GF113",
+                    "Value": "Taxes on property",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF113?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF113",
+                    "Example URL Description": "Returns the Taxes on property indicator for France at A frequency."
+                }
+            },
+            "Taxes on specific services": {
+                "General": {
+                    "ID": "GF1144",
+                    "Value": "Taxes on specific services",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1144?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1144",
+                    "Example URL Description": "Returns the Taxes on specific services indicator for France at A frequency."
+                }
+            },
+            "Taxes on use of/permission to use goods": {
+                "General": {
+                    "ID": "GF1145",
+                    "Value": "Taxes on use of/permission to use goods",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1145?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1145",
+                    "Example URL Description": "Returns the Taxes on use of/permission to use goods indicator for France at A frequency."
+                }
+            },
+            "Taxes on use of/permission to use goods: other": {
+                "General": {
+                    "ID": "GF11452",
+                    "Value": "Taxes on use of/permission to use goods: other",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11452?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11452",
+                    "Example URL Description": "Returns the Taxes on use of/permission to use goods: other indicator for France at A frequency."
+                }
+            },
+            "Taxes on use of/permission to use goods: vehicles": {
+                "General": {
+                    "ID": "GF11451",
+                    "Value": "Taxes on use of/permission to use goods: vehicles",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11451?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11451",
+                    "Example URL Description": "Returns the Taxes on use of/permission to use goods: vehicles indicator for France at A frequency."
+                }
+            },
+            "Turnover & general taxes on goods & services": {
+                "General": {
+                    "ID": "GF11413",
+                    "Value": "Turnover & general taxes on goods & services",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11413?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11413",
+                    "Example URL Description": "Returns the Turnover & general taxes on goods & services indicator for France at A frequency."
+                }
+            },
+            "Unallocable social contributions revenue": {
+                "General": {
+                    "ID": "GF1214",
+                    "Value": "Unallocable social contributions revenue",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1214?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1214",
+                    "Example URL Description": "Returns the Unallocable social contributions revenue indicator for France at A frequency."
+                }
+            },
+            "Value-added taxes": {
+                "General": {
+                    "ID": "GF11411",
+                    "Value": "Value-added taxes",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11411?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF11411",
+                    "Example URL Description": "Returns the Value-added taxes indicator for France at A frequency."
+                }
+            },
+            "Withdrawals of income from quasi-corporations": {
+                "General": {
+                    "ID": "GF1413",
+                    "Value": "Withdrawals of income from quasi-corporations",
+                    "Indicator Database": "GFSR2015",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1413?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2015/A.FR.GF1413",
+                    "Example URL Description": "Returns the Withdrawals of income from quasi-corporations indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

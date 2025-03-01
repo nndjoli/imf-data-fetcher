@@ -1,0 +1,37 @@
+{
+    "Sub-Saharan Africa Regional Economic Outlook (AFRREO) April 2017": {
+        "Base": {
+            "Database ID": "AFRREO201704",
+            "Database Name": "Sub-Saharan Africa Regional Economic Outlook (AFRREO) April 2017",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/AFRREO201704/A.FR",
+            "Example URL Description": "Returns all the AFRREO201704 indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ]
+    }
+}
