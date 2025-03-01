@@ -1,0 +1,1085 @@
+{
+    "Government Finance Statistics Yearbook (GFSY 2014), Integrated Balance Sheet (Stock Positions and Flows in Assets and Liabilities)": {
+        "Base": {
+            "Database ID": "GFSYIBS2014",
+            "Database Name": "Government Finance Statistics Yearbook (GFSY 2014), Integrated Balance Sheet (Stock Positions and Flows in Assets and Liabilities)",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSYIBS2014/A.FR",
+            "Example URL Description": "Returns all the GFSYIBS2014 indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ],
+        "Area": [
+            {
+                "ID": "512",
+                "Value": "Afghanistan, Islamic Republic of"
+            },
+            {
+                "ID": "914",
+                "Value": "Albania"
+            },
+            {
+                "ID": "612",
+                "Value": "Algeria"
+            },
+            {
+                "ID": "614",
+                "Value": "Angola"
+            },
+            {
+                "ID": "312",
+                "Value": "Anguilla"
+            },
+            {
+                "ID": "311",
+                "Value": "Antigua and Barbuda"
+            },
+            {
+                "ID": "213",
+                "Value": "Argentina"
+            },
+            {
+                "ID": "911",
+                "Value": "Armenia, Republic of"
+            },
+            {
+                "ID": "314",
+                "Value": "Aruba"
+            },
+            {
+                "ID": "193",
+                "Value": "Australia"
+            },
+            {
+                "ID": "122",
+                "Value": "Austria"
+            },
+            {
+                "ID": "912",
+                "Value": "Azerbaijan, Republic of"
+            },
+            {
+                "ID": "313",
+                "Value": "Bahamas, The"
+            },
+            {
+                "ID": "419",
+                "Value": "Bahrain, Kingdom of"
+            },
+            {
+                "ID": "513",
+                "Value": "Bangladesh"
+            },
+            {
+                "ID": "316",
+                "Value": "Barbados"
+            },
+            {
+                "ID": "913",
+                "Value": "Belarus"
+            },
+            {
+                "ID": "124",
+                "Value": "Belgium"
+            },
+            {
+                "ID": "339",
+                "Value": "Belize"
+            },
+            {
+                "ID": "638",
+                "Value": "Benin"
+            },
+            {
+                "ID": "514",
+                "Value": "Bhutan"
+            },
+            {
+                "ID": "218",
+                "Value": "Bolivia"
+            },
+            {
+                "ID": "963",
+                "Value": "Bosnia and Herzegovina"
+            },
+            {
+                "ID": "616",
+                "Value": "Botswana"
+            },
+            {
+                "ID": "223",
+                "Value": "Brazil"
+            },
+            {
+                "ID": "516",
+                "Value": "Brunei Darussalam"
+            },
+            {
+                "ID": "918",
+                "Value": "Bulgaria"
+            },
+            {
+                "ID": "748",
+                "Value": "Burkina Faso"
+            },
+            {
+                "ID": "618",
+                "Value": "Burundi"
+            },
+            {
+                "ID": "624",
+                "Value": "Cabo Verde"
+            },
+            {
+                "ID": "522",
+                "Value": "Cambodia"
+            },
+            {
+                "ID": "622",
+                "Value": "Cameroon"
+            },
+            {
+                "ID": "156",
+                "Value": "Canada"
+            },
+            {
+                "ID": "377",
+                "Value": "Cayman Islands"
+            },
+            {
+                "ID": "626",
+                "Value": "Central African Republic"
+            },
+            {
+                "ID": "628",
+                "Value": "Chad"
+            },
+            {
+                "ID": "228",
+                "Value": "Chile"
+            },
+            {
+                "ID": "532",
+                "Value": "China, P.R.: Hong Kong"
+            },
+            {
+                "ID": "546",
+                "Value": "China, P.R.: Macao"
+            },
+            {
+                "ID": "924",
+                "Value": "China, P.R.: Mainland"
+            },
+            {
+                "ID": "233",
+                "Value": "Colombia"
+            },
+            {
+                "ID": "632",
+                "Value": "Comoros"
+            },
+            {
+                "ID": "636",
+                "Value": "Congo, Democratic Republic of"
+            },
+            {
+                "ID": "634",
+                "Value": "Congo, Republic of"
+            },
+            {
+                "ID": "815",
+                "Value": "Cook Islands"
+            },
+            {
+                "ID": "238",
+                "Value": "Costa Rica"
+            },
+            {
+                "ID": "662",
+                "Value": "Cote d'Ivoire"
+            },
+            {
+                "ID": "960",
+                "Value": "Croatia"
+            },
+            {
+                "ID": "355",
+                "Value": "Curacao & St. Maarten"
+            },
+            {
+                "ID": "423",
+                "Value": "Cyprus"
+            },
+            {
+                "ID": "935",
+                "Value": "Czech Republic"
+            },
+            {
+                "ID": "128",
+                "Value": "Denmark"
+            },
+            {
+                "ID": "611",
+                "Value": "Djibouti"
+            },
+            {
+                "ID": "321",
+                "Value": "Dominica"
+            },
+            {
+                "ID": "243",
+                "Value": "Dominican Republic"
+            },
+            {
+                "ID": "248",
+                "Value": "Ecuador"
+            },
+            {
+                "ID": "469",
+                "Value": "Egypt"
+            },
+            {
+                "ID": "253",
+                "Value": "El Salvador"
+            },
+            {
+                "ID": "642",
+                "Value": "Equatorial Guinea"
+            },
+            {
+                "ID": "643",
+                "Value": "Eritrea"
+            },
+            {
+                "ID": "939",
+                "Value": "Estonia"
+            },
+            {
+                "ID": "644",
+                "Value": "Ethiopia"
+            },
+            {
+                "ID": "163",
+                "Value": "Euro Area"
+            },
+            {
+                "ID": "819",
+                "Value": "Fiji"
+            },
+            {
+                "ID": "172",
+                "Value": "Finland"
+            },
+            {
+                "ID": "132",
+                "Value": "France"
+            },
+            {
+                "ID": "646",
+                "Value": "Gabon"
+            },
+            {
+                "ID": "648",
+                "Value": "Gambia, The"
+            },
+            {
+                "ID": "915",
+                "Value": "Georgia"
+            },
+            {
+                "ID": "134",
+                "Value": "Germany"
+            },
+            {
+                "ID": "652",
+                "Value": "Ghana"
+            },
+            {
+                "ID": "174",
+                "Value": "Greece"
+            },
+            {
+                "ID": "328",
+                "Value": "Grenada"
+            },
+            {
+                "ID": "258",
+                "Value": "Guatemala"
+            },
+            {
+                "ID": "656",
+                "Value": "Guinea"
+            },
+            {
+                "ID": "654",
+                "Value": "Guinea-Bissau"
+            },
+            {
+                "ID": "336",
+                "Value": "Guyana"
+            },
+            {
+                "ID": "263",
+                "Value": "Haiti"
+            },
+            {
+                "ID": "268",
+                "Value": "Honduras"
+            },
+            {
+                "ID": "944",
+                "Value": "Hungary"
+            },
+            {
+                "ID": "176",
+                "Value": "Iceland"
+            },
+            {
+                "ID": "534",
+                "Value": "India"
+            },
+            {
+                "ID": "536",
+                "Value": "Indonesia"
+            },
+            {
+                "ID": "429",
+                "Value": "Iran, Islamic Republic of"
+            },
+            {
+                "ID": "433",
+                "Value": "Iraq"
+            },
+            {
+                "ID": "178",
+                "Value": "Ireland"
+            },
+            {
+                "ID": "436",
+                "Value": "Israel"
+            },
+            {
+                "ID": "136",
+                "Value": "Italy"
+            },
+            {
+                "ID": "343",
+                "Value": "Jamaica"
+            },
+            {
+                "ID": "158",
+                "Value": "Japan"
+            },
+            {
+                "ID": "439",
+                "Value": "Jordan"
+            },
+            {
+                "ID": "916",
+                "Value": "Kazakhstan"
+            },
+            {
+                "ID": "664",
+                "Value": "Kenya"
+            },
+            {
+                "ID": "826",
+                "Value": "Kiribati"
+            },
+            {
+                "ID": "542",
+                "Value": "Korea, Republic of"
+            },
+            {
+                "ID": "967",
+                "Value": "Kosovo, Republic of"
+            },
+            {
+                "ID": "443",
+                "Value": "Kuwait"
+            },
+            {
+                "ID": "917",
+                "Value": "Kyrgyz Republic"
+            },
+            {
+                "ID": "544",
+                "Value": "Lao People's Democratic Republic"
+            },
+            {
+                "ID": "941",
+                "Value": "Latvia"
+            },
+            {
+                "ID": "446",
+                "Value": "Lebanon"
+            },
+            {
+                "ID": "666",
+                "Value": "Lesotho"
+            },
+            {
+                "ID": "668",
+                "Value": "Liberia"
+            },
+            {
+                "ID": "672",
+                "Value": "Libya"
+            },
+            {
+                "ID": "946",
+                "Value": "Lithuania"
+            },
+            {
+                "ID": "137",
+                "Value": "Luxembourg"
+            },
+            {
+                "ID": "962",
+                "Value": "Macedonia, FYR"
+            },
+            {
+                "ID": "674",
+                "Value": "Madagascar"
+            },
+            {
+                "ID": "676",
+                "Value": "Malawi"
+            },
+            {
+                "ID": "548",
+                "Value": "Malaysia"
+            },
+            {
+                "ID": "556",
+                "Value": "Maldives"
+            },
+            {
+                "ID": "678",
+                "Value": "Mali"
+            },
+            {
+                "ID": "181",
+                "Value": "Malta"
+            },
+            {
+                "ID": "867",
+                "Value": "Marshall Islands, Republic of"
+            },
+            {
+                "ID": "682",
+                "Value": "Mauritania"
+            },
+            {
+                "ID": "684",
+                "Value": "Mauritius"
+            },
+            {
+                "ID": "273",
+                "Value": "Mexico"
+            },
+            {
+                "ID": "868",
+                "Value": "Micronesia, Federated States of"
+            },
+            {
+                "ID": "921",
+                "Value": "Moldova"
+            },
+            {
+                "ID": "183",
+                "Value": "Monaco"
+            },
+            {
+                "ID": "948",
+                "Value": "Mongolia"
+            },
+            {
+                "ID": "943",
+                "Value": "Montenegro"
+            },
+            {
+                "ID": "351",
+                "Value": "Montserrat"
+            },
+            {
+                "ID": "686",
+                "Value": "Morocco"
+            },
+            {
+                "ID": "688",
+                "Value": "Mozambique"
+            },
+            {
+                "ID": "518",
+                "Value": "Myanmar"
+            },
+            {
+                "ID": "728",
+                "Value": "Namibia"
+            },
+            {
+                "ID": "836",
+                "Value": "Nauru"
+            },
+            {
+                "ID": "558",
+                "Value": "Nepal"
+            },
+            {
+                "ID": "138",
+                "Value": "Netherlands"
+            },
+            {
+                "ID": "353",
+                "Value": "Netherlands Antilles"
+            },
+            {
+                "ID": "196",
+                "Value": "New Zealand"
+            },
+            {
+                "ID": "278",
+                "Value": "Nicaragua"
+            },
+            {
+                "ID": "692",
+                "Value": "Niger"
+            },
+            {
+                "ID": "694",
+                "Value": "Nigeria"
+            },
+            {
+                "ID": "142",
+                "Value": "Norway"
+            },
+            {
+                "ID": "449",
+                "Value": "Oman"
+            },
+            {
+                "ID": "564",
+                "Value": "Pakistan"
+            },
+            {
+                "ID": "565",
+                "Value": "Palau"
+            },
+            {
+                "ID": "283",
+                "Value": "Panama"
+            },
+            {
+                "ID": "853",
+                "Value": "Papua New Guinea"
+            },
+            {
+                "ID": "288",
+                "Value": "Paraguay"
+            },
+            {
+                "ID": "293",
+                "Value": "Peru"
+            },
+            {
+                "ID": "566",
+                "Value": "Philippines"
+            },
+            {
+                "ID": "964",
+                "Value": "Poland"
+            },
+            {
+                "ID": "182",
+                "Value": "Portugal"
+            },
+            {
+                "ID": "453",
+                "Value": "Qatar"
+            },
+            {
+                "ID": "968",
+                "Value": "Romania"
+            },
+            {
+                "ID": "922",
+                "Value": "Russian Federation"
+            },
+            {
+                "ID": "714",
+                "Value": "Rwanda"
+            },
+            {
+                "ID": "862",
+                "Value": "Samoa"
+            },
+            {
+                "ID": "135",
+                "Value": "San Marino"
+            },
+            {
+                "ID": "716",
+                "Value": "Sao Tome and Principe"
+            },
+            {
+                "ID": "456",
+                "Value": "Saudi Arabia"
+            },
+            {
+                "ID": "722",
+                "Value": "Senegal"
+            },
+            {
+                "ID": "965",
+                "Value": "Serbia and Montenegro"
+            },
+            {
+                "ID": "942",
+                "Value": "Serbia, Republic of"
+            },
+            {
+                "ID": "718",
+                "Value": "Seychelles"
+            },
+            {
+                "ID": "724",
+                "Value": "Sierra Leone"
+            },
+            {
+                "ID": "576",
+                "Value": "Singapore"
+            },
+            {
+                "ID": "936",
+                "Value": "Slovak Republic"
+            },
+            {
+                "ID": "961",
+                "Value": "Slovenia"
+            },
+            {
+                "ID": "813",
+                "Value": "Solomon Islands"
+            },
+            {
+                "ID": "726",
+                "Value": "Somalia"
+            },
+            {
+                "ID": "199",
+                "Value": "South Africa"
+            },
+            {
+                "ID": "733",
+                "Value": "South Sudan"
+            },
+            {
+                "ID": "184",
+                "Value": "Spain"
+            },
+            {
+                "ID": "524",
+                "Value": "Sri Lanka"
+            },
+            {
+                "ID": "361",
+                "Value": "St. Kitts and Nevis"
+            },
+            {
+                "ID": "362",
+                "Value": "St. Lucia"
+            },
+            {
+                "ID": "364",
+                "Value": "St. Vincent and the Grenadines"
+            },
+            {
+                "ID": "732",
+                "Value": "Sudan"
+            },
+            {
+                "ID": "366",
+                "Value": "Suriname"
+            },
+            {
+                "ID": "734",
+                "Value": "Swaziland"
+            },
+            {
+                "ID": "144",
+                "Value": "Sweden"
+            },
+            {
+                "ID": "146",
+                "Value": "Switzerland"
+            },
+            {
+                "ID": "463",
+                "Value": "Syrian Arab Republic"
+            },
+            {
+                "ID": "923",
+                "Value": "Tajikistan"
+            },
+            {
+                "ID": "738",
+                "Value": "Tanzania"
+            },
+            {
+                "ID": "578",
+                "Value": "Thailand"
+            },
+            {
+                "ID": "537",
+                "Value": "Timor-Leste, Dem. Rep. of"
+            },
+            {
+                "ID": "742",
+                "Value": "Togo"
+            },
+            {
+                "ID": "866",
+                "Value": "Tonga"
+            },
+            {
+                "ID": "369",
+                "Value": "Trinidad and Tobago"
+            },
+            {
+                "ID": "744",
+                "Value": "Tunisia"
+            },
+            {
+                "ID": "186",
+                "Value": "Turkey"
+            },
+            {
+                "ID": "925",
+                "Value": "Turkmenistan"
+            },
+            {
+                "ID": "869",
+                "Value": "Tuvalu"
+            },
+            {
+                "ID": "746",
+                "Value": "Uganda"
+            },
+            {
+                "ID": "926",
+                "Value": "Ukraine"
+            },
+            {
+                "ID": "466",
+                "Value": "United Arab Emirates"
+            },
+            {
+                "ID": "112",
+                "Value": "United Kingdom"
+            },
+            {
+                "ID": "111",
+                "Value": "United States"
+            },
+            {
+                "ID": "298",
+                "Value": "Uruguay"
+            },
+            {
+                "ID": "927",
+                "Value": "Uzbekistan"
+            },
+            {
+                "ID": "846",
+                "Value": "Vanuatu"
+            },
+            {
+                "ID": "299",
+                "Value": "Venezuela, Republica Bolivariana de"
+            },
+            {
+                "ID": "582",
+                "Value": "Vietnam"
+            },
+            {
+                "ID": "487",
+                "Value": "West Bank and Gaza"
+            },
+            {
+                "ID": "473",
+                "Value": "Yemen Arab Rep."
+            },
+            {
+                "ID": "474",
+                "Value": "Yemen, Republic of"
+            },
+            {
+                "ID": "754",
+                "Value": "Zambia"
+            },
+            {
+                "ID": "698",
+                "Value": "Zimbabwe"
+            }
+        ],
+        "Sector": [
+            {
+                "ID": "S1311B",
+                "Value": "Budgetary central government"
+            },
+            {
+                "ID": "S1311",
+                "Value": "Central government (excl. social security funds)"
+            },
+            {
+                "ID": "S1321",
+                "Value": "Central government (incl. social security funds)"
+            },
+            {
+                "ID": "S13112",
+                "Value": "Extrabudgetary central government"
+            },
+            {
+                "ID": "S13",
+                "Value": "General government"
+            },
+            {
+                "ID": "S1313",
+                "Value": "Local governments"
+            },
+            {
+                "ID": "S1314",
+                "Value": "Social security funds"
+            },
+            {
+                "ID": "S1312",
+                "Value": "State governments"
+            }
+        ],
+        "Unit": [
+            {
+                "ID": "XDC",
+                "Value": "Domestic currency"
+            },
+            {
+                "ID": "XDC_R_B1GQ",
+                "Value": "Percent of GDP"
+            }
+        ],
+        "GFS STO": [
+            {
+                "ID": "G42",
+                "Value": "Holding gains and losses in financial assets"
+            },
+            {
+                "ID": "G43",
+                "Value": "Holding gains and losses in liabilities"
+            },
+            {
+                "ID": "G41",
+                "Value": "Holding gains and losses in nonfinancial assets"
+            },
+            {
+                "ID": "G31",
+                "Value": "Investment in nonfinancial assets"
+            },
+            {
+                "ID": "G32",
+                "Value": "Net acquisition of financial assets"
+            },
+            {
+                "ID": "G33",
+                "Value": "Net incurrence of liabilities"
+            },
+            {
+                "ID": "G92",
+                "Value": "Other economic flows in financial assets"
+            },
+            {
+                "ID": "G93",
+                "Value": "Other economic flows in liabilities"
+            },
+            {
+                "ID": "G91",
+                "Value": "Other economic flows in nonfinancial assets"
+            },
+            {
+                "ID": "G62",
+                "Value": "Stock position financial assets"
+            },
+            {
+                "ID": "G63",
+                "Value": "Stock position liabilities"
+            },
+            {
+                "ID": "G61",
+                "Value": "Stock position of nonfinancial assets"
+            },
+            {
+                "ID": "G52",
+                "Value": "Volume changes in financial assets"
+            },
+            {
+                "ID": "G53",
+                "Value": "Volume changes in liabilities"
+            },
+            {
+                "ID": "G51",
+                "Value": "Volume changes in nonfinancial assets"
+            }
+        ],
+        "Other": [
+            {
+                "ID": "N11",
+                "Value": "Buildings & structures"
+            },
+            {
+                "ID": "F64",
+                "Value": "Claims of pension funds on pension managers "
+            },
+            {
+                "ID": "F2",
+                "Value": "Currency & deposits "
+            },
+            {
+                "ID": "F3",
+                "Value": "Debt securities "
+            },
+            {
+                "ID": "F5",
+                "Value": "Equity & investment fund shares"
+            },
+            {
+                "ID": "F7",
+                "Value": "Financial derivatives & employee stock options "
+            },
+            {
+                "ID": "N1",
+                "Value": "Fixed assets"
+            },
+            {
+                "ID": "F6",
+                "Value": "Insurance, pension, & standardized guarantee schemes (IPSGS)"
+            },
+            {
+                "ID": "N44",
+                "Value": "Intangible nonproduced assets"
+            },
+            {
+                "ID": "N2",
+                "Value": "Inventories"
+            },
+            {
+                "ID": "N41",
+                "Value": "Land"
+            },
+            {
+                "ID": "F62",
+                "Value": "Life insurance & annuity entitlements "
+            },
+            {
+                "ID": "F4",
+                "Value": "Loans "
+            },
+            {
+                "ID": "N12",
+                "Value": "Machinery & equipment"
+            },
+            {
+                "ID": "N42",
+                "Value": "Mineral & energy resources"
+            },
+            {
+                "ID": "F1",
+                "Value": "Monetary gold & SDRs "
+            },
+            {
+                "ID": "F61",
+                "Value": "Nonlife insurance technical reserves"
+            },
+            {
+                "ID": "N4",
+                "Value": "Nonproduced nonfinancial assets"
+            },
+            {
+                "ID": "F8",
+                "Value": "Other accounts receivable/payable (OAR/OAP)"
+            },
+            {
+                "ID": "N13",
+                "Value": "Other fixed assets"
+            },
+            {
+                "ID": "N43",
+                "Value": "Other naturally occurring assets"
+            },
+            {
+                "ID": "F63",
+                "Value": "Pension entitlements [GFS]"
+            },
+            {
+                "ID": "F65",
+                "Value": "Provisions for calls under standardized guarantees "
+            },
+            {
+                "ID": "F12",
+                "Value": "SDRs "
+            },
+            {
+                "ID": "F",
+                "Value": "Total financial assets/liabilities "
+            },
+            {
+                "ID": "N",
+                "Value": "Total nonfinancial assets"
+            },
+            {
+                "ID": "N3",
+                "Value": "Valuables"
+            },
+            {
+                "ID": "N14",
+                "Value": "Weapons systems"
+            }
+        ],
+        "Counterpart Area": [
+            {
+                "ID": "D",
+                "Value": "Domestic"
+            },
+            {
+                "ID": "E",
+                "Value": "External"
+            },
+            {
+                "ID": "T",
+                "Value": "Total"
+            }
+        ]
+    }
+}
