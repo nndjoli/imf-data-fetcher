@@ -1,0 +1,871 @@
+{
+    "Fiscal Decentralization": {
+        "Base": {
+            "Database ID": "FISCALDECENTRALIZATION",
+            "Database Name": "Fiscal Decentralization",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR",
+            "Example URL Description": "Returns all the FISCALDECENTRALIZATION indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ],
+        "Country": [
+            {
+                "ID": "AF",
+                "Value": "Afghanistan"
+            },
+            {
+                "ID": "AL",
+                "Value": "Albania"
+            },
+            {
+                "ID": "AM",
+                "Value": "Armenia"
+            },
+            {
+                "ID": "AU",
+                "Value": "Australia"
+            },
+            {
+                "ID": "AT",
+                "Value": "Austria"
+            },
+            {
+                "ID": "AZ",
+                "Value": "Azerbaijan"
+            },
+            {
+                "ID": "BY",
+                "Value": "Belarus"
+            },
+            {
+                "ID": "BE",
+                "Value": "Belgium"
+            },
+            {
+                "ID": "BA",
+                "Value": "Bosnia and Herzegovina"
+            },
+            {
+                "ID": "BR",
+                "Value": "Brazil"
+            },
+            {
+                "ID": "BG",
+                "Value": "Bulgaria"
+            },
+            {
+                "ID": "CV",
+                "Value": "Cabo Verde"
+            },
+            {
+                "ID": "KH",
+                "Value": "Cambodia"
+            },
+            {
+                "ID": "CA",
+                "Value": "Canada"
+            },
+            {
+                "ID": "CL",
+                "Value": "Chile"
+            },
+            {
+                "ID": "CN",
+                "Value": "China"
+            },
+            {
+                "ID": "CO",
+                "Value": "Colombia"
+            },
+            {
+                "ID": "CR",
+                "Value": "Costa Rica"
+            },
+            {
+                "ID": "HR",
+                "Value": "Croatia"
+            },
+            {
+                "ID": "CY",
+                "Value": "Cyprus"
+            },
+            {
+                "ID": "CZ",
+                "Value": "Czech Republic"
+            },
+            {
+                "ID": "DK",
+                "Value": "Denmark"
+            },
+            {
+                "ID": "SV",
+                "Value": "El Salvador"
+            },
+            {
+                "ID": "EE",
+                "Value": "Estonia"
+            },
+            {
+                "ID": "FI",
+                "Value": "Finland"
+            },
+            {
+                "ID": "FR",
+                "Value": "France"
+            },
+            {
+                "ID": "GE",
+                "Value": "Georgia"
+            },
+            {
+                "ID": "DE",
+                "Value": "Germany"
+            },
+            {
+                "ID": "GR",
+                "Value": "Greece"
+            },
+            {
+                "ID": "GT",
+                "Value": "Guatemala"
+            },
+            {
+                "ID": "HN",
+                "Value": "Honduras"
+            },
+            {
+                "ID": "HU",
+                "Value": "Hungary"
+            },
+            {
+                "ID": "IS",
+                "Value": "Iceland"
+            },
+            {
+                "ID": "ID",
+                "Value": "Indonesia"
+            },
+            {
+                "ID": "IR",
+                "Value": "Iran, Islamic Republic of"
+            },
+            {
+                "ID": "IE",
+                "Value": "Ireland"
+            },
+            {
+                "ID": "IL",
+                "Value": "Israel"
+            },
+            {
+                "ID": "IT",
+                "Value": "Italy"
+            },
+            {
+                "ID": "JP",
+                "Value": "Japan"
+            },
+            {
+                "ID": "KZ",
+                "Value": "Kazakhstan"
+            },
+            {
+                "ID": "KE",
+                "Value": "Kenya"
+            },
+            {
+                "ID": "KI",
+                "Value": "Kiribati"
+            },
+            {
+                "ID": "KR",
+                "Value": "Korea, Republic of"
+            },
+            {
+                "ID": "KG",
+                "Value": "Kyrgyzstan"
+            },
+            {
+                "ID": "LV",
+                "Value": "Latvia"
+            },
+            {
+                "ID": "LT",
+                "Value": "Lithuania"
+            },
+            {
+                "ID": "LU",
+                "Value": "Luxembourg"
+            },
+            {
+                "ID": "MT",
+                "Value": "Malta"
+            },
+            {
+                "ID": "MH",
+                "Value": "Marshall islands"
+            },
+            {
+                "ID": "MU",
+                "Value": "Mauritius"
+            },
+            {
+                "ID": "MX",
+                "Value": "Mexico"
+            },
+            {
+                "ID": "MD",
+                "Value": "Moldova, Republic of"
+            },
+            {
+                "ID": "MN",
+                "Value": "Mongolia"
+            },
+            {
+                "ID": "MM",
+                "Value": "Myanmar"
+            },
+            {
+                "ID": "NA",
+                "Value": "Namibia"
+            },
+            {
+                "ID": "NP",
+                "Value": "Nepal"
+            },
+            {
+                "ID": "NL",
+                "Value": "Netherlands"
+            },
+            {
+                "ID": "NZ",
+                "Value": "New Zealand"
+            },
+            {
+                "ID": "MK",
+                "Value": "North Macedonia, Republic of"
+            },
+            {
+                "ID": "NO",
+                "Value": "Norway"
+            },
+            {
+                "ID": "PW",
+                "Value": "Palau"
+            },
+            {
+                "ID": "PY",
+                "Value": "Paraguay"
+            },
+            {
+                "ID": "PE",
+                "Value": "Peru"
+            },
+            {
+                "ID": "PL",
+                "Value": "Poland"
+            },
+            {
+                "ID": "PT",
+                "Value": "Portugal"
+            },
+            {
+                "ID": "RO",
+                "Value": "Romania"
+            },
+            {
+                "ID": "RU",
+                "Value": "Russian Federation"
+            },
+            {
+                "ID": "RW",
+                "Value": "Rwanda"
+            },
+            {
+                "ID": "SN",
+                "Value": "Senegal"
+            },
+            {
+                "ID": "RS",
+                "Value": "Serbia"
+            },
+            {
+                "ID": "SK",
+                "Value": "Slovakia"
+            },
+            {
+                "ID": "SI",
+                "Value": "Slovenia"
+            },
+            {
+                "ID": "SO",
+                "Value": "Somalia"
+            },
+            {
+                "ID": "ZA",
+                "Value": "South Africa"
+            },
+            {
+                "ID": "ES",
+                "Value": "Spain"
+            },
+            {
+                "ID": "SE",
+                "Value": "Sweden"
+            },
+            {
+                "ID": "CH",
+                "Value": "Switzerland"
+            },
+            {
+                "ID": "TH",
+                "Value": "Thailand"
+            },
+            {
+                "ID": "TN",
+                "Value": "Tunisia"
+            },
+            {
+                "ID": "TR",
+                "Value": "Turkey"
+            },
+            {
+                "ID": "UG",
+                "Value": "Uganda"
+            },
+            {
+                "ID": "UA",
+                "Value": "Ukraine"
+            },
+            {
+                "ID": "AE",
+                "Value": "United Arab Emirates"
+            },
+            {
+                "ID": "GB",
+                "Value": "United Kingdom"
+            },
+            {
+                "ID": "US",
+                "Value": "United States"
+            },
+            {
+                "ID": "UZ",
+                "Value": "Uzbekistan"
+            }
+        ],
+        "Indicator": {
+            "Capital spending": {
+                "share of general government": {
+                    "ID": "cs",
+                    "Value": "Capital spending, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.cs?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.cs",
+                    "Example URL Description": "Returns the Capital spending, share of general government indicator for France at A frequency."
+                }
+            },
+            "Compensation of employees": {
+                "share of general government": {
+                    "ID": "comp",
+                    "Value": "Compensation of employees, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.comp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.comp",
+                    "Example URL Description": "Returns the Compensation of employees, share of general government indicator for France at A frequency."
+                }
+            },
+            "Consumption of fixed capital": {
+                "share of general government": {
+                    "ID": "cfc",
+                    "Value": "Consumption of fixed capital, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.cfc?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.cfc",
+                    "Example URL Description": "Returns the Consumption of fixed capital, share of general government indicator for France at A frequency."
+                }
+            },
+            "Debt": {
+                "share of own revenue": {
+                    "ID": "debt",
+                    "Value": "Debt, share of own revenue",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.debt?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.debt",
+                    "Example URL Description": "Returns the Debt, share of own revenue indicator for France at A frequency."
+                }
+            },
+            "Defense": {
+                "share of general government": {
+                    "ID": "defense",
+                    "Value": "Defense, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.defense?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.defense",
+                    "Example URL Description": "Returns the Defense, share of general government indicator for France at A frequency."
+                }
+            },
+            "Deficit": {
+                "share of own spending": {
+                    "ID": "deficit",
+                    "Value": "Deficit, share of own spending",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.deficit?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.deficit",
+                    "Example URL Description": "Returns the Deficit, share of own spending indicator for France at A frequency."
+                }
+            },
+            "Economic affairs": {
+                "share of general government": {
+                    "ID": "ea",
+                    "Value": "Economic affairs, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ea?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ea",
+                    "Example URL Description": "Returns the Economic affairs, share of general government indicator for France at A frequency."
+                }
+            },
+            "Education": {
+                "share of general government": {
+                    "ID": "edu",
+                    "Value": "Education, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.edu?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.edu",
+                    "Example URL Description": "Returns the Education, share of general government indicator for France at A frequency."
+                }
+            },
+            "Environmental protection": {
+                "share of general government": {
+                    "ID": "ep",
+                    "Value": "Environmental protection, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ep?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ep",
+                    "Example URL Description": "Returns the Environmental protection, share of general government indicator for France at A frequency."
+                }
+            },
+            "Excise": {
+                "share of general government": {
+                    "ID": "exc",
+                    "Value": "Excise, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.exc?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.exc",
+                    "Example URL Description": "Returns the Excise, share of general government indicator for France at A frequency."
+                }
+            },
+            "Expenditure decentralization (ratio of own spending to general government spending)": {
+                "General": {
+                    "ID": "sd",
+                    "Value": "Expenditure decentralization (ratio of own spending to general government spending)",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sd?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sd",
+                    "Example URL Description": "Returns the Expenditure decentralization (ratio of own spending to general government spending) indicator for France at A frequency."
+                }
+            },
+            "General public services": {
+                "share of general government": {
+                    "ID": "gps",
+                    "Value": "General public services, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.gps?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.gps",
+                    "Example URL Description": "Returns the General public services, share of general government indicator for France at A frequency."
+                }
+            },
+            "Goods and Services": {
+                "share of general government": {
+                    "ID": "gs",
+                    "Value": "Goods and Services, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.gs?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.gs",
+                    "Example URL Description": "Returns the Goods and Services, share of general government indicator for France at A frequency."
+                }
+            },
+            "Health": {
+                "share of general government": {
+                    "ID": "health",
+                    "Value": "Health, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.health?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.health",
+                    "Example URL Description": "Returns the Health, share of general government indicator for France at A frequency."
+                }
+            },
+            "Housing & community ammenities": {
+                "share of general government": {
+                    "ID": "hca",
+                    "Value": "Housing & community ammenities, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.hca?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.hca",
+                    "Example URL Description": "Returns the Housing & community ammenities, share of general government indicator for France at A frequency."
+                }
+            },
+            "Income": {
+                "Profits": {
+                    "ID": "ipcg",
+                    "Value": "Income, Profits, Capital Gains, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ipcg?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ipcg",
+                    "Example URL Description": "Returns the Income, Profits, Capital Gains, share of general government indicator for France at A frequency."
+                }
+            },
+            "Interest": {
+                "share of general government": {
+                    "ID": "interest",
+                    "Value": "Interest, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.interest?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.interest",
+                    "Example URL Description": "Returns the Interest, share of general government indicator for France at A frequency."
+                }
+            },
+            "International Trade": {
+                "share of general government": {
+                    "ID": "it",
+                    "Value": "International Trade, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.it?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.it",
+                    "Example URL Description": "Returns the International Trade, share of general government indicator for France at A frequency."
+                }
+            },
+            "Other expenses": {
+                "share of general government": {
+                    "ID": "oe",
+                    "Value": "Other expenses, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.oe?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.oe",
+                    "Example URL Description": "Returns the Other expenses, share of general government indicator for France at A frequency."
+                }
+            },
+            "Other revenue": {
+                "share of general government": {
+                    "ID": "or",
+                    "Value": "Other revenue, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.or?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.or",
+                    "Example URL Description": "Returns the Other revenue, share of general government indicator for France at A frequency."
+                }
+            },
+            "Other Taxes": {
+                "share of general government": {
+                    "ID": "ot",
+                    "Value": "Other Taxes, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ot?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ot",
+                    "Example URL Description": "Returns the Other Taxes, share of general government indicator for France at A frequency."
+                }
+            },
+            "Payroll": {
+                "share of general government": {
+                    "ID": "payroll",
+                    "Value": "Payroll, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.payroll?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.payroll",
+                    "Example URL Description": "Returns the Payroll, share of general government indicator for France at A frequency."
+                }
+            },
+            "Property": {
+                "share of general government": {
+                    "ID": "property",
+                    "Value": "Property, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.property?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.property",
+                    "Example URL Description": "Returns the Property, share of general government indicator for France at A frequency."
+                }
+            },
+            "Public order & safety": {
+                "share of general government": {
+                    "ID": "pos",
+                    "Value": "Public order & safety, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.pos?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.pos",
+                    "Example URL Description": "Returns the Public order & safety, share of general government indicator for France at A frequency."
+                }
+            },
+            "Recreation": {
+                "share of general government": {
+                    "ID": "recreation",
+                    "Value": "Recreation, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.recreation?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.recreation",
+                    "Example URL Description": "Returns the Recreation, share of general government indicator for France at A frequency."
+                }
+            },
+            "Revenue decentralization (ratio of own revenues to general government revenues)": {
+                "General": {
+                    "ID": "rd",
+                    "Value": "Revenue decentralization (ratio of own revenues to general government revenues)",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.rd?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.rd",
+                    "Example URL Description": "Returns the Revenue decentralization (ratio of own revenues to general government revenues) indicator for France at A frequency."
+                }
+            },
+            "Social benefits": {
+                "share of general government": {
+                    "ID": "sb",
+                    "Value": "Social benefits, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sb?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sb",
+                    "Example URL Description": "Returns the Social benefits, share of general government indicator for France at A frequency."
+                }
+            },
+            "Social contributions": {
+                "share of general government": {
+                    "ID": "sc",
+                    "Value": "Social contributions, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sc?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sc",
+                    "Example URL Description": "Returns the Social contributions, share of general government indicator for France at A frequency."
+                }
+            },
+            "Social protection": {
+                "share of general government": {
+                    "ID": "sp",
+                    "Value": "Social protection, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sp?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.sp",
+                    "Example URL Description": "Returns the Social protection, share of general government indicator for France at A frequency."
+                }
+            },
+            "Subsidies": {
+                "share of general government": {
+                    "ID": "subs",
+                    "Value": "Subsidies, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.subs?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.subs",
+                    "Example URL Description": "Returns the Subsidies, share of general government indicator for France at A frequency."
+                }
+            },
+            "Tax revenue decentralization (share of general government)": {
+                "General": {
+                    "ID": "taxd",
+                    "Value": "Tax revenue decentralization (share of general government)",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.taxd?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.taxd",
+                    "Example URL Description": "Returns the Tax revenue decentralization (share of general government) indicator for France at A frequency."
+                }
+            },
+            "Transfer dependency method 1": {
+                "ratio of net transfers to own spending": {
+                    "ID": "transferDep1",
+                    "Value": "Transfer dependency method 1, ratio of net transfers to own spending",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.transferDep1?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.transferDep1",
+                    "Example URL Description": "Returns the Transfer dependency method 1, ratio of net transfers to own spending indicator for France at A frequency."
+                }
+            },
+            "Transfer dependency method 2": {
+                "ratio of net transfers to own revenue": {
+                    "ID": "transferDep2",
+                    "Value": "Transfer dependency method 2, ratio of net transfers to own revenue",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.transferDep2?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.transferDep2",
+                    "Example URL Description": "Returns the Transfer dependency method 2, ratio of net transfers to own revenue indicator for France at A frequency."
+                }
+            },
+            "Use of goods & services": {
+                "share of general government": {
+                    "ID": "ugs",
+                    "Value": "Use of goods & services, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ugs?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.ugs",
+                    "Example URL Description": "Returns the Use of goods & services, share of general government indicator for France at A frequency."
+                }
+            },
+            "VAT": {
+                "share of general government": {
+                    "ID": "vat",
+                    "Value": "VAT, share of general government",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.vat?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.vat",
+                    "Example URL Description": "Returns the VAT, share of general government indicator for France at A frequency."
+                }
+            },
+            "Vertical Fiscal Imbalance (1- ratio of own revenue to own spending)": {
+                "General": {
+                    "ID": "vfi",
+                    "Value": "Vertical Fiscal Imbalance (1- ratio of own revenue to own spending)",
+                    "Indicator Database": "FISCALDECENTRALIZATION",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.vfi?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FISCALDECENTRALIZATION/A.FR.vfi",
+                    "Example URL Description": "Returns the Vertical Fiscal Imbalance (1- ratio of own revenue to own spending) indicator for France at A frequency."
+                }
+            }
+        },
+        "Sector": [
+            {
+                "ID": "1C_CG",
+                "Value": "Central Government"
+            },
+            {
+                "ID": "1C_LG",
+                "Value": "Local Government"
+            },
+            {
+                "ID": "1C_SG",
+                "Value": "State Government"
+            },
+            {
+                "ID": "1C_SNG",
+                "Value": "Subnational Government"
+            }
+        ]
+    }
+}

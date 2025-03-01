@@ -1,0 +1,37 @@
+{
+    "Sustainable Development Goals, IMF Inputs": {
+        "Base": {
+            "Database ID": "UNSDG_IMF_INPUTS",
+            "Database Name": "Sustainable Development Goals, IMF Inputs",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/UNSDG_IMF_INPUTS/A.FR",
+            "Example URL Description": "Returns all the UNSDG_IMF_INPUTS indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ]
+    }
+}

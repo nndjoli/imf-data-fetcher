@@ -1,0 +1,926 @@
+{
+    "Financial Development Index": {
+        "Base": {
+            "Database ID": "FDI",
+            "Database Name": "Financial Development Index",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR",
+            "Example URL Description": "Returns all the FDI indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ],
+        "Area": [
+            {
+                "ID": "AL",
+                "Value": "Albania"
+            },
+            {
+                "ID": "DZ",
+                "Value": "Algeria"
+            },
+            {
+                "ID": "AO",
+                "Value": "Angola"
+            },
+            {
+                "ID": "AG",
+                "Value": "Antigua and Barbuda"
+            },
+            {
+                "ID": "AR",
+                "Value": "Argentina"
+            },
+            {
+                "ID": "AM",
+                "Value": "Armenia"
+            },
+            {
+                "ID": "AW",
+                "Value": "Aruba"
+            },
+            {
+                "ID": "AU",
+                "Value": "Australia"
+            },
+            {
+                "ID": "AT",
+                "Value": "Austria"
+            },
+            {
+                "ID": "AZ",
+                "Value": "Azerbaijan"
+            },
+            {
+                "ID": "BS",
+                "Value": "Bahamas"
+            },
+            {
+                "ID": "BH",
+                "Value": "Bahrain"
+            },
+            {
+                "ID": "BD",
+                "Value": "Bangladesh"
+            },
+            {
+                "ID": "BB",
+                "Value": "Barbados"
+            },
+            {
+                "ID": "BY",
+                "Value": "Belarus"
+            },
+            {
+                "ID": "BE",
+                "Value": "Belgium"
+            },
+            {
+                "ID": "BZ",
+                "Value": "Belize"
+            },
+            {
+                "ID": "BJ",
+                "Value": "Benin"
+            },
+            {
+                "ID": "BT",
+                "Value": "Bhutan"
+            },
+            {
+                "ID": "BO",
+                "Value": "Bolivia"
+            },
+            {
+                "ID": "BA",
+                "Value": "Bosnia and Herzegovina"
+            },
+            {
+                "ID": "BW",
+                "Value": "Botswana"
+            },
+            {
+                "ID": "BR",
+                "Value": "Brazil"
+            },
+            {
+                "ID": "BN",
+                "Value": "Brunei Darussalam"
+            },
+            {
+                "ID": "BG",
+                "Value": "Bulgaria"
+            },
+            {
+                "ID": "BF",
+                "Value": "Burkina Faso"
+            },
+            {
+                "ID": "BI",
+                "Value": "Burundi"
+            },
+            {
+                "ID": "CV",
+                "Value": "Cabo Verde"
+            },
+            {
+                "ID": "KH",
+                "Value": "Cambodia"
+            },
+            {
+                "ID": "CM",
+                "Value": "Cameroon"
+            },
+            {
+                "ID": "CA",
+                "Value": "Canada"
+            },
+            {
+                "ID": "CF",
+                "Value": "Central African Republic"
+            },
+            {
+                "ID": "TD",
+                "Value": "Chad"
+            },
+            {
+                "ID": "CL",
+                "Value": "Chile"
+            },
+            {
+                "ID": "HK",
+                "Value": "Hong Kong, China"
+            },
+            {
+                "ID": "MO",
+                "Value": "Macao"
+            },
+            {
+                "ID": "CN",
+                "Value": "China"
+            },
+            {
+                "ID": "CO",
+                "Value": "Colombia"
+            },
+            {
+                "ID": "KM",
+                "Value": "Comoros"
+            },
+            {
+                "ID": "CD",
+                "Value": "Congo, the Democratic Republic of the"
+            },
+            {
+                "ID": "CG",
+                "Value": "Congo"
+            },
+            {
+                "ID": "CR",
+                "Value": "Costa Rica"
+            },
+            {
+                "ID": "CI",
+                "Value": "Cote d`Ivoire"
+            },
+            {
+                "ID": "HR",
+                "Value": "Croatia"
+            },
+            {
+                "ID": "CY",
+                "Value": "Cyprus"
+            },
+            {
+                "ID": "CZ",
+                "Value": "Czech Republic"
+            },
+            {
+                "ID": "DK",
+                "Value": "Denmark"
+            },
+            {
+                "ID": "DJ",
+                "Value": "Djibouti"
+            },
+            {
+                "ID": "DM",
+                "Value": "Dominica"
+            },
+            {
+                "ID": "DO",
+                "Value": "Dominican Republic"
+            },
+            {
+                "ID": "EC",
+                "Value": "Ecuador"
+            },
+            {
+                "ID": "EG",
+                "Value": "Egypt"
+            },
+            {
+                "ID": "SV",
+                "Value": "El Salvador"
+            },
+            {
+                "ID": "GQ",
+                "Value": "Equatorial Guinea"
+            },
+            {
+                "ID": "ER",
+                "Value": "Eritrea"
+            },
+            {
+                "ID": "EE",
+                "Value": "Estonia"
+            },
+            {
+                "ID": "SZ",
+                "Value": "Eswatini"
+            },
+            {
+                "ID": "ET",
+                "Value": "Ethiopia"
+            },
+            {
+                "ID": "FJ",
+                "Value": "Fiji"
+            },
+            {
+                "ID": "FI",
+                "Value": "Finland"
+            },
+            {
+                "ID": "FR",
+                "Value": "France"
+            },
+            {
+                "ID": "PF",
+                "Value": "French Polynesia"
+            },
+            {
+                "ID": "GA",
+                "Value": "Gabon"
+            },
+            {
+                "ID": "GM",
+                "Value": "Gambia"
+            },
+            {
+                "ID": "GE",
+                "Value": "Georgia"
+            },
+            {
+                "ID": "DE",
+                "Value": "Germany"
+            },
+            {
+                "ID": "GH",
+                "Value": "Ghana"
+            },
+            {
+                "ID": "GR",
+                "Value": "Greece"
+            },
+            {
+                "ID": "GD",
+                "Value": "Grenada"
+            },
+            {
+                "ID": "GT",
+                "Value": "Guatemala"
+            },
+            {
+                "ID": "GN",
+                "Value": "Guinea"
+            },
+            {
+                "ID": "GW",
+                "Value": "Guinea-Bissau"
+            },
+            {
+                "ID": "GY",
+                "Value": "Guyana"
+            },
+            {
+                "ID": "HT",
+                "Value": "Haiti"
+            },
+            {
+                "ID": "HN",
+                "Value": "Honduras"
+            },
+            {
+                "ID": "HU",
+                "Value": "Hungary"
+            },
+            {
+                "ID": "IS",
+                "Value": "Iceland"
+            },
+            {
+                "ID": "IN",
+                "Value": "India"
+            },
+            {
+                "ID": "ID",
+                "Value": "Indonesia"
+            },
+            {
+                "ID": "IR",
+                "Value": "Iran, Islamic Republic of"
+            },
+            {
+                "ID": "IE",
+                "Value": "Ireland"
+            },
+            {
+                "ID": "IL",
+                "Value": "Israel"
+            },
+            {
+                "ID": "IT",
+                "Value": "Italy"
+            },
+            {
+                "ID": "JM",
+                "Value": "Jamaica"
+            },
+            {
+                "ID": "JP",
+                "Value": "Japan"
+            },
+            {
+                "ID": "JO",
+                "Value": "Jordan"
+            },
+            {
+                "ID": "KZ",
+                "Value": "Kazakhstan"
+            },
+            {
+                "ID": "KE",
+                "Value": "Kenya"
+            },
+            {
+                "ID": "KI",
+                "Value": "Kiribati"
+            },
+            {
+                "ID": "KR",
+                "Value": "Korea, Republic of"
+            },
+            {
+                "ID": "KW",
+                "Value": "Kuwait"
+            },
+            {
+                "ID": "KG",
+                "Value": "Kyrgyzstan"
+            },
+            {
+                "ID": "LA",
+                "Value": "Lao People`s Democratic Republic"
+            },
+            {
+                "ID": "LV",
+                "Value": "Latvia"
+            },
+            {
+                "ID": "LB",
+                "Value": "Lebanon"
+            },
+            {
+                "ID": "LS",
+                "Value": "Lesotho"
+            },
+            {
+                "ID": "LR",
+                "Value": "Liberia"
+            },
+            {
+                "ID": "LY",
+                "Value": "Libya"
+            },
+            {
+                "ID": "LT",
+                "Value": "Lithuania"
+            },
+            {
+                "ID": "LU",
+                "Value": "Luxembourg"
+            },
+            {
+                "ID": "MG",
+                "Value": "Madagascar"
+            },
+            {
+                "ID": "MW",
+                "Value": "Malawi"
+            },
+            {
+                "ID": "MY",
+                "Value": "Malaysia"
+            },
+            {
+                "ID": "MV",
+                "Value": "Maldives"
+            },
+            {
+                "ID": "ML",
+                "Value": "Mali"
+            },
+            {
+                "ID": "MT",
+                "Value": "Malta"
+            },
+            {
+                "ID": "MH",
+                "Value": "Marshall islands"
+            },
+            {
+                "ID": "MR",
+                "Value": "Mauritania"
+            },
+            {
+                "ID": "MU",
+                "Value": "Mauritius"
+            },
+            {
+                "ID": "MX",
+                "Value": "Mexico"
+            },
+            {
+                "ID": "FM",
+                "Value": "Micronesia, Federated States of"
+            },
+            {
+                "ID": "MD",
+                "Value": "Moldova, Republic of"
+            },
+            {
+                "ID": "MN",
+                "Value": "Mongolia"
+            },
+            {
+                "ID": "MA",
+                "Value": "Morocco"
+            },
+            {
+                "ID": "MZ",
+                "Value": "Mozambique"
+            },
+            {
+                "ID": "MM",
+                "Value": "Myanmar"
+            },
+            {
+                "ID": "NA",
+                "Value": "Namibia"
+            },
+            {
+                "ID": "NP",
+                "Value": "Nepal"
+            },
+            {
+                "ID": "NL",
+                "Value": "Netherlands"
+            },
+            {
+                "ID": "NZ",
+                "Value": "New Zealand"
+            },
+            {
+                "ID": "NI",
+                "Value": "Nicaragua"
+            },
+            {
+                "ID": "NE",
+                "Value": "Niger"
+            },
+            {
+                "ID": "NG",
+                "Value": "Nigeria"
+            },
+            {
+                "ID": "MK",
+                "Value": "North Macedonia, Republic of"
+            },
+            {
+                "ID": "NO",
+                "Value": "Norway"
+            },
+            {
+                "ID": "OM",
+                "Value": "Oman"
+            },
+            {
+                "ID": "PK",
+                "Value": "Pakistan"
+            },
+            {
+                "ID": "PA",
+                "Value": "Panama"
+            },
+            {
+                "ID": "PG",
+                "Value": "Papua New Guinea"
+            },
+            {
+                "ID": "PY",
+                "Value": "Paraguay"
+            },
+            {
+                "ID": "PE",
+                "Value": "Peru"
+            },
+            {
+                "ID": "PH",
+                "Value": "Philippines"
+            },
+            {
+                "ID": "PL",
+                "Value": "Poland"
+            },
+            {
+                "ID": "PT",
+                "Value": "Portugal"
+            },
+            {
+                "ID": "QA",
+                "Value": "Qatar"
+            },
+            {
+                "ID": "RO",
+                "Value": "Romania"
+            },
+            {
+                "ID": "RU",
+                "Value": "Russian Federation"
+            },
+            {
+                "ID": "RW",
+                "Value": "Rwanda"
+            },
+            {
+                "ID": "WS",
+                "Value": "Samoa"
+            },
+            {
+                "ID": "ST",
+                "Value": "Sao Tome and Principe"
+            },
+            {
+                "ID": "SA",
+                "Value": "Saudi Arabia"
+            },
+            {
+                "ID": "SN",
+                "Value": "Senegal"
+            },
+            {
+                "ID": "RS",
+                "Value": "Serbia"
+            },
+            {
+                "ID": "SC",
+                "Value": "Seychelles"
+            },
+            {
+                "ID": "SL",
+                "Value": "Sierra Leone"
+            },
+            {
+                "ID": "SG",
+                "Value": "Singapore"
+            },
+            {
+                "ID": "SK",
+                "Value": "Slovakia"
+            },
+            {
+                "ID": "SI",
+                "Value": "Slovenia"
+            },
+            {
+                "ID": "SB",
+                "Value": "Solomon Islands"
+            },
+            {
+                "ID": "ZA",
+                "Value": "South Africa"
+            },
+            {
+                "ID": "SS",
+                "Value": "South Sudan"
+            },
+            {
+                "ID": "ES",
+                "Value": "Spain"
+            },
+            {
+                "ID": "LK",
+                "Value": "Sri Lanka"
+            },
+            {
+                "ID": "KN",
+                "Value": "Saint Kitts and Nevis"
+            },
+            {
+                "ID": "LC",
+                "Value": "Saint Lucia"
+            },
+            {
+                "ID": "VC",
+                "Value": "Saint Vincent and the Grenadines"
+            },
+            {
+                "ID": "SD",
+                "Value": "Sudan"
+            },
+            {
+                "ID": "SR",
+                "Value": "Suriname"
+            },
+            {
+                "ID": "SE",
+                "Value": "Sweden"
+            },
+            {
+                "ID": "CH",
+                "Value": "Switzerland"
+            },
+            {
+                "ID": "SY",
+                "Value": "Syrian Arab Republic"
+            },
+            {
+                "ID": "TJ",
+                "Value": "Tajikistan"
+            },
+            {
+                "ID": "TZ",
+                "Value": "Tanzania, United Republic of"
+            },
+            {
+                "ID": "TH",
+                "Value": "Thailand"
+            },
+            {
+                "ID": "TL",
+                "Value": "Timor-Leste"
+            },
+            {
+                "ID": "TG",
+                "Value": "Togo"
+            },
+            {
+                "ID": "TO",
+                "Value": "Tonga"
+            },
+            {
+                "ID": "TT",
+                "Value": "Trinidad and Tobago"
+            },
+            {
+                "ID": "TN",
+                "Value": "Tunisia"
+            },
+            {
+                "ID": "TR",
+                "Value": "Turkey"
+            },
+            {
+                "ID": "TM",
+                "Value": "Turkmenistan"
+            },
+            {
+                "ID": "UG",
+                "Value": "Uganda"
+            },
+            {
+                "ID": "UA",
+                "Value": "Ukraine"
+            },
+            {
+                "ID": "AE",
+                "Value": "United Arab Emirates"
+            },
+            {
+                "ID": "GB",
+                "Value": "United Kingdom"
+            },
+            {
+                "ID": "US",
+                "Value": "United States"
+            },
+            {
+                "ID": "UY",
+                "Value": "Uruguay"
+            },
+            {
+                "ID": "UZ",
+                "Value": "Uzbekistan"
+            },
+            {
+                "ID": "VU",
+                "Value": "Vanuatu"
+            },
+            {
+                "ID": "VE",
+                "Value": "Venezuela, Bolivarian Republic"
+            },
+            {
+                "ID": "VN",
+                "Value": "Viet Nam"
+            },
+            {
+                "ID": "YE",
+                "Value": "Yemen"
+            },
+            {
+                "ID": "ZM",
+                "Value": "Zambia"
+            },
+            {
+                "ID": "1C_AM",
+                "Value": "Advanced Markets"
+            },
+            {
+                "ID": "F1",
+                "Value": "Africa"
+            },
+            {
+                "ID": "1C_ALLC",
+                "Value": "All Countries"
+            },
+            {
+                "ID": "1C_AP",
+                "Value": "Asia and Pacific"
+            },
+            {
+                "ID": "1C_EM",
+                "Value": "Emerging Markets"
+            },
+            {
+                "ID": "E1",
+                "Value": "Europe"
+            },
+            {
+                "ID": "1C_LIDC",
+                "Value": "Low-Income and Developing Countries"
+            },
+            {
+                "ID": "1C_MECA",
+                "Value": "Middle East and Central Asia"
+            },
+            {
+                "ID": "A10",
+                "Value": "Western Hemisphere"
+            }
+        ],
+        "Indicator": {
+            "Financial Development Index": {
+                "General": {
+                    "ID": "FD_FD_IX",
+                    "Value": "Financial Development Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FD_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FD_IX",
+                    "Example URL Description": "Returns the Financial Development Index indicator for France at A frequency."
+                }
+            },
+            "Financial Institutions Access Index": {
+                "General": {
+                    "ID": "FD_FIA_IX",
+                    "Value": "Financial Institutions Access Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FIA_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FIA_IX",
+                    "Example URL Description": "Returns the Financial Institutions Access Index indicator for France at A frequency."
+                }
+            },
+            "Financial Institutions Depth Index": {
+                "General": {
+                    "ID": "FD_FID_IX",
+                    "Value": "Financial Institutions Depth Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FID_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FID_IX",
+                    "Example URL Description": "Returns the Financial Institutions Depth Index indicator for France at A frequency."
+                }
+            },
+            "Financial Institutions Efficiency Index": {
+                "General": {
+                    "ID": "FD_FIE_IX",
+                    "Value": "Financial Institutions Efficiency Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FIE_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FIE_IX",
+                    "Example URL Description": "Returns the Financial Institutions Efficiency Index indicator for France at A frequency."
+                }
+            },
+            "Financial Institutions Index": {
+                "General": {
+                    "ID": "FD_FI_IX",
+                    "Value": "Financial Institutions Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FI_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FI_IX",
+                    "Example URL Description": "Returns the Financial Institutions Index indicator for France at A frequency."
+                }
+            },
+            "Financial Markets Access Index": {
+                "General": {
+                    "ID": "FD_FMA_IX",
+                    "Value": "Financial Markets Access Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FMA_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FMA_IX",
+                    "Example URL Description": "Returns the Financial Markets Access Index indicator for France at A frequency."
+                }
+            },
+            "Financial Markets Depth Index": {
+                "General": {
+                    "ID": "FD_FMD_IX",
+                    "Value": "Financial Markets Depth Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FMD_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FMD_IX",
+                    "Example URL Description": "Returns the Financial Markets Depth Index indicator for France at A frequency."
+                }
+            },
+            "Financial Markets Efficiency Index": {
+                "General": {
+                    "ID": "FD_FME_IX",
+                    "Value": "Financial Markets Efficiency Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FME_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FME_IX",
+                    "Example URL Description": "Returns the Financial Markets Efficiency Index indicator for France at A frequency."
+                }
+            },
+            "Financial Markets Index": {
+                "General": {
+                    "ID": "FD_FM_IX",
+                    "Value": "Financial Markets Index",
+                    "Indicator Database": "FDI",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FM_IX?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FDI/A.FR.FD_FM_IX",
+                    "Example URL Description": "Returns the Financial Markets Index indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "Monetary and Financial Statistics (MFS)": {
+        "Base": {
+            "Database ID": "MFS",
+            "Database Name": "Monetary and Financial Statistics (MFS)",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/MFS/A.FR",
+            "Example URL Description": "Returns all the MFS indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ]
+    }
+}

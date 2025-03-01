@@ -1,0 +1,37 @@
+{
+    "Government Finance Statistics Yearbook (GFSY 2020), Revenue archive": {
+        "Base": {
+            "Database ID": "GFSR2020",
+            "Database Name": "Government Finance Statistics Yearbook (GFSY 2020), Revenue archive",
+            "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+            "Example URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/GFSR2020/A.FR",
+            "Example URL Description": "Returns all the GFSR2020 indicators for France at annual frequency."
+        },
+        "Frequency": [
+            {
+                "ID": "A",
+                "Value": "Annual"
+            },
+            {
+                "ID": "B",
+                "Value": "Bi-annual"
+            },
+            {
+                "ID": "Q",
+                "Value": "Quarterly"
+            },
+            {
+                "ID": "M",
+                "Value": "Monthly"
+            },
+            {
+                "ID": "D",
+                "Value": "Daily"
+            },
+            {
+                "ID": "W",
+                "Value": "Weekly"
+            }
+        ]
+    }
+}
