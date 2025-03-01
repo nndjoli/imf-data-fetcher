@@ -1,0 +1,2421 @@
+{
+    "Coordinated Direct Investment Survey (CDIS)": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR",
+        "Sample URL Description": "Returns all the CDIS indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "AF",
+                "Region Name": "Afghanistan"
+            },
+            {
+                "Region Key": "AL",
+                "Region Name": "Albania"
+            },
+            {
+                "Region Key": "DZ",
+                "Region Name": "Algeria"
+            },
+            {
+                "Region Key": "AS",
+                "Region Name": "American Samoa"
+            },
+            {
+                "Region Key": "AD",
+                "Region Name": "Andorra"
+            },
+            {
+                "Region Key": "AO",
+                "Region Name": "Angola"
+            },
+            {
+                "Region Key": "AI",
+                "Region Name": "Anguilla"
+            },
+            {
+                "Region Key": "AG",
+                "Region Name": "Antigua and Barbuda"
+            },
+            {
+                "Region Key": "AR",
+                "Region Name": "Argentina"
+            },
+            {
+                "Region Key": "AM",
+                "Region Name": "Armenia"
+            },
+            {
+                "Region Key": "AW",
+                "Region Name": "Aruba"
+            },
+            {
+                "Region Key": "AU",
+                "Region Name": "Australia"
+            },
+            {
+                "Region Key": "AT",
+                "Region Name": "Austria"
+            },
+            {
+                "Region Key": "AZ",
+                "Region Name": "Azerbaijan"
+            },
+            {
+                "Region Key": "BS",
+                "Region Name": "Bahamas"
+            },
+            {
+                "Region Key": "BH",
+                "Region Name": "Bahrain"
+            },
+            {
+                "Region Key": "BD",
+                "Region Name": "Bangladesh"
+            },
+            {
+                "Region Key": "BB",
+                "Region Name": "Barbados"
+            },
+            {
+                "Region Key": "BY",
+                "Region Name": "Belarus"
+            },
+            {
+                "Region Key": "BE",
+                "Region Name": "Belgium"
+            },
+            {
+                "Region Key": "BZ",
+                "Region Name": "Belize"
+            },
+            {
+                "Region Key": "BJ",
+                "Region Name": "Benin"
+            },
+            {
+                "Region Key": "BM",
+                "Region Name": "Bermuda"
+            },
+            {
+                "Region Key": "BT",
+                "Region Name": "Bhutan"
+            },
+            {
+                "Region Key": "BO",
+                "Region Name": "Bolivia"
+            },
+            {
+                "Region Key": "BQ",
+                "Region Name": "Bonaire, Saint Eustatius and Saba"
+            },
+            {
+                "Region Key": "BA",
+                "Region Name": "Bosnia and Herzegovina"
+            },
+            {
+                "Region Key": "BW",
+                "Region Name": "Botswana"
+            },
+            {
+                "Region Key": "BV",
+                "Region Name": "Bouvet Island"
+            },
+            {
+                "Region Key": "BR",
+                "Region Name": "Brazil"
+            },
+            {
+                "Region Key": "IO",
+                "Region Name": "British Indian Ocean territory"
+            },
+            {
+                "Region Key": "VG",
+                "Region Name": "Virgin Islands, British"
+            },
+            {
+                "Region Key": "BN",
+                "Region Name": "Brunei Darussalam"
+            },
+            {
+                "Region Key": "BG",
+                "Region Name": "Bulgaria"
+            },
+            {
+                "Region Key": "BF",
+                "Region Name": "Burkina Faso"
+            },
+            {
+                "Region Key": "BI",
+                "Region Name": "Burundi"
+            },
+            {
+                "Region Key": "CV",
+                "Region Name": "Cabo Verde"
+            },
+            {
+                "Region Key": "KH",
+                "Region Name": "Cambodia"
+            },
+            {
+                "Region Key": "CM",
+                "Region Name": "Cameroon"
+            },
+            {
+                "Region Key": "CA",
+                "Region Name": "Canada"
+            },
+            {
+                "Region Key": "KY",
+                "Region Name": "Cayman Islands"
+            },
+            {
+                "Region Key": "CF",
+                "Region Name": "Central African Republic"
+            },
+            {
+                "Region Key": "S59",
+                "Region Name": "Central & South Asia not allocated"
+            },
+            {
+                "Region Key": "TD",
+                "Region Name": "Chad"
+            },
+            {
+                "Region Key": "CL",
+                "Region Name": "Chile"
+            },
+            {
+                "Region Key": "HK",
+                "Region Name": "Hong Kong"
+            },
+            {
+                "Region Key": "MO",
+                "Region Name": "Macao"
+            },
+            {
+                "Region Key": "CN",
+                "Region Name": "China"
+            },
+            {
+                "Region Key": "CX",
+                "Region Name": "Christmas Island"
+            },
+            {
+                "Region Key": "CC",
+                "Region Name": "Cocos (Keeling) Islands"
+            },
+            {
+                "Region Key": "CO",
+                "Region Name": "Colombia"
+            },
+            {
+                "Region Key": "KM",
+                "Region Name": "Comoros"
+            },
+            {
+                "Region Key": "CD",
+                "Region Name": "Congo, the Democratic Republic of the"
+            },
+            {
+                "Region Key": "CG",
+                "Region Name": "Congo"
+            },
+            {
+                "Region Key": "CK",
+                "Region Name": "Cook Islands"
+            },
+            {
+                "Region Key": "CR",
+                "Region Name": "Costa Rica"
+            },
+            {
+                "Region Key": "CI",
+                "Region Name": "Cote d`Ivoire"
+            },
+            {
+                "Region Key": "HR",
+                "Region Name": "Croatia"
+            },
+            {
+                "Region Key": "CU",
+                "Region Name": "Cuba"
+            },
+            {
+                "Region Key": "1C_355",
+                "Region Name": "Curacao & St. Maarten"
+            },
+            {
+                "Region Key": "CW",
+                "Region Name": "Curacao"
+            },
+            {
+                "Region Key": "CY",
+                "Region Name": "Cyprus"
+            },
+            {
+                "Region Key": "CZ",
+                "Region Name": "Czech Republic"
+            },
+            {
+                "Region Key": "DK",
+                "Region Name": "Denmark"
+            },
+            {
+                "Region Key": "DJ",
+                "Region Name": "Djibouti"
+            },
+            {
+                "Region Key": "DM",
+                "Region Name": "Dominica"
+            },
+            {
+                "Region Key": "DO",
+                "Region Name": "Dominican Republic"
+            },
+            {
+                "Region Key": "S29",
+                "Region Name": "Eastern Asia not allocated"
+            },
+            {
+                "Region Key": "S359",
+                "Region Name": "Gulf Arabian Countries not allocated"
+            },
+            {
+                "Region Key": "EC",
+                "Region Name": "Ecuador"
+            },
+            {
+                "Region Key": "EG",
+                "Region Name": "Egypt"
+            },
+            {
+                "Region Key": "SV",
+                "Region Name": "El Salvador"
+            },
+            {
+                "Region Key": "GQ",
+                "Region Name": "Equatorial Guinea"
+            },
+            {
+                "Region Key": "ER",
+                "Region Name": "Eritrea"
+            },
+            {
+                "Region Key": "EE",
+                "Region Name": "Estonia"
+            },
+            {
+                "Region Key": "SZ",
+                "Region Name": "Eswatini"
+            },
+            {
+                "Region Key": "ET",
+                "Region Name": "Ethiopia"
+            },
+            {
+                "Region Key": "E19",
+                "Region Name": "Europe not allocated"
+            },
+            {
+                "Region Key": "FK",
+                "Region Name": "Falkland Islands (Malvinas)"
+            },
+            {
+                "Region Key": "FO",
+                "Region Name": "Faroe Islands"
+            },
+            {
+                "Region Key": "FJ",
+                "Region Name": "Fiji"
+            },
+            {
+                "Region Key": "FI",
+                "Region Name": "Finland"
+            },
+            {
+                "Region Key": "FR",
+                "Region Name": "France"
+            },
+            {
+                "Region Key": "PF",
+                "Region Name": "French Polynesia"
+            },
+            {
+                "Region Key": "TF",
+                "Region Name": "French Southern Territories"
+            },
+            {
+                "Region Key": "GA",
+                "Region Name": "Gabon"
+            },
+            {
+                "Region Key": "GM",
+                "Region Name": "Gambia"
+            },
+            {
+                "Region Key": "GE",
+                "Region Name": "Georgia"
+            },
+            {
+                "Region Key": "DE",
+                "Region Name": "Germany"
+            },
+            {
+                "Region Key": "GH",
+                "Region Name": "Ghana"
+            },
+            {
+                "Region Key": "GI",
+                "Region Name": "Gibraltar"
+            },
+            {
+                "Region Key": "GR",
+                "Region Name": "Greece"
+            },
+            {
+                "Region Key": "GL",
+                "Region Name": "Greenland"
+            },
+            {
+                "Region Key": "GD",
+                "Region Name": "Grenada"
+            },
+            {
+                "Region Key": "GP",
+                "Region Name": "Guadeloupe"
+            },
+            {
+                "Region Key": "GU",
+                "Region Name": "Guam"
+            },
+            {
+                "Region Key": "GT",
+                "Region Name": "Guatemala"
+            },
+            {
+                "Region Key": "GG",
+                "Region Name": "Guernsey"
+            },
+            {
+                "Region Key": "GF",
+                "Region Name": "French Guiana"
+            },
+            {
+                "Region Key": "GN",
+                "Region Name": "Guinea"
+            },
+            {
+                "Region Key": "GW",
+                "Region Name": "Guinea-Bissau"
+            },
+            {
+                "Region Key": "GY",
+                "Region Name": "Guyana"
+            },
+            {
+                "Region Key": "HT",
+                "Region Name": "Haiti"
+            },
+            {
+                "Region Key": "HM",
+                "Region Name": "Heard Island and McDonald Islands"
+            },
+            {
+                "Region Key": "VA",
+                "Region Name": "Holy See (Vatican City State)"
+            },
+            {
+                "Region Key": "HN",
+                "Region Name": "Honduras"
+            },
+            {
+                "Region Key": "HU",
+                "Region Name": "Hungary"
+            },
+            {
+                "Region Key": "IS",
+                "Region Name": "Iceland"
+            },
+            {
+                "Region Key": "IN",
+                "Region Name": "India"
+            },
+            {
+                "Region Key": "ID",
+                "Region Name": "Indonesia"
+            },
+            {
+                "Region Key": "IR",
+                "Region Name": "Iran, Islamic Republic of"
+            },
+            {
+                "Region Key": "IQ",
+                "Region Name": "Iraq"
+            },
+            {
+                "Region Key": "IE",
+                "Region Name": "Ireland"
+            },
+            {
+                "Region Key": "IM",
+                "Region Name": "Isle of Man"
+            },
+            {
+                "Region Key": "IL",
+                "Region Name": "Israel"
+            },
+            {
+                "Region Key": "IT",
+                "Region Name": "Italy"
+            },
+            {
+                "Region Key": "JM",
+                "Region Name": "Jamaica"
+            },
+            {
+                "Region Key": "JP",
+                "Region Name": "Japan"
+            },
+            {
+                "Region Key": "JE",
+                "Region Name": "Jersey"
+            },
+            {
+                "Region Key": "JO",
+                "Region Name": "Jordan"
+            },
+            {
+                "Region Key": "KZ",
+                "Region Name": "Kazakhstan"
+            },
+            {
+                "Region Key": "KE",
+                "Region Name": "Kenya"
+            },
+            {
+                "Region Key": "KI",
+                "Region Name": "Kiribati"
+            },
+            {
+                "Region Key": "KP",
+                "Region Name": "Korea, Democratic People`s Republic of"
+            },
+            {
+                "Region Key": "KR",
+                "Region Name": "Korea, Republic of"
+            },
+            {
+                "Region Key": "XK",
+                "Region Name": "Kosovo, Republic of"
+            },
+            {
+                "Region Key": "KW",
+                "Region Name": "Kuwait"
+            },
+            {
+                "Region Key": "KG",
+                "Region Name": "Kyrgyzstan"
+            },
+            {
+                "Region Key": "LA",
+                "Region Name": "Lao People`s Democratic Republic"
+            },
+            {
+                "Region Key": "LV",
+                "Region Name": "Latvia"
+            },
+            {
+                "Region Key": "LB",
+                "Region Name": "Lebanon"
+            },
+            {
+                "Region Key": "LS",
+                "Region Name": "Lesotho"
+            },
+            {
+                "Region Key": "LR",
+                "Region Name": "Liberia"
+            },
+            {
+                "Region Key": "LY",
+                "Region Name": "Libya"
+            },
+            {
+                "Region Key": "LI",
+                "Region Name": "Liechtenstein"
+            },
+            {
+                "Region Key": "LT",
+                "Region Name": "Lithuania"
+            },
+            {
+                "Region Key": "LU",
+                "Region Name": "Luxembourg"
+            },
+            {
+                "Region Key": "MG",
+                "Region Name": "Madagascar"
+            },
+            {
+                "Region Key": "MW",
+                "Region Name": "Malawi"
+            },
+            {
+                "Region Key": "MY",
+                "Region Name": "Malaysia"
+            },
+            {
+                "Region Key": "MV",
+                "Region Name": "Maldives"
+            },
+            {
+                "Region Key": "ML",
+                "Region Name": "Mali"
+            },
+            {
+                "Region Key": "MT",
+                "Region Name": "Malta"
+            },
+            {
+                "Region Key": "MH",
+                "Region Name": "Marshall islands"
+            },
+            {
+                "Region Key": "MQ",
+                "Region Name": "Martinique"
+            },
+            {
+                "Region Key": "MR",
+                "Region Name": "Mauritania"
+            },
+            {
+                "Region Key": "MU",
+                "Region Name": "Mauritius"
+            },
+            {
+                "Region Key": "YT",
+                "Region Name": "Mayotte"
+            },
+            {
+                "Region Key": "MX",
+                "Region Name": "Mexico"
+            },
+            {
+                "Region Key": "FM",
+                "Region Name": "Micronesia, Federated States of"
+            },
+            {
+                "Region Key": "MD",
+                "Region Name": "Moldova, Republic of"
+            },
+            {
+                "Region Key": "MC",
+                "Region Name": "Monaco"
+            },
+            {
+                "Region Key": "MN",
+                "Region Name": "Mongolia"
+            },
+            {
+                "Region Key": "ME",
+                "Region Name": "Montenegro"
+            },
+            {
+                "Region Key": "MS",
+                "Region Name": "Montserrat"
+            },
+            {
+                "Region Key": "MA",
+                "Region Name": "Morocco"
+            },
+            {
+                "Region Key": "MZ",
+                "Region Name": "Mozambique"
+            },
+            {
+                "Region Key": "MM",
+                "Region Name": "Myanmar"
+            },
+            {
+                "Region Key": "NA",
+                "Region Name": "Namibia"
+            },
+            {
+                "Region Key": "NR",
+                "Region Name": "Nauru"
+            },
+            {
+                "Region Key": "NP",
+                "Region Name": "Nepal"
+            },
+            {
+                "Region Key": "AN",
+                "Region Name": "Netherlands Antilles"
+            },
+            {
+                "Region Key": "NL",
+                "Region Name": "Netherlands"
+            },
+            {
+                "Region Key": "NC",
+                "Region Name": "New Caledonia"
+            },
+            {
+                "Region Key": "NZ",
+                "Region Name": "New Zealand"
+            },
+            {
+                "Region Key": "NI",
+                "Region Name": "Nicaragua"
+            },
+            {
+                "Region Key": "NE",
+                "Region Name": "Niger"
+            },
+            {
+                "Region Key": "NG",
+                "Region Name": "Nigeria"
+            },
+            {
+                "Region Key": "NU",
+                "Region Name": "Niue"
+            },
+            {
+                "Region Key": "NF",
+                "Region Name": "Norfolk Island"
+            },
+            {
+                "Region Key": "F49",
+                "Region Name": "North Africa not allocated"
+            },
+            {
+                "Region Key": "A29",
+                "Region Name": "North America not allocated"
+            },
+            {
+                "Region Key": "A69",
+                "Region Name": "North Atlantic & Caribbean not allocated"
+            },
+            {
+                "Region Key": "MK",
+                "Region Name": "North Macedonia, Republic of "
+            },
+            {
+                "Region Key": "MP",
+                "Region Name": "Northern Mariana Islands"
+            },
+            {
+                "Region Key": "NO",
+                "Region Name": "Norway"
+            },
+            {
+                "Region Key": "W09",
+                "Region Name": "World, not specified"
+            },
+            {
+                "Region Key": "O29",
+                "Region Name": "Oceania and Polar Regions not allocated"
+            },
+            {
+                "Region Key": "OM",
+                "Region Name": "Oman"
+            },
+            {
+                "Region Key": "S379",
+                "Region Name": "Other Near and Middle East not allocated"
+            },
+            {
+                "Region Key": "PK",
+                "Region Name": "Pakistan"
+            },
+            {
+                "Region Key": "PW",
+                "Region Name": "Palau"
+            },
+            {
+                "Region Key": "PA",
+                "Region Name": "Panama"
+            },
+            {
+                "Region Key": "PG",
+                "Region Name": "Papua New Guinea"
+            },
+            {
+                "Region Key": "PY",
+                "Region Name": "Paraguay"
+            },
+            {
+                "Region Key": "PE",
+                "Region Name": "Peru"
+            },
+            {
+                "Region Key": "PH",
+                "Region Name": "Philippines"
+            },
+            {
+                "Region Key": "PN",
+                "Region Name": "Pitcairn"
+            },
+            {
+                "Region Key": "PL",
+                "Region Name": "Poland"
+            },
+            {
+                "Region Key": "PT",
+                "Region Name": "Portugal"
+            },
+            {
+                "Region Key": "PR",
+                "Region Name": "Puerto Rico"
+            },
+            {
+                "Region Key": "QA",
+                "Region Name": "Qatar"
+            },
+            {
+                "Region Key": "RE",
+                "Region Name": "Reunion"
+            },
+            {
+                "Region Key": "RO",
+                "Region Name": "Romania"
+            },
+            {
+                "Region Key": "RU",
+                "Region Name": "Russian Federation"
+            },
+            {
+                "Region Key": "RW",
+                "Region Name": "Rwanda"
+            },
+            {
+                "Region Key": "SH",
+                "Region Name": "Saint Helena"
+            },
+            {
+                "Region Key": "PM",
+                "Region Name": "Saint Pierre and Miquelon"
+            },
+            {
+                "Region Key": "WS",
+                "Region Name": "Samoa"
+            },
+            {
+                "Region Key": "SM",
+                "Region Name": "San Marino"
+            },
+            {
+                "Region Key": "ST",
+                "Region Name": "Sao Tome and Principe"
+            },
+            {
+                "Region Key": "SA",
+                "Region Name": "Saudi Arabia"
+            },
+            {
+                "Region Key": "SN",
+                "Region Name": "Senegal"
+            },
+            {
+                "Region Key": "RS",
+                "Region Name": "Serbia"
+            },
+            {
+                "Region Key": "SC",
+                "Region Name": "Seychelles"
+            },
+            {
+                "Region Key": "SL",
+                "Region Name": "Sierra Leone"
+            },
+            {
+                "Region Key": "SG",
+                "Region Name": "Singapore"
+            },
+            {
+                "Region Key": "SX",
+                "Region Name": "Sint Maarten (Dutch part)"
+            },
+            {
+                "Region Key": "SK",
+                "Region Name": "Slovakia"
+            },
+            {
+                "Region Key": "SI",
+                "Region Name": "Slovenia"
+            },
+            {
+                "Region Key": "SB",
+                "Region Name": "Solomon Islands"
+            },
+            {
+                "Region Key": "SO",
+                "Region Name": "Somalia"
+            },
+            {
+                "Region Key": "ZA",
+                "Region Name": "South Africa"
+            },
+            {
+                "Region Key": "A79",
+                "Region Name": "South America not allocated"
+            },
+            {
+                "Region Key": "GS",
+                "Region Name": "South Georgia and the South Sandwich Islands"
+            },
+            {
+                "Region Key": "SS",
+                "Region Name": "South Sudan"
+            },
+            {
+                "Region Key": "ES",
+                "Region Name": "Spain"
+            },
+            {
+                "Region Key": "LK",
+                "Region Name": "Sri Lanka"
+            },
+            {
+                "Region Key": "KN",
+                "Region Name": "Saint Kitts and Nevis"
+            },
+            {
+                "Region Key": "LC",
+                "Region Name": "Saint Lucia"
+            },
+            {
+                "Region Key": "VC",
+                "Region Name": "Saint Vincent and the Grenadines"
+            },
+            {
+                "Region Key": "F69",
+                "Region Name": "Sub-Saharan Africa not allocated"
+            },
+            {
+                "Region Key": "SD",
+                "Region Name": "Sudan"
+            },
+            {
+                "Region Key": "SR",
+                "Region Name": "Suriname"
+            },
+            {
+                "Region Key": "SE",
+                "Region Name": "Sweden"
+            },
+            {
+                "Region Key": "CH",
+                "Region Name": "Switzerland"
+            },
+            {
+                "Region Key": "SY",
+                "Region Name": "Syrian Arab Republic"
+            },
+            {
+                "Region Key": "TW",
+                "Region Name": "Taiwan, Province of China"
+            },
+            {
+                "Region Key": "TJ",
+                "Region Name": "Tajikistan"
+            },
+            {
+                "Region Key": "TZ",
+                "Region Name": "Tanzania, United Republic of"
+            },
+            {
+                "Region Key": "TH",
+                "Region Name": "Thailand"
+            },
+            {
+                "Region Key": "TL",
+                "Region Name": "Timor-Leste"
+            },
+            {
+                "Region Key": "TG",
+                "Region Name": "Togo"
+            },
+            {
+                "Region Key": "TK",
+                "Region Name": "Tokelau"
+            },
+            {
+                "Region Key": "TO",
+                "Region Name": "Tonga"
+            },
+            {
+                "Region Key": "TT",
+                "Region Name": "Trinidad and Tobago"
+            },
+            {
+                "Region Key": "TN",
+                "Region Name": "Tunisia"
+            },
+            {
+                "Region Key": "TR",
+                "Region Name": "T\u00fcrkiye"
+            },
+            {
+                "Region Key": "TM",
+                "Region Name": "Turkmenistan"
+            },
+            {
+                "Region Key": "TC",
+                "Region Name": "Turks and Caicos Islands"
+            },
+            {
+                "Region Key": "TV",
+                "Region Name": "Tuvalu"
+            },
+            {
+                "Region Key": "UG",
+                "Region Name": "Uganda"
+            },
+            {
+                "Region Key": "UA",
+                "Region Name": "Ukraine"
+            },
+            {
+                "Region Key": "AE",
+                "Region Name": "United Arab Emirates"
+            },
+            {
+                "Region Key": "GB",
+                "Region Name": "United Kingdom"
+            },
+            {
+                "Region Key": "US",
+                "Region Name": "United States"
+            },
+            {
+                "Region Key": "VI",
+                "Region Name": "Virgin Islands, U.S."
+            },
+            {
+                "Region Key": "UY",
+                "Region Name": "Uruguay"
+            },
+            {
+                "Region Key": "PU",
+                "Region Name": "US Pacific Islands"
+            },
+            {
+                "Region Key": "UZ",
+                "Region Name": "Uzbekistan"
+            },
+            {
+                "Region Key": "VU",
+                "Region Name": "Vanuatu"
+            },
+            {
+                "Region Key": "VE",
+                "Region Name": "Venezuela, Bolivarian Republic"
+            },
+            {
+                "Region Key": "VN",
+                "Region Name": "Viet Nam"
+            },
+            {
+                "Region Key": "WF",
+                "Region Name": "Wallis and Futuna"
+            },
+            {
+                "Region Key": "PS",
+                "Region Name": "Palestine, State of"
+            },
+            {
+                "Region Key": "EH",
+                "Region Name": "Western Sahara"
+            },
+            {
+                "Region Key": "YE",
+                "Region Name": "Yemen"
+            },
+            {
+                "Region Key": "ZM",
+                "Region Name": "Zambia"
+            },
+            {
+                "Region Key": "ZW",
+                "Region Name": "Zimbabwe"
+            },
+            {
+                "Region Key": "All_Reporting_Countries_Data",
+                "Region Name": "All Reporting Countries, Data"
+            },
+            {
+                "Region Key": "S5",
+                "Region Name": "Central & South Asia"
+            },
+            {
+                "Region Key": "S2",
+                "Region Name": "Eastern Asia"
+            },
+            {
+                "Region Key": "S35",
+                "Region Name": "Gulf Arabian Countries"
+            },
+            {
+                "Region Key": "E1",
+                "Region Name": "Europe"
+            },
+            {
+                "Region Key": "F4",
+                "Region Name": "North Africa"
+            },
+            {
+                "Region Key": "A2",
+                "Region Name": "North American countries"
+            },
+            {
+                "Region Key": "A6",
+                "Region Name": "North Atlantic & Caribbean"
+            },
+            {
+                "Region Key": "O2",
+                "Region Name": "Oceania and Polar Regions"
+            },
+            {
+                "Region Key": "S37",
+                "Region Name": "Other Near and Middle East countries"
+            },
+            {
+                "Region Key": "A7",
+                "Region Name": "South American countries"
+            },
+            {
+                "Region Key": "F6",
+                "Region Name": "Sub-Saharan Africa"
+            },
+            {
+                "Region Key": "W00",
+                "Region Name": "World"
+            }
+        ],
+        "Indicators": {
+            "Inward Debt Instruments Assets Positions (Gross)": {
+                "Derived": {
+                    "Indicator Key": "IIWDA_DV_BP6_USD",
+                    "Indicator Name": "Inward Debt Instruments Assets Positions (Gross), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Instruments Assets Positions (Gross), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWDA_BP6_XDC",
+                    "Indicator Name": "Inward Debt Instruments Assets Positions (Gross), Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Debt Instruments Assets Positions (Gross), Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWDA_BP6_EUR",
+                    "Indicator Name": "Inward Debt Instruments Assets Positions (Gross), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Debt Instruments Assets Positions (Gross), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWDA_BP6_USD",
+                    "Indicator Name": "Inward Debt Instruments Assets Positions (Gross), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDA_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Instruments Assets Positions (Gross), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Debt Instruments Liabilities Positions (Gross)": {
+                "Domestic Currency": {
+                    "Indicator Key": "IIWDL_BP6_XDC",
+                    "Indicator Name": "Inward Debt Instruments Liabilities Positions (Gross) , Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Debt Instruments Liabilities Positions (Gross) , Domestic Currency indicator for France at A frequency."
+                },
+                "Derived": {
+                    "Indicator Key": "IIWDL_DV_BP6_USD",
+                    "Indicator Name": "Inward Debt Instruments Liabilities Positions (Gross), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Instruments Liabilities Positions (Gross), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWDL_BP6_EUR",
+                    "Indicator Name": "Inward Debt Instruments Liabilities Positions (Gross), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Debt Instruments Liabilities Positions (Gross), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWDL_BP6_USD",
+                    "Indicator Name": "Inward Debt Instruments Liabilities Positions (Gross), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDL_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Instruments Liabilities Positions (Gross), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Debt Instruments Positions (Net)": {
+                "Derived": {
+                    "Indicator Key": "IIWD_DV_BP6_USD",
+                    "Indicator Name": "Inward Debt Instruments Positions (Net), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Instruments Positions (Net), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWD_BP6_XDC",
+                    "Indicator Name": "Inward Debt Instruments Positions (Net), Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Debt Instruments Positions (Net), Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWD_BP6_EUR",
+                    "Indicator Name": "Inward Debt Instruments Positions (Net), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Debt Instruments Positions (Net), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWD_BP6_USD",
+                    "Indicator Name": "Inward Debt Instruments Positions (Net), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWD_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Instruments Positions (Net), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries": {
+                "Derived": {
+                    "Indicator Key": "IIWDN_DV_BP6_USD",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWDN_BP6_XDC",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWDN_BP6_EUR",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWDN_BP6_USD",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDN_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Debt Positions (Net): Resident Financial Intermediaries": {
+                "Derived": {
+                    "Indicator Key": "IIWDM_DV_BP6_USD",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Financial Intermediaries, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Financial Intermediaries, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWDM_BP6_XDC",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Financial Intermediaries, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Financial Intermediaries, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWDM_BP6_EUR",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Financial Intermediaries, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Financial Intermediaries, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWDM_BP6_USD",
+                    "Indicator Name": "Inward Debt Positions (Net): Resident Financial Intermediaries, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWDM_BP6_USD",
+                    "Example URL Description": "Returns the Inward Debt Positions (Net): Resident Financial Intermediaries, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises": {
+                "Derived": {
+                    "Indicator Key": "IIWFA_DV_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWFA_BP6_XDC",
+                    "Indicator Name": "Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWFA_BP6_EUR",
+                    "Indicator Name": "Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWFA_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFA_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Assets Positions (Gross) with Fellow Enterprises, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises": {
+                "Derived": {
+                    "Indicator Key": "IIWFL_DV_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWFL_BP6_XDC",
+                    "Indicator Name": "Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWFL_BP6_EUR",
+                    "Indicator Name": "Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWFL_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWFL_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Direct Investment Positions (Net) with Fellow Enterprises": {
+                "Derived": {
+                    "Indicator Key": "IIWF_DV_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Positions (Net) with Fellow Enterprises, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions (Net) with Fellow Enterprises, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWF_BP6_XDC",
+                    "Indicator Name": "Inward Direct Investment Positions (Net) with Fellow Enterprises, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions (Net) with Fellow Enterprises, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWF_BP6_EUR",
+                    "Indicator Name": "Inward Direct Investment Positions (Net) with Fellow Enterprises, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions (Net) with Fellow Enterprises, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWF_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Positions (Net) with Fellow Enterprises, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWF_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions (Net) with Fellow Enterprises, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Direct Investment Positions": {
+                "Derived": {
+                    "Indicator Key": "IIW_DV_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Positions, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIW_BP6_XDC",
+                    "Indicator Name": "Inward Direct Investment Positions, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIW_BP6_EUR",
+                    "Indicator Name": "Inward Direct Investment Positions, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIW_BP6_USD",
+                    "Indicator Name": "Inward Direct Investment Positions, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIW_BP6_USD",
+                    "Example URL Description": "Returns the Inward Direct Investment Positions, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Equity Positions (Net)": {
+                "Derived": {
+                    "Indicator Key": "IIWE_DV_BP6_USD",
+                    "Indicator Name": "Inward Equity Positions (Net), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_DV_BP6_USD",
+                    "Example URL Description": "Returns the Inward Equity Positions (Net), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IIWE_BP6_XDC",
+                    "Indicator Name": "Inward Equity Positions (Net), Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_BP6_XDC",
+                    "Example URL Description": "Returns the Inward Equity Positions (Net), Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IIWE_BP6_EUR",
+                    "Indicator Name": "Inward Equity Positions (Net), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_BP6_EUR",
+                    "Example URL Description": "Returns the Inward Equity Positions (Net), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IIWE_BP6_USD",
+                    "Indicator Name": "Inward Equity Positions (Net), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIWE_BP6_USD",
+                    "Example URL Description": "Returns the Inward Equity Positions (Net), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Net Direct Investment Positions": {
+                "US Dollars": {
+                    "Indicator Key": "INW_BP6_USD",
+                    "Indicator Name": "Net Direct Investment Positions, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.INW_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.INW_BP6_USD",
+                    "Example URL Description": "Returns the Net Direct Investment Positions, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Debt Instruments Assets Positions (Gross)": {
+                "Derived": {
+                    "Indicator Key": "IOWDA_DV_BP6_USD",
+                    "Indicator Name": "Outward Debt Instruments Assets Positions (Gross), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Instruments Assets Positions (Gross), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWDA_BP6_XDC",
+                    "Indicator Name": "Outward Debt Instruments Assets Positions (Gross), Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Debt Instruments Assets Positions (Gross), Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWDA_BP6_EUR",
+                    "Indicator Name": "Outward Debt Instruments Assets Positions (Gross), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Debt Instruments Assets Positions (Gross), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWDA_BP6_USD",
+                    "Indicator Name": "Outward Debt Instruments Assets Positions (Gross), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDA_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Instruments Assets Positions (Gross), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Debt Instruments Liabilities Positions (Gross)": {
+                "Derived": {
+                    "Indicator Key": "IOWDL_DV_BP6_USD",
+                    "Indicator Name": "Outward Debt Instruments Liabilities Positions (Gross), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Instruments Liabilities Positions (Gross), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWDL_BP6_XDC",
+                    "Indicator Name": "Outward Debt Instruments Liabilities Positions (Gross), Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Debt Instruments Liabilities Positions (Gross), Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWDL_BP6_EUR",
+                    "Indicator Name": "Outward Debt Instruments Liabilities Positions (Gross), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Debt Instruments Liabilities Positions (Gross), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWDL_BP6_USD",
+                    "Indicator Name": "Outward Debt Instruments Liabilities Positions (Gross), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDL_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Instruments Liabilities Positions (Gross), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Debt Instruments Positions (Net)": {
+                "Derived": {
+                    "Indicator Key": "IOWD_DV_BP6_USD",
+                    "Indicator Name": "Outward Debt Instruments Positions (Net), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Instruments Positions (Net), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWD_BP6_XDC",
+                    "Indicator Name": "Outward Debt Instruments Positions (Net), Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Debt Instruments Positions (Net), Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWD_BP6_EUR",
+                    "Indicator Name": "Outward Debt Instruments Positions (Net), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Debt Instruments Positions (Net), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWD_BP6_USD",
+                    "Indicator Name": "Outward Debt Instruments Positions (Net), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWD_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Instruments Positions (Net), US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries": {
+                "Derived": {
+                    "Indicator Key": "IOWDN_DV_BP6_USD",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWDN_BP6_XDC",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWDN_BP6_EUR",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWDN_BP6_USD",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDN_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Enterprises that are not Financial Intermediaries, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Debt Positions (Net): Resident Financial Intermediaries": {
+                "Derived": {
+                    "Indicator Key": "IOWDM_DV_BP6_USD",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Financial Intermediaries, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Financial Intermediaries, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWDM_BP6_XDC",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Financial Intermediaries, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Financial Intermediaries, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWDM_BP6_EUR",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Financial Intermediaries, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Financial Intermediaries, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWDM_BP6_USD",
+                    "Indicator Name": "Outward Debt Positions (Net): Resident Financial Intermediaries, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWDM_BP6_USD",
+                    "Example URL Description": "Returns the Outward Debt Positions (Net): Resident Financial Intermediaries, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises": {
+                "Derived": {
+                    "Indicator Key": "IOWFA_DV_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWFA_BP6_XDC",
+                    "Indicator Name": "Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWFA_BP6_EUR",
+                    "Indicator Name": "Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWFA_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFA_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Assets Positions (Gross) with Fellow Enterprises, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises": {
+                "Derived": {
+                    "Indicator Key": "IOWFL_DV_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWFL_BP6_XDC",
+                    "Indicator Name": "Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWFL_BP6_EUR",
+                    "Indicator Name": "Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWFL_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWFL_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Liabilities Positions (Gross) with Fellow Enterprises, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Direct Investment Positions (Net) with Fellow Enterprises": {
+                "Derived": {
+                    "Indicator Key": "IOWF_DV_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Positions (Net) with Fellow Enterprises, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions (Net) with Fellow Enterprises, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWF_BP6_XDC",
+                    "Indicator Name": "Outward Direct Investment Positions (Net) with Fellow Enterprises, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions (Net) with Fellow Enterprises, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWF_BP6_EUR",
+                    "Indicator Name": "Outward Direct Investment Positions (Net) with Fellow Enterprises, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions (Net) with Fellow Enterprises, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWF_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Positions (Net) with Fellow Enterprises, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWF_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions (Net) with Fellow Enterprises, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Direct Investment Positions": {
+                "Derived": {
+                    "Indicator Key": "IOW_DV_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Positions, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOW_BP6_XDC",
+                    "Indicator Name": "Outward Direct Investment Positions, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOW_BP6_EUR",
+                    "Indicator Name": "Outward Direct Investment Positions, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOW_BP6_USD",
+                    "Indicator Name": "Outward Direct Investment Positions, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOW_BP6_USD",
+                    "Example URL Description": "Returns the Outward Direct Investment Positions, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Equity Positions (Net)": {
+                "Derived": {
+                    "Indicator Key": "IOWE_DV_BP6_USD",
+                    "Indicator Name": "Outward Equity Positions (Net), Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_DV_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_DV_BP6_USD",
+                    "Example URL Description": "Returns the Outward Equity Positions (Net), Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "IOWE_BP6_XDC",
+                    "Indicator Name": "Outward Equity Positions (Net), Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_BP6_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_BP6_XDC",
+                    "Example URL Description": "Returns the Outward Equity Positions (Net), Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "IOWE_BP6_EUR",
+                    "Indicator Name": "Outward Equity Positions (Net), Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_BP6_EUR?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_BP6_EUR",
+                    "Example URL Description": "Returns the Outward Equity Positions (Net), Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "IOWE_BP6_USD",
+                    "Indicator Name": "Outward Equity Positions (Net), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_BP6_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IOWE_BP6_USD",
+                    "Example URL Description": "Returns the Outward Equity Positions (Net), US Dollars indicator for France at A frequency."
+                }
+            },
+            "All Indicators": {
+                "General": {
+                    "Indicator Key": "All_Indicators",
+                    "Indicator Name": "All Indicators",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators",
+                    "Example URL Description": "Returns the All Indicators indicator for France at A frequency."
+                },
+                "Derived": {
+                    "Indicator Key": "All_Indicators_Derived_US_Dollars",
+                    "Indicator Name": "All Indicators, Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_Derived_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_Derived_US_Dollars",
+                    "Example URL Description": "Returns the All Indicators, Derived, US Dollars indicator for France at A frequency."
+                },
+                "Domestic Currency": {
+                    "Indicator Key": "All_Indicators_Domestic_Currency",
+                    "Indicator Name": "All Indicators, Domestic Currency",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_Domestic_Currency?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_Domestic_Currency",
+                    "Example URL Description": "Returns the All Indicators, Domestic Currency indicator for France at A frequency."
+                },
+                "Euros": {
+                    "Indicator Key": "All_Indicators_Euros",
+                    "Indicator Name": "All Indicators, Euros",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_Euros?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_Euros",
+                    "Example URL Description": "Returns the All Indicators, Euros indicator for France at A frequency."
+                },
+                "US Dollars": {
+                    "Indicator Key": "All_Indicators_US_Dollars",
+                    "Indicator Name": "All Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the All Indicators, US Dollars indicator for France at A frequency."
+                },
+                "US Dollars and Derived": {
+                    "Indicator Key": "All_Indicators_US_Dollars_and_Derived_US_Dollars",
+                    "Indicator Name": "All Indicators, US Dollars and Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars_and_Derived_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars_and_Derived_US_Dollars",
+                    "Example URL Description": "Returns the All Indicators, US Dollars and Derived, US Dollars indicator for France at A frequency."
+                },
+                "US Dollars and the All Indicators group": {
+                    "Indicator Key": "All_Indicators_US_Dollars_and_the_All_Indicators_group",
+                    "Indicator Name": "All Indicators, US Dollars and the All Indicators group",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars_and_the_All_Indicators_group?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars_and_the_All_Indicators_group",
+                    "Example URL Description": "Returns the All Indicators, US Dollars and the All Indicators group indicator for France at A frequency."
+                },
+                "US Dollars plus Inward Direct Investment Positions (Net)": {
+                    "Indicator Key": "All_Indicators_US_Dollars_plus_Inward_Direct_Investment_Positions_Net_US_Dollars",
+                    "Indicator Name": "All Indicators, US Dollars plus Inward Direct Investment Positions (Net), US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars_plus_Inward_Direct_Investment_Positions_Net_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_US_Dollars_plus_Inward_Direct_Investment_Positions_Net_US_Dollars",
+                    "Example URL Description": "Returns the All Indicators, US Dollars plus Inward Direct Investment Positions (Net), US Dollars indicator for France at A frequency."
+                }
+            },
+            "All Indicators and Indicator Groups": {
+                "General": {
+                    "Indicator Key": "All_Indicators_and_Indicator_Groups",
+                    "Indicator Name": "All Indicators and Indicator Groups",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_and_Indicator_Groups?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_and_Indicator_Groups",
+                    "Example URL Description": "Returns the All Indicators and Indicator Groups indicator for France at A frequency."
+                }
+            },
+            "All Indicators and Indicator Groups minus Derived": {
+                "US Dollars": {
+                    "Indicator Key": "All_Indicators_and_Indicator_Groups_minus_Derived_US_Dollars",
+                    "Indicator Name": "All Indicators and Indicator Groups minus Derived, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_and_Indicator_Groups_minus_Derived_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.All_Indicators_and_Indicator_Groups_minus_Derived_US_Dollars",
+                    "Example URL Description": "Returns the All Indicators and Indicator Groups minus Derived, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Diagnostic Indicator Groups": {
+                "General": {
+                    "Indicator Key": "Diagnostic_Indicator_Groups",
+                    "Indicator Name": "Diagnostic Indicator Groups",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Diagnostic_Indicator_Groups?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Diagnostic_Indicator_Groups",
+                    "Example URL Description": "Returns the Diagnostic Indicator Groups indicator for France at A frequency."
+                }
+            },
+            "Direct Investment Positions and Fellows Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Direct_Investment_Positions_and_Fellows_Indicators_US_Dollars",
+                    "Indicator Name": "Direct Investment Positions and Fellows Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Direct_Investment_Positions_and_Fellows_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Direct_Investment_Positions_and_Fellows_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Direct Investment Positions and Fellows Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Equity Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Equity_Indicators_US_Dollars",
+                    "Indicator Name": "Equity Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Equity_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Equity_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Equity Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Gross Data Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Gross_Data_Indicators_US_Dollars",
+                    "Indicator Name": "Gross Data Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Gross_Data_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Gross_Data_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Gross Data Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "IIP BPM5 Comparator Indicators": {
+                "General": {
+                    "Indicator Key": "IIP_BPM5_Comparator_Indicators",
+                    "Indicator Name": "IIP BPM5 Comparator Indicators",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIP_BPM5_Comparator_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIP_BPM5_Comparator_Indicators",
+                    "Example URL Description": "Returns the IIP BPM5 Comparator Indicators indicator for France at A frequency."
+                }
+            },
+            "IIP BPM6 Comparator Indicators": {
+                "General": {
+                    "Indicator Key": "IIP_BPM6_Comparator_Indicators",
+                    "Indicator Name": "IIP BPM6 Comparator Indicators",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIP_BPM6_Comparator_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.IIP_BPM6_Comparator_Indicators",
+                    "Example URL Description": "Returns the IIP BPM6 Comparator Indicators indicator for France at A frequency."
+                }
+            },
+            "Indicators for Publication Reports": {
+                "General": {
+                    "Indicator Key": "Indicators_for_Publication_Reports",
+                    "Indicator Name": "Indicators for Publication Reports",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Indicators_for_Publication_Reports?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Indicators_for_Publication_Reports",
+                    "Example URL Description": "Returns the Indicators for Publication Reports indicator for France at A frequency."
+                }
+            },
+            "Inward Debt Instrument Component Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Inward_Debt_Instrument_Component_Indicators_US_Dollars",
+                    "Indicator Name": "Inward Debt Instrument Component Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Debt_Instrument_Component_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Debt_Instrument_Component_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Inward Debt Instrument Component Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Fellows Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Inward_Fellows_Indicators_US_Dollars",
+                    "Indicator Name": "Inward Fellows Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Fellows_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Fellows_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Inward Fellows Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Inward_Indicators_US_Dollars",
+                    "Indicator Name": "Inward Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Inward Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Resident Component Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Inward_Resident_Component_Indicators_US_Dollars",
+                    "Indicator Name": "Inward Resident Component Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Resident_Component_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Resident_Component_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Inward Resident Component Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward Resident Financial Intermediaries Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Inward_Resident_Financial_Intermediaries_Indicators_US_Dollars",
+                    "Indicator Name": "Inward Resident Financial Intermediaries Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Resident_Financial_Intermediaries_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward_Resident_Financial_Intermediaries_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Inward Resident Financial Intermediaries Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Inward/Outward Discrepancies To Totals": {
+                "General": {
+                    "Indicator Key": "Inward/Outward_Discrepancies_To_Totals",
+                    "Indicator Name": "Inward/Outward Discrepancies To Totals",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward/Outward_Discrepancies_To_Totals?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Inward/Outward_Discrepancies_To_Totals",
+                    "Example URL Description": "Returns the Inward/Outward Discrepancies To Totals indicator for France at A frequency."
+                }
+            },
+            "Mandatory Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Core_Indicators_US_Dollars",
+                    "Indicator Name": "Mandatory Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Core_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Core_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Mandatory Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Debt Instrument Component Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Outward_Debt_Instrument_Component_Indicators_US_Dollars",
+                    "Indicator Name": "Outward Debt Instrument Component Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Debt_Instrument_Component_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Debt_Instrument_Component_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Outward Debt Instrument Component Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Fellows Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Outward_Fellows_Indicators_US_Dollars",
+                    "Indicator Name": "Outward Fellows Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Fellows_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Fellows_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Outward Fellows Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Outward_Indicators_US_Dollars",
+                    "Indicator Name": "Outward Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Outward Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Resident Component Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Outward_Resident_Component_Indicators_US_Dollars",
+                    "Indicator Name": "Outward Resident Component Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Resident_Component_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Resident_Component_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Outward Resident Component Indicators, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Outward Resident Financial Intermediaries Indicators": {
+                "US Dollars": {
+                    "Indicator Key": "Outward_Resident_Financial_Intermediaries_Indicators_US_Dollars",
+                    "Indicator Name": "Outward Resident Financial Intermediaries Indicators, US Dollars",
+                    "Indicator Database": "CDIS",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Resident_Financial_Intermediaries_Indicators_US_Dollars?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/CDIS/A.FR.Outward_Resident_Financial_Intermediaries_Indicators_US_Dollars",
+                    "Example URL Description": "Returns the Outward Resident Financial Intermediaries Indicators, US Dollars indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

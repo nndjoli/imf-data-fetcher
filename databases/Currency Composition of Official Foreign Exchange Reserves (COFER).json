@@ -1,0 +1,400 @@
+{
+    "Currency Composition of Official Foreign Exchange Reserves (COFER)": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR",
+        "Sample URL Description": "Returns all the COFER indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "XR29",
+                "Region Name": "Advanced Economies (IMF)"
+            },
+            {
+                "Region Key": "XR43",
+                "Region Name": "Emerging and Developing Countries"
+            },
+            {
+                "Region Key": "W00",
+                "Region Name": "All Countries, excluding the IO"
+            }
+        ],
+        "Indicators": {
+            "Foreign Exchange": {
+                "US Dollars": {
+                    "Indicator Key": "RAXGFX_USD",
+                    "Indicator Name": "Foreign Exchange, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFX_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFX_USD",
+                    "Example URL Description": "Returns the Foreign Exchange, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Allocated Reserves": {
+                "US Dollars": {
+                    "Indicator Key": "RAXGFXAR_USD",
+                    "Indicator Name": "Allocated Reserves, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAR_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAR_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Australian dollars": {
+                    "Indicator Key": "RAXGFXARAUD_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Australian dollars, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARAUD_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARAUD_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Australian dollars, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Canadian dollars": {
+                    "Indicator Key": "RAXGFXARCAD_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Canadian dollars, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCAD_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCAD_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Canadian dollars, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Deutsche mark": {
+                    "Indicator Key": "RAXGFXARDEM_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Deutsche mark, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARDEM_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARDEM_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Deutsche mark, US Dollars indicator for France at A frequency."
+                },
+                "Claims in ECUs": {
+                    "Indicator Key": "RAXGFXARECU_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in ECUs, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARECU_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARECU_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in ECUs, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Euro": {
+                    "Indicator Key": "RAXGFXAREURO_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Euro, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAREURO_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAREURO_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Euro, US Dollars indicator for France at A frequency."
+                },
+                "Claims in French francs": {
+                    "Indicator Key": "RAXGFXARFRF_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in French francs, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARFRF_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARFRF_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in French francs, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Japanese yen": {
+                    "Indicator Key": "RAXGFXARJPY_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Japanese yen, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARJPY_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARJPY_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Japanese yen, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Netherlands guilder": {
+                    "Indicator Key": "RAXGFXARNLG_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Netherlands guilder, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARNLG_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARNLG_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Netherlands guilder, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Pounds sterling": {
+                    "Indicator Key": "RAXGFXARGBP_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Pounds sterling, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARGBP_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARGBP_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Pounds sterling, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Swiss francs": {
+                    "Indicator Key": "RAXGFXARCHF_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Swiss francs, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCHF_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCHF_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Swiss francs, US Dollars indicator for France at A frequency."
+                },
+                "Claims in U.S. dollars": {
+                    "Indicator Key": "RAXGFXARUSD_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in U.S. dollars, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARUSD_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARUSD_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in U.S. dollars, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Other currencies": {
+                    "Indicator Key": "RAXGFXAROC_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Other currencies, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAROC_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAROC_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Other currencies, US Dollars indicator for France at A frequency."
+                },
+                "Claims in Chinese Renminbi": {
+                    "Indicator Key": "RAXGFXARCNY_USD",
+                    "Indicator Name": "Allocated Reserves, Claims in Chinese Renminbi, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCNY_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCNY_USD",
+                    "Example URL Description": "Returns the Allocated Reserves, Claims in Chinese Renminbi, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Unallocated Reserves": {
+                "US Dollars": {
+                    "Indicator Key": "RAXGFXUR_USD",
+                    "Indicator Name": "Unallocated Reserves, US Dollars",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXUR_USD?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXUR_USD",
+                    "Example URL Description": "Returns the Unallocated Reserves, US Dollars indicator for France at A frequency."
+                }
+            },
+            "Shares of Allocated Reserves": {
+                "Percent": {
+                    "Indicator Key": "RAXGFXARRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Percent indicator for France at A frequency."
+                },
+                "Shares of Australian dollars": {
+                    "Indicator Key": "RAXGFXARAUDRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Australian dollars, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARAUDRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARAUDRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Australian dollars, Percent indicator for France at A frequency."
+                },
+                "Shares of Canadian dollars": {
+                    "Indicator Key": "RAXGFXARCADRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Canadian dollars, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCADRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCADRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Canadian dollars, Percent indicator for France at A frequency."
+                },
+                "Shares of Deutsche mark": {
+                    "Indicator Key": "RAXGFXARDEMRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Deutsche mark, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARDEMRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARDEMRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Deutsche mark, Percent indicator for France at A frequency."
+                },
+                "Shares of ECUs": {
+                    "Indicator Key": "RAXGFXARECURT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of ECUs, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARECURT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARECURT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of ECUs, Percent indicator for France at A frequency."
+                },
+                "Shares of Euro": {
+                    "Indicator Key": "RAXGFXAREURORT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Euro, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAREURORT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAREURORT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Euro, Percent indicator for France at A frequency."
+                },
+                "Shares of French francs": {
+                    "Indicator Key": "RAXGFXARFRFRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of French francs, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARFRFRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARFRFRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of French francs, Percent indicator for France at A frequency."
+                },
+                "Shares of Japanese yen": {
+                    "Indicator Key": "RAXGFXARJPYRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Japanese yen, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARJPYRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARJPYRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Japanese yen, Percent indicator for France at A frequency."
+                },
+                "Shares of Netherlands guilders": {
+                    "Indicator Key": "RAXGFXARNLGRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Netherlands guilders, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARNLGRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARNLGRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Netherlands guilders, Percent indicator for France at A frequency."
+                },
+                "Shares of Pounds sterling": {
+                    "Indicator Key": "RAXGFXARGBPRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Pounds sterling, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARGBPRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARGBPRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Pounds sterling, Percent indicator for France at A frequency."
+                },
+                "Shares of Swiss francs": {
+                    "Indicator Key": "RAXGFXARCHFRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Swiss francs, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCHFRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCHFRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Swiss francs, Percent indicator for France at A frequency."
+                },
+                "Shares of U.S. dollars": {
+                    "Indicator Key": "RAXGFXARUSDRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of U.S. dollars, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARUSDRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARUSDRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of U.S. dollars, Percent indicator for France at A frequency."
+                },
+                "Shares of Other currencies": {
+                    "Indicator Key": "RAXGFXAROCRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Other currencies, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAROCRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXAROCRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Other currencies, Percent indicator for France at A frequency."
+                },
+                "Shares of Chinese Renminbi": {
+                    "Indicator Key": "RAXGFXARCNYRT_PT",
+                    "Indicator Name": "Shares of Allocated Reserves, Shares of Chinese Renminbi, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCNYRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXARCNYRT_PT",
+                    "Example URL Description": "Returns the Shares of Allocated Reserves, Shares of Chinese Renminbi, Percent indicator for France at A frequency."
+                }
+            },
+            "Shares of Unallocated Reserves": {
+                "Percent": {
+                    "Indicator Key": "RAXGFXURRT_PT",
+                    "Indicator Name": "Shares of Unallocated Reserves, Percent",
+                    "Indicator Database": "COFER",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXURRT_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/COFER/A.FR.RAXGFXURRT_PT",
+                    "Example URL Description": "Returns the Shares of Unallocated Reserves, Percent indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1498 @@
+{
+    "Financial Access Survey (FAS), 2017": {
+        "Construction URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/<DatabaseID>/<Frequency>.<RegionCode>.<IndicatorKey>?startPeriod=<StartDate>&endPeriod=<EndDate>",
+        "Sample URL": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR",
+        "Sample URL Description": "Returns all the FAS_2017 indicators for France at annual frequency.",
+        "Frequencies": [
+            {
+                "Frequency Key": "A",
+                "Frequency Name": "Annual"
+            },
+            {
+                "Frequency Key": "B",
+                "Frequency Name": "Bi-annual"
+            },
+            {
+                "Frequency Key": "Q",
+                "Frequency Name": "Quarterly"
+            },
+            {
+                "Frequency Key": "M",
+                "Frequency Name": "Monthly"
+            },
+            {
+                "Frequency Key": "D",
+                "Frequency Name": "Daily"
+            },
+            {
+                "Frequency Key": "W",
+                "Frequency Name": "Weekly"
+            }
+        ],
+        "Regions": [
+            {
+                "Region Key": "AF",
+                "Region Name": "Afghanistan"
+            },
+            {
+                "Region Key": "AL",
+                "Region Name": "Albania"
+            },
+            {
+                "Region Key": "DZ",
+                "Region Name": "Algeria"
+            },
+            {
+                "Region Key": "AO",
+                "Region Name": "Angola"
+            },
+            {
+                "Region Key": "AI",
+                "Region Name": "Anguilla"
+            },
+            {
+                "Region Key": "AG",
+                "Region Name": "Antigua and Barbuda"
+            },
+            {
+                "Region Key": "AR",
+                "Region Name": "Argentina"
+            },
+            {
+                "Region Key": "AM",
+                "Region Name": "Armenia"
+            },
+            {
+                "Region Key": "AW",
+                "Region Name": "Aruba"
+            },
+            {
+                "Region Key": "AU",
+                "Region Name": "Australia"
+            },
+            {
+                "Region Key": "AT",
+                "Region Name": "Austria"
+            },
+            {
+                "Region Key": "AZ",
+                "Region Name": "Azerbaijan"
+            },
+            {
+                "Region Key": "BS",
+                "Region Name": "Bahamas"
+            },
+            {
+                "Region Key": "BD",
+                "Region Name": "Bangladesh"
+            },
+            {
+                "Region Key": "BB",
+                "Region Name": "Barbados"
+            },
+            {
+                "Region Key": "BY",
+                "Region Name": "Belarus"
+            },
+            {
+                "Region Key": "BE",
+                "Region Name": "Belgium"
+            },
+            {
+                "Region Key": "BZ",
+                "Region Name": "Belize"
+            },
+            {
+                "Region Key": "BJ",
+                "Region Name": "Benin"
+            },
+            {
+                "Region Key": "BT",
+                "Region Name": "Bhutan"
+            },
+            {
+                "Region Key": "BO",
+                "Region Name": "Bolivia"
+            },
+            {
+                "Region Key": "BA",
+                "Region Name": "Bosnia and Herzegovina"
+            },
+            {
+                "Region Key": "BW",
+                "Region Name": "Botswana"
+            },
+            {
+                "Region Key": "BR",
+                "Region Name": "Brazil"
+            },
+            {
+                "Region Key": "BN",
+                "Region Name": "Brunei Darussalam"
+            },
+            {
+                "Region Key": "BG",
+                "Region Name": "Bulgaria"
+            },
+            {
+                "Region Key": "BF",
+                "Region Name": "Burkina Faso"
+            },
+            {
+                "Region Key": "BI",
+                "Region Name": "Burundi"
+            },
+            {
+                "Region Key": "CV",
+                "Region Name": "Cape Verde"
+            },
+            {
+                "Region Key": "KH",
+                "Region Name": "Cambodia"
+            },
+            {
+                "Region Key": "CM",
+                "Region Name": "Cameroon"
+            },
+            {
+                "Region Key": "CA",
+                "Region Name": "Canada"
+            },
+            {
+                "Region Key": "CF",
+                "Region Name": "Central African Republic"
+            },
+            {
+                "Region Key": "TD",
+                "Region Name": "Chad"
+            },
+            {
+                "Region Key": "CL",
+                "Region Name": "Chile"
+            },
+            {
+                "Region Key": "HK",
+                "Region Name": "Hong Kong, China"
+            },
+            {
+                "Region Key": "MO",
+                "Region Name": "Macao"
+            },
+            {
+                "Region Key": "CN",
+                "Region Name": "China"
+            },
+            {
+                "Region Key": "CO",
+                "Region Name": "Colombia"
+            },
+            {
+                "Region Key": "KM",
+                "Region Name": "Comoros"
+            },
+            {
+                "Region Key": "CD",
+                "Region Name": "Congo, the Democratic Republic of the"
+            },
+            {
+                "Region Key": "CG",
+                "Region Name": "Congo"
+            },
+            {
+                "Region Key": "CR",
+                "Region Name": "Costa Rica"
+            },
+            {
+                "Region Key": "CI",
+                "Region Name": "Cote d`Ivoire"
+            },
+            {
+                "Region Key": "HR",
+                "Region Name": "Croatia"
+            },
+            {
+                "Region Key": "CY",
+                "Region Name": "Cyprus"
+            },
+            {
+                "Region Key": "CZ",
+                "Region Name": "Czech Republic"
+            },
+            {
+                "Region Key": "DK",
+                "Region Name": "Denmark"
+            },
+            {
+                "Region Key": "DJ",
+                "Region Name": "Djibouti"
+            },
+            {
+                "Region Key": "DM",
+                "Region Name": "Dominica"
+            },
+            {
+                "Region Key": "DO",
+                "Region Name": "Dominican Republic"
+            },
+            {
+                "Region Key": "EC",
+                "Region Name": "Ecuador"
+            },
+            {
+                "Region Key": "EG",
+                "Region Name": "Egypt"
+            },
+            {
+                "Region Key": "SV",
+                "Region Name": "El Salvador"
+            },
+            {
+                "Region Key": "GQ",
+                "Region Name": "Equatorial Guinea"
+            },
+            {
+                "Region Key": "EE",
+                "Region Name": "Estonia"
+            },
+            {
+                "Region Key": "ET",
+                "Region Name": "Ethiopia"
+            },
+            {
+                "Region Key": "FJ",
+                "Region Name": "Fiji"
+            },
+            {
+                "Region Key": "FI",
+                "Region Name": "Finland"
+            },
+            {
+                "Region Key": "FR",
+                "Region Name": "France"
+            },
+            {
+                "Region Key": "GA",
+                "Region Name": "Gabon"
+            },
+            {
+                "Region Key": "GM",
+                "Region Name": "Gambia"
+            },
+            {
+                "Region Key": "GE",
+                "Region Name": "Georgia"
+            },
+            {
+                "Region Key": "DE",
+                "Region Name": "Germany"
+            },
+            {
+                "Region Key": "GH",
+                "Region Name": "Ghana"
+            },
+            {
+                "Region Key": "GR",
+                "Region Name": "Greece"
+            },
+            {
+                "Region Key": "GD",
+                "Region Name": "Grenada"
+            },
+            {
+                "Region Key": "GT",
+                "Region Name": "Guatemala"
+            },
+            {
+                "Region Key": "GN",
+                "Region Name": "Guinea"
+            },
+            {
+                "Region Key": "GW",
+                "Region Name": "Guinea-Bissau"
+            },
+            {
+                "Region Key": "GY",
+                "Region Name": "Guyana"
+            },
+            {
+                "Region Key": "HT",
+                "Region Name": "Haiti"
+            },
+            {
+                "Region Key": "HN",
+                "Region Name": "Honduras"
+            },
+            {
+                "Region Key": "HU",
+                "Region Name": "Hungary"
+            },
+            {
+                "Region Key": "IS",
+                "Region Name": "Iceland"
+            },
+            {
+                "Region Key": "IN",
+                "Region Name": "India"
+            },
+            {
+                "Region Key": "ID",
+                "Region Name": "Indonesia"
+            },
+            {
+                "Region Key": "IR",
+                "Region Name": "Iran, Islamic Republic of"
+            },
+            {
+                "Region Key": "IQ",
+                "Region Name": "Iraq"
+            },
+            {
+                "Region Key": "IE",
+                "Region Name": "Ireland"
+            },
+            {
+                "Region Key": "IL",
+                "Region Name": "Israel"
+            },
+            {
+                "Region Key": "IT",
+                "Region Name": "Italy"
+            },
+            {
+                "Region Key": "JM",
+                "Region Name": "Jamaica"
+            },
+            {
+                "Region Key": "JP",
+                "Region Name": "Japan"
+            },
+            {
+                "Region Key": "JO",
+                "Region Name": "Jordan"
+            },
+            {
+                "Region Key": "KZ",
+                "Region Name": "Kazakhstan"
+            },
+            {
+                "Region Key": "KE",
+                "Region Name": "Kenya"
+            },
+            {
+                "Region Key": "KI",
+                "Region Name": "Kiribati"
+            },
+            {
+                "Region Key": "KR",
+                "Region Name": "Korea, Republic of"
+            },
+            {
+                "Region Key": "XK",
+                "Region Name": "Kosovo"
+            },
+            {
+                "Region Key": "KW",
+                "Region Name": "Kuwait"
+            },
+            {
+                "Region Key": "KG",
+                "Region Name": "Kyrgyzstan"
+            },
+            {
+                "Region Key": "LA",
+                "Region Name": "Lao People`s Democratic Republic"
+            },
+            {
+                "Region Key": "LV",
+                "Region Name": "Latvia"
+            },
+            {
+                "Region Key": "LB",
+                "Region Name": "Lebanon"
+            },
+            {
+                "Region Key": "LS",
+                "Region Name": "Lesotho"
+            },
+            {
+                "Region Key": "LR",
+                "Region Name": "Liberia"
+            },
+            {
+                "Region Key": "LY",
+                "Region Name": "Libya"
+            },
+            {
+                "Region Key": "LT",
+                "Region Name": "Lithuania"
+            },
+            {
+                "Region Key": "LU",
+                "Region Name": "Luxembourg"
+            },
+            {
+                "Region Key": "MK",
+                "Region Name": "Macedonia, The Former Yugoslav Republic of"
+            },
+            {
+                "Region Key": "MG",
+                "Region Name": "Madagascar"
+            },
+            {
+                "Region Key": "MW",
+                "Region Name": "Malawi"
+            },
+            {
+                "Region Key": "MY",
+                "Region Name": "Malaysia"
+            },
+            {
+                "Region Key": "MV",
+                "Region Name": "Maldives"
+            },
+            {
+                "Region Key": "ML",
+                "Region Name": "Mali"
+            },
+            {
+                "Region Key": "MT",
+                "Region Name": "Malta"
+            },
+            {
+                "Region Key": "MH",
+                "Region Name": "Marshall islands"
+            },
+            {
+                "Region Key": "MR",
+                "Region Name": "Mauritania"
+            },
+            {
+                "Region Key": "MU",
+                "Region Name": "Mauritius"
+            },
+            {
+                "Region Key": "MX",
+                "Region Name": "Mexico"
+            },
+            {
+                "Region Key": "FM",
+                "Region Name": "Micronesia, Federated States of"
+            },
+            {
+                "Region Key": "MD",
+                "Region Name": "Moldova, Republic of"
+            },
+            {
+                "Region Key": "MN",
+                "Region Name": "Mongolia"
+            },
+            {
+                "Region Key": "ME",
+                "Region Name": "Montenegro"
+            },
+            {
+                "Region Key": "MS",
+                "Region Name": "Montserrat"
+            },
+            {
+                "Region Key": "MA",
+                "Region Name": "Morocco"
+            },
+            {
+                "Region Key": "MZ",
+                "Region Name": "Mozambique"
+            },
+            {
+                "Region Key": "MM",
+                "Region Name": "Myanmar"
+            },
+            {
+                "Region Key": "NA",
+                "Region Name": "Namibia"
+            },
+            {
+                "Region Key": "NP",
+                "Region Name": "Nepal"
+            },
+            {
+                "Region Key": "NL",
+                "Region Name": "Netherlands"
+            },
+            {
+                "Region Key": "NZ",
+                "Region Name": "New Zealand"
+            },
+            {
+                "Region Key": "NI",
+                "Region Name": "Nicaragua"
+            },
+            {
+                "Region Key": "NE",
+                "Region Name": "Niger"
+            },
+            {
+                "Region Key": "NG",
+                "Region Name": "Nigeria"
+            },
+            {
+                "Region Key": "NO",
+                "Region Name": "Norway"
+            },
+            {
+                "Region Key": "OM",
+                "Region Name": "Oman"
+            },
+            {
+                "Region Key": "PK",
+                "Region Name": "Pakistan"
+            },
+            {
+                "Region Key": "PW",
+                "Region Name": "Palau"
+            },
+            {
+                "Region Key": "PA",
+                "Region Name": "Panama"
+            },
+            {
+                "Region Key": "PG",
+                "Region Name": "Papua New Guinea"
+            },
+            {
+                "Region Key": "PY",
+                "Region Name": "Paraguay"
+            },
+            {
+                "Region Key": "PE",
+                "Region Name": "Peru"
+            },
+            {
+                "Region Key": "PH",
+                "Region Name": "Philippines"
+            },
+            {
+                "Region Key": "PL",
+                "Region Name": "Poland"
+            },
+            {
+                "Region Key": "PT",
+                "Region Name": "Portugal"
+            },
+            {
+                "Region Key": "QA",
+                "Region Name": "Qatar"
+            },
+            {
+                "Region Key": "RO",
+                "Region Name": "Romania"
+            },
+            {
+                "Region Key": "RU",
+                "Region Name": "Russian Federation"
+            },
+            {
+                "Region Key": "RW",
+                "Region Name": "Rwanda"
+            },
+            {
+                "Region Key": "WS",
+                "Region Name": "Samoa"
+            },
+            {
+                "Region Key": "SM",
+                "Region Name": "San Marino"
+            },
+            {
+                "Region Key": "ST",
+                "Region Name": "Sao Tome and Principe"
+            },
+            {
+                "Region Key": "SA",
+                "Region Name": "Saudi Arabia"
+            },
+            {
+                "Region Key": "SN",
+                "Region Name": "Senegal"
+            },
+            {
+                "Region Key": "RS",
+                "Region Name": "Serbia"
+            },
+            {
+                "Region Key": "SC",
+                "Region Name": "Seychelles"
+            },
+            {
+                "Region Key": "SL",
+                "Region Name": "Sierra Leone"
+            },
+            {
+                "Region Key": "SG",
+                "Region Name": "Singapore"
+            },
+            {
+                "Region Key": "SK",
+                "Region Name": "Slovakia"
+            },
+            {
+                "Region Key": "SI",
+                "Region Name": "Slovenia"
+            },
+            {
+                "Region Key": "SB",
+                "Region Name": "Solomon Islands"
+            },
+            {
+                "Region Key": "ZA",
+                "Region Name": "South Africa"
+            },
+            {
+                "Region Key": "SS",
+                "Region Name": "South Sudan"
+            },
+            {
+                "Region Key": "ES",
+                "Region Name": "Spain"
+            },
+            {
+                "Region Key": "LK",
+                "Region Name": "Sri Lanka"
+            },
+            {
+                "Region Key": "KN",
+                "Region Name": "Saint Kitts and Nevis"
+            },
+            {
+                "Region Key": "LC",
+                "Region Name": "Saint Lucia"
+            },
+            {
+                "Region Key": "VC",
+                "Region Name": "Saint Vincent and the Grenadines"
+            },
+            {
+                "Region Key": "SD",
+                "Region Name": "Sudan"
+            },
+            {
+                "Region Key": "SR",
+                "Region Name": "Suriname"
+            },
+            {
+                "Region Key": "SZ",
+                "Region Name": "Swaziland"
+            },
+            {
+                "Region Key": "SE",
+                "Region Name": "Sweden"
+            },
+            {
+                "Region Key": "CH",
+                "Region Name": "Switzerland"
+            },
+            {
+                "Region Key": "SY",
+                "Region Name": "Syrian Arab Republic"
+            },
+            {
+                "Region Key": "TJ",
+                "Region Name": "Tajikistan"
+            },
+            {
+                "Region Key": "TZ",
+                "Region Name": "Tanzania, United Republic of"
+            },
+            {
+                "Region Key": "TH",
+                "Region Name": "Thailand"
+            },
+            {
+                "Region Key": "TL",
+                "Region Name": "Timor-Leste"
+            },
+            {
+                "Region Key": "TG",
+                "Region Name": "Togo"
+            },
+            {
+                "Region Key": "TO",
+                "Region Name": "Tonga"
+            },
+            {
+                "Region Key": "TT",
+                "Region Name": "Trinidad and Tobago"
+            },
+            {
+                "Region Key": "TN",
+                "Region Name": "Tunisia"
+            },
+            {
+                "Region Key": "TR",
+                "Region Name": "Turkey"
+            },
+            {
+                "Region Key": "UG",
+                "Region Name": "Uganda"
+            },
+            {
+                "Region Key": "UA",
+                "Region Name": "Ukraine"
+            },
+            {
+                "Region Key": "AE",
+                "Region Name": "United Arab Emirates"
+            },
+            {
+                "Region Key": "GB",
+                "Region Name": "United Kingdom"
+            },
+            {
+                "Region Key": "US",
+                "Region Name": "United States"
+            },
+            {
+                "Region Key": "UY",
+                "Region Name": "Uruguay"
+            },
+            {
+                "Region Key": "UZ",
+                "Region Name": "Uzbekistan"
+            },
+            {
+                "Region Key": "VU",
+                "Region Name": "Vanuatu"
+            },
+            {
+                "Region Key": "VE",
+                "Region Name": "Venezuela, Bolivarian Republic"
+            },
+            {
+                "Region Key": "VN",
+                "Region Name": "Viet Nam"
+            },
+            {
+                "Region Key": "PS",
+                "Region Name": "Palestine, State of"
+            },
+            {
+                "Region Key": "YE",
+                "Region Name": "Yemen"
+            },
+            {
+                "Region Key": "ZM",
+                "Region Name": "Zambia"
+            },
+            {
+                "Region Key": "ZW",
+                "Region Name": "Zimbabwe"
+            },
+            {
+                "Region Key": "1C_ALLC",
+                "Region Name": "All Countries"
+            }
+        ],
+        "Indicators": {
+            "Geographical Outreach": {
+                "Liabilities: Outstanding Deposits": {
+                    "Indicator Key": "FCLOFMH_XDC",
+                    "Indicator Name": "Geographical Outreach, Liabilities: Outstanding Deposits, Other Financial Corporations, Other Financial Intermediaries, of which: households, Domestic Currency",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLOFMH_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLOFMH_XDC",
+                    "Example URL Description": "Returns the Geographical Outreach, Liabilities: Outstanding Deposits, Other Financial Corporations, Other Financial Intermediaries, of which: households, Domestic Currency indicator for France at A frequency."
+                },
+                "Number of Automated Teller Machines (ATMs)": {
+                    "Indicator Key": "FCACL_NUM",
+                    "Indicator Name": "Geographical Outreach, Number of Automated Teller Machines (ATMs), Country wide, of which: in 3 largest cities, Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCACL_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCACL_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach, Number of Automated Teller Machines (ATMs), Country wide, of which: in 3 largest cities, Number of indicator for France at A frequency."
+                },
+                "Number of Branches": {
+                    "Indicator Key": "FCBMO_NUM",
+                    "Indicator Name": "Geographical Outreach, Number of Branches, Excluding Headquarters, Other Financial Intermediaries, Other Other Financial Intermediaries, Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBMO_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBMO_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach, Number of Branches, Excluding Headquarters, Other Financial Intermediaries, Other Other Financial Intermediaries, Number of indicator for France at A frequency."
+                },
+                "Number of Institutions": {
+                    "Indicator Key": "FCIOFMFN_NUM",
+                    "Indicator Name": "Geographical Outreach, Number of Institutions, Other Financial Corporations, Other financial intermediaries, of which: non-deposit taking microfinance institutions (MFIs), Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCIOFMFN_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCIOFMFN_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach, Number of Institutions, Other Financial Corporations, Other financial intermediaries, of which: non-deposit taking microfinance institutions (MFIs), Number of indicator for France at A frequency."
+                }
+            },
+            "Geographical Outreach: Key Indicators": {
+                "All MFI branches per 100": {
+                    "Indicator Key": "FCBODMFA_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, All MFI branches per 100,000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODMFA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODMFA_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, All MFI branches per 100,000 adults, Number indicator for France at A frequency."
+                },
+                "All MFI branches per 1000 km2": {
+                    "Indicator Key": "FCBODMFK_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, All MFI branches per 1000 km2, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODMFK_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODMFK_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, All MFI branches per 1000 km2, Number indicator for France at A frequency."
+                },
+                "Credit union and financial cooperative branches per 100": {
+                    "Indicator Key": "FCBODUA_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, Credit union and financial cooperative branches per 100,000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODUA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODUA_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, Credit union and financial cooperative branches per 100,000 adults, Number indicator for France at A frequency."
+                },
+                "Credit union and financial cooperative branches per 1000 km2": {
+                    "Indicator Key": "FCBODUK_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, Credit union and financial cooperative branches per 1000 km2, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODUK_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODUK_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, Credit union and financial cooperative branches per 1000 km2, Number indicator for France at A frequency."
+                },
+                "Mobile Banking": {
+                    "Indicator Key": "FCMORK_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, Mobile Banking, Agent Outlets per 1000 km2, Registered, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCMORK_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCMORK_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, Mobile Banking, Agent Outlets per 1000 km2, Registered, Number indicator for France at A frequency."
+                },
+                "Number of ATMs per 100": {
+                    "Indicator Key": "FCAA_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, Number of ATMs per 100,000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAA_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, Number of ATMs per 100,000 adults, Number indicator for France at A frequency."
+                },
+                "Number of ATMs per 1000 km2": {
+                    "Indicator Key": "FCAK_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, Number of ATMs per 1000 km2, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAK_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAK_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, Number of ATMs per 1000 km2, Number indicator for France at A frequency."
+                },
+                "Number of commercial bank branches per 100": {
+                    "Indicator Key": "FCBODCA_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, Number of commercial bank branches per 100,000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODCA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODCA_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, Number of commercial bank branches per 100,000 adults, Number indicator for France at A frequency."
+                },
+                "Number of commercial bank branches per 1000 km2": {
+                    "Indicator Key": "FCBODCK_NUM",
+                    "Indicator Name": "Geographical Outreach: Key Indicators, Number of commercial bank branches per 1000 km2, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODCK_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCBODCK_NUM",
+                    "Example URL Description": "Returns the Geographical Outreach: Key Indicators, Number of commercial bank branches per 1000 km2, Number indicator for France at A frequency."
+                }
+            },
+            "Use of Financial Services Number of Borrowers": {
+                "Other Depository Corporations": {
+                    "Indicator Key": "FCROD_PE_NUM",
+                    "Indicator Name": "Use of Financial Services Number of Borrowers, Other Depository Corporations, Persons, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCROD_PE_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCROD_PE_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services Number of Borrowers, Other Depository Corporations, Persons, Number indicator for France at A frequency."
+                }
+            },
+            "Use of Financial Services Number of Deposit Accounts": {
+                "Other Depository Corporations": {
+                    "Indicator Key": "FCAODMF_NUM",
+                    "Indicator Name": "Use of Financial Services Number of Deposit Accounts, Other Depository Corporations, Deposit taking microfinance institutions (MFIs), Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODMF_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODMF_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services Number of Deposit Accounts, Other Depository Corporations, Deposit taking microfinance institutions (MFIs), Number of indicator for France at A frequency."
+                }
+            },
+            "Use of Financial Services": {
+                "Assets: Outstanding Loans": {
+                    "Indicator Key": "FCSMO_XDC",
+                    "Indicator Name": "Use of Financial Services, Assets: Outstanding Loans, Other Financial Intermediaries, Other Other financial intermediaries, Domestic Currency",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSMO_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSMO_XDC",
+                    "Example URL Description": "Returns the Use of Financial Services, Assets: Outstanding Loans, Other Financial Intermediaries, Other Other financial intermediaries, Domestic Currency indicator for France at A frequency."
+                },
+                "Liabilities: Outstanding Deposits": {
+                    "Indicator Key": "FCLOFM_XDC",
+                    "Indicator Name": "Use of Financial Services, Liabilities: Outstanding Deposits, Other Financial Corporations, Other Financial Intermediaries,, Domestic Currency",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLOFM_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLOFM_XDC",
+                    "Example URL Description": "Returns the Use of Financial Services, Liabilities: Outstanding Deposits, Other Financial Corporations, Other Financial Intermediaries,, Domestic Currency indicator for France at A frequency."
+                },
+                "Number of Borrowers": {
+                    "Indicator Key": "FCRM_PE_NUM",
+                    "Indicator Name": "Use of Financial Services, Number of Borrowers, Other Financial Intermediaries, Persons, Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRM_PE_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRM_PE_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services, Number of Borrowers, Other Financial Intermediaries, Persons, Number of indicator for France at A frequency."
+                },
+                "Number of Deposit Accounts": {
+                    "Indicator Key": "FCAOFMO_NUM",
+                    "Indicator Name": "Use of Financial Services, Number of Deposit Accounts, Other Financial Corporations, Other Financial Corporations, Other financial intermediaries, Other Other financial intermediaries, Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAOFMO_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAOFMO_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services, Number of Deposit Accounts, Other Financial Corporations, Other Financial Corporations, Other financial intermediaries, Other Other financial intermediaries, Number of indicator for France at A frequency."
+                },
+                "Number of Depositors": {
+                    "Indicator Key": "FCDOF_PE_NUM",
+                    "Indicator Name": "Use of Financial Services, Number of Depositors, Other Financial Corporations, Persons, Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDOF_PE_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDOF_PE_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services, Number of Depositors, Other Financial Corporations, Persons, Number of indicator for France at A frequency."
+                },
+                "Number of Loan Accounts": {
+                    "Indicator Key": "FCNFO_NUM",
+                    "Indicator Name": "Use of Financial Services, Number of Loan Accounts, Other Financial Intermediaries, Other Other financial intermediaries, Number of",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNFO_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNFO_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services, Number of Loan Accounts, Other Financial Intermediaries, Other Other financial intermediaries, Number of indicator for France at A frequency."
+                }
+            },
+            "Use of Financial Services: Key Indicators": {
+                "Borrowers from all microfinance institutions (MFIs) per 1000 adults": {
+                    "Indicator Key": "FCRODMFA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Borrowers from all microfinance institutions (MFIs) per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODMFA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODMFA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Borrowers from all microfinance institutions (MFIs) per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Borrowers from commercial banks per 1000 adults": {
+                    "Indicator Key": "FCRODCA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Borrowers from commercial banks per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODCA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODCA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Borrowers from commercial banks per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Borrowers from credit unions and financial cooperatives per 1000 adults": {
+                    "Indicator Key": "FCRODUA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Borrowers from credit unions and financial cooperatives per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODUA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODUA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Borrowers from credit unions and financial cooperatives per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Deposit accounts with commercial banks per 1000 adults": {
+                    "Indicator Key": "FCAODCA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Deposit accounts with commercial banks per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODCA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODCA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Deposit accounts with commercial banks per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Deposit accounts with credit unions and financial cooperatives per 1000 adults": {
+                    "Indicator Key": "FCAODUA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Deposit accounts with credit unions and financial cooperatives per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODUA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODUA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Deposit accounts with credit unions and financial cooperatives per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Deposit/customer accounts with all microfinance institutions (MFIs) per 1000 adults": {
+                    "Indicator Key": "FCAODMFA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Deposit/customer accounts with all microfinance institutions (MFIs) per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODMFA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODMFA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Deposit/customer accounts with all microfinance institutions (MFIs) per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Depositors with commercial banks per 1000 adults": {
+                    "Indicator Key": "FCDODCA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Depositors with commercial banks per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODCA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODCA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Depositors with commercial banks per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Depositors with credit unions and financial cooperatives per 1000 adults": {
+                    "Indicator Key": "FCDODUA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Depositors with credit unions and financial cooperatives per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODUA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODUA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Depositors with credit unions and financial cooperatives per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Depositors/customers with all microfinance institutions (MFIs) per 1000 adults": {
+                    "Indicator Key": "FCDODMFA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Depositors/customers with all microfinance institutions (MFIs) per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODMFA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODMFA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Depositors/customers with all microfinance institutions (MFIs) per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Household borrowers from commercial banks per 1000 adults": {
+                    "Indicator Key": "FCRODCHA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Household borrowers from commercial banks per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODCHA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODCHA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Household borrowers from commercial banks per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Household deposit accounts with commercial banks per 1000 adults": {
+                    "Indicator Key": "FCAODCHA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Household deposit accounts with commercial banks per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODCHA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODCHA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Household deposit accounts with commercial banks per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Household depositors with commercial banks per 1000 adults": {
+                    "Indicator Key": "FCDODCHA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Household depositors with commercial banks per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODCHA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODCHA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Household depositors with commercial banks per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Household loan accounts with commercial banks per 1": {
+                    "Indicator Key": "FCNODCHA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Household loan accounts with commercial banks per 1,000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODCHA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODCHA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Household loan accounts with commercial banks per 1,000 adults, Number indicator for France at A frequency."
+                },
+                "Loan accounts with all microfinance institutions (MFIs) per 1000 adults": {
+                    "Indicator Key": "FCNODMFA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Loan accounts with all microfinance institutions (MFIs) per 1000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODMFA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODMFA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Loan accounts with all microfinance institutions (MFIs) per 1000 adults, Number indicator for France at A frequency."
+                },
+                "Loan accounts with commercial banks per 1": {
+                    "Indicator Key": "FCNODCA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Loan accounts with commercial banks per 1,000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODCA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODCA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Loan accounts with commercial banks per 1,000 adults, Number indicator for France at A frequency."
+                },
+                "Loan accounts with credit unions and financial cooperatives per 1": {
+                    "Indicator Key": "FCNODUA_NUM",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Loan accounts with credit unions and financial cooperatives per 1,000 adults, Number",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODUA_NUM?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODUA_NUM",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Loan accounts with credit unions and financial cooperatives per 1,000 adults, Number indicator for France at A frequency."
+                },
+                "Mobile Banking": {
+                    "Indicator Key": "FCMTVG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Mobile Banking, Transactions, Value of mobile money transactions during the reference year (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCMTVG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCMTVG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Mobile Banking, Transactions, Value of mobile money transactions during the reference year (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding deposits from all microfinance institutions (MFIs) (% of GDP)": {
+                    "Indicator Key": "FCLODMFG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding deposits from all microfinance institutions (MFIs) (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODMFG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODMFG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding deposits from all microfinance institutions (MFIs) (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding deposits of households with commercial banks (% of GDP)": {
+                    "Indicator Key": "FCLODCHG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding deposits of households with commercial banks (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODCHG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODCHG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding deposits of households with commercial banks (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding deposits with commercial banks (% of GDP)": {
+                    "Indicator Key": "FCLODCG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding deposits with commercial banks (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODCG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODCG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding deposits with commercial banks (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding deposits with credit unions and financial cooperatives (% of GDP)": {
+                    "Indicator Key": "FCLODUG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding deposits with credit unions and financial cooperatives (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODUG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODUG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding deposits with credit unions and financial cooperatives (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding loans from all microfinance institutions (MFIs) (% of GDP)": {
+                    "Indicator Key": "FCSODMFG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding loans from all microfinance institutions (MFIs) (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODMFG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODMFG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding loans from all microfinance institutions (MFIs) (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding loans from commercial banks (% of GDP)": {
+                    "Indicator Key": "FCSODCG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding loans from commercial banks (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODCG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODCG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding loans from commercial banks (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding loans from commercial banks to households (% of GDP)": {
+                    "Indicator Key": "FCSODCHG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding loans from commercial banks to households (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODCHG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODCHG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding loans from commercial banks to households (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding loans from credit unions and financial cooperatives (% of GDP)": {
+                    "Indicator Key": "FCSODUG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding loans from credit unions and financial cooperatives (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODUG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODUG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding loans from credit unions and financial cooperatives (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding small and medium enterprises (SME) deposits with commercial banks (% of GDP)": {
+                    "Indicator Key": "FCLODCSG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding small and medium enterprises (SME) deposits with commercial banks (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODCSG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCLODCSG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding small and medium enterprises (SME) deposits with commercial banks (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Outstanding small and medium enterprises loans from commercial banks (% of GDP)": {
+                    "Indicator Key": "FCSODCSG_GDP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Outstanding small and medium enterprises loans from commercial banks (% of GDP), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODCSG_GDP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCSODCSG_GDP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Outstanding small and medium enterprises loans from commercial banks (% of GDP), Percent indicator for France at A frequency."
+                },
+                "Small and Medium Enterprises (SME) borrowers from commercial banks (% of non-financial corporation depositors with commercial banks)": {
+                    "Indicator Key": "FCRODCSP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) borrowers from commercial banks (% of non-financial corporation depositors with commercial banks), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODCSP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCRODCSP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) borrowers from commercial banks (% of non-financial corporation depositors with commercial banks), Percent indicator for France at A frequency."
+                },
+                "Small and Medium Enterprises (SME) deposit accounts with commercial banks (% of non-financial corporation depositors with commercial banks)": {
+                    "Indicator Key": "FCAODCSP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) deposit accounts with commercial banks (% of non-financial corporation depositors with commercial banks), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODCSP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCAODCSP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) deposit accounts with commercial banks (% of non-financial corporation depositors with commercial banks), Percent indicator for France at A frequency."
+                },
+                "Small and Medium Enterprises (SME) depositors with commercial banks (% of non-financial corporation depositors with commercial banks)": {
+                    "Indicator Key": "FCDODCSP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) depositors with commercial banks (% of non-financial corporation depositors with commercial banks), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODCSP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCDODCSP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) depositors with commercial banks (% of non-financial corporation depositors with commercial banks), Percent indicator for France at A frequency."
+                },
+                "Small and Medium Enterprises (SME) loan accounts with commercial banks (% of non-financial corporation depositors with commercial banks)": {
+                    "Indicator Key": "FCNODCSP_PT",
+                    "Indicator Name": "Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) loan accounts with commercial banks (% of non-financial corporation depositors with commercial banks), Percent",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODCSP_PT?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCNODCSP_PT",
+                    "Example URL Description": "Returns the Use of Financial Services: Key Indicators, Small and Medium Enterprises (SME) loan accounts with commercial banks (% of non-financial corporation depositors with commercial banks), Percent indicator for France at A frequency."
+                }
+            },
+            "User of Financial Services": {
+                "Mobile Banking": {
+                    "Indicator Key": "FCMTV_XDC",
+                    "Indicator Name": "User of Financial Services, Mobile Banking, Transactions, Value of mobile money transactions (during the reference year), Domestic Currency",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCMTV_XDC?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.FCMTV_XDC",
+                    "Example URL Description": "Returns the User of Financial Services, Mobile Banking, Transactions, Value of mobile money transactions (during the reference year), Domestic Currency indicator for France at A frequency."
+                }
+            },
+            "All basic indicators and underlying data": {
+                "General": {
+                    "Indicator Key": "All_basic_indicators_and_underlying_data",
+                    "Indicator Name": "All basic indicators and underlying data",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.All_basic_indicators_and_underlying_data?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.All_basic_indicators_and_underlying_data",
+                    "Example URL Description": "Returns the All basic indicators and underlying data indicator for France at A frequency."
+                }
+            },
+            "All Indicators": {
+                "General": {
+                    "Indicator Key": "All_Indicators",
+                    "Indicator Name": "All Indicators",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.All_Indicators?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.All_Indicators",
+                    "Example URL Description": "Returns the All Indicators indicator for France at A frequency."
+                }
+            },
+            "Basic indicators and underlying data on accounts": {
+                "General": {
+                    "Indicator Key": "Basic_indicators_and_underlying_data_on_accounts",
+                    "Indicator Name": "Basic indicators and underlying data on accounts",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_accounts?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_accounts",
+                    "Example URL Description": "Returns the Basic indicators and underlying data on accounts indicator for France at A frequency."
+                }
+            },
+            "Basic indicators and underlying data on commercial banks": {
+                "General": {
+                    "Indicator Key": "Basic_indicators_and_underlying_data_on_commercial_banks",
+                    "Indicator Name": "Basic indicators and underlying data on commercial banks",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_commercial_banks?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_commercial_banks",
+                    "Example URL Description": "Returns the Basic indicators and underlying data on commercial banks indicator for France at A frequency."
+                }
+            },
+            "Basic indicators and underlying data on credit unions and financial cooperatives": {
+                "General": {
+                    "Indicator Key": "Basic_indicators_and_underlying_data_on_credit_unions_and_financial_cooperatives",
+                    "Indicator Name": "Basic indicators and underlying data on credit unions and financial cooperatives",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_credit_unions_and_financial_cooperatives?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_credit_unions_and_financial_cooperatives",
+                    "Example URL Description": "Returns the Basic indicators and underlying data on credit unions and financial cooperatives indicator for France at A frequency."
+                }
+            },
+            "Basic indicators and underlying data on microfinance institutions": {
+                "General": {
+                    "Indicator Key": "Basic_indicators_and_underlying_data_on_microfinance_institutions",
+                    "Indicator Name": "Basic indicators and underlying data on microfinance institutions",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_microfinance_institutions?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_microfinance_institutions",
+                    "Example URL Description": "Returns the Basic indicators and underlying data on microfinance institutions indicator for France at A frequency."
+                }
+            },
+            "Basic indicators and underlying data on mobile money": {
+                "General": {
+                    "Indicator Key": "Basic_indicators_and_underlying_data_on_mobile_money",
+                    "Indicator Name": "Basic indicators and underlying data on mobile money",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_mobile_money?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.Basic_indicators_and_underlying_data_on_mobile_money",
+                    "Example URL Description": "Returns the Basic indicators and underlying data on mobile money indicator for France at A frequency."
+                }
+            },
+            "test": {
+                "General": {
+                    "Indicator Key": "test",
+                    "Indicator Name": "test",
+                    "Indicator Database": "FAS_2017",
+                    "Example Frequency": "A",
+                    "Example Region": "France",
+                    "Example Region Code": "FR",
+                    "Example URL (Period Specified)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.test?startPeriod=2021-01-01&endPeriod=2023-01-01",
+                    "Example URL (Complete Period)": "http://dataservices.imf.org/REST/SDMX_JSON.svc/CompactData/FAS_2017/A.FR.test",
+                    "Example URL Description": "Returns the test indicator for France at A frequency."
+                }
+            }
+        }
+    }
+}
