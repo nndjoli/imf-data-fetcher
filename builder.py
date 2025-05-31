@@ -1,5 +1,6 @@
 import httpx
 import pandas as pd
+import datetime as dt
 
 
 # Build Dataflows DataFrame:
@@ -27,6 +28,7 @@ def dataflows_df():
     dataflows_df = pd.DataFrame(dataflows)
     dataflows_df["DataflowURL"] = "https://data.imf.org/platform/rest/v1/registry/sdmx-plus/structure/dataflow/" + dataflows_df["AgencyID"] + "/" + dataflows_df["ID"] + "/" + dataflows_df["Version"] + "?detail=full&references=descendants"
     dataflows_df["StructureURL"] = "https://data.imf.org/platform/rest/v1/registry/sdmx-plus/structure/datastructure/" + dataflows_df["AgencyID"] + "/DSD_" + dataflows_df["ID"] + "/" + dataflows_df["StructureURL"].str.split("(").str[1].str.split(")").str[0] + "?detail=full&references=descendants"
+    dataflows_df["AvailabilityURL"] = "https://data.imf.org/platform/rest/v1/registry/sdmx/3.0/availability/dataflow/" + dataflows_df["AgencyID"] + "/" + dataflows_df["ID"] + "/" + dataflows_df["Version"]
     return dataflows_df
 
 
@@ -307,11 +309,90 @@ def datastructure(datastructure_id=None):
     return {"ConceptSchemes": concept_schemes, "DataStructures": data_structures, "MetadataStructures": metadata_structures, "Glossaries": glossary}
 
 
-def testfunc(id):
+# Fetching Dataflow Availability Information in range of dates:
+def dataflow_availability(id=None, start_date=None, end_date=None):
+
+    if start_date is None and end_date is not None:
+        raise ValueError("If 'end_date' is provided, 'start_date' must also be provided.")
+    if start_date is not None and end_date is None:
+        raise ValueError("If 'start_date' is provided, 'end_date' must also be provided.")
+
+    if start_date is None and end_date is None:
+        # Defaulting to the last 10 years if no dates are provided
+        start_date = int((dt.datetime.now() - dt.timedelta(days=3650)).timestamp() * 1000)
+        end_date = int(dt.datetime.now().timestamp() * 1000)
+
+    dflows = dataflows_df()
+
+    if id not in dflows["ID"].values:
+        raise ValueError(f"Dataflow ID '{id}' not found in the registry. Must be one of {', '.join(dflows['ID'].tolist())}.")
+
+    # Fetching the availability information for the specified dataflow from the IMF SDMX API
+    availability_url = dflows[dflows["ID"] == id].iloc[0]["AvailabilityURL"]
+
+    if not availability_url:
+        raise ValueError(f"No availability URL found for dataflow ID '{id}'.")
+
+    headers = {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en",
+        "content-type": "application/json",
+        "origin": "https://data.imf.org",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "x-dissemination-channel": "Portals",
+    }
+
+    import json
+
+    data = {"key": "*.*.*.*.*", "mode": "available", "references": "none", "filters": [{"componentCode": "TIME_PERIOD", "operator": "ge", "value": str(start_date)}, {"componentCode": "TIME_PERIOD", "operator": "lt", "value": str(end_date)}]}
+    data = json.dumps(data)
 
     try:
-        dataflow_info = dataflow(id)
-        datastructure_info = datastructure(id)
-        return dataflow_info, datastructure_info
-    except ValueError as e:
-        print(e)
+        response = httpx.post(availability_url, headers=headers, data=data)
+        json_response = response.json()
+
+        dat = json_response["data"]["dataConstraints"][0]
+
+        datlinks = dat.get("links", None)
+        datannotations = dat.get("annotations", None)
+        datid = dat.get("id", None)
+        datname = dat.get("name", None)
+        datnames = dat.get("names", None)
+        datdescription = dat.get("description", None)
+        datdescriptions = dat.get("descriptions", None)
+        datversion = dat.get("version", None)
+        datagencyID = dat.get("agencyID", None)
+
+        components = []
+        datcubeRegions = dat.get("cubeRegions", None)
+        if datcubeRegions is not None:
+            datcubeRegions = datcubeRegions[0].get("memberSelection", None)
+        if datcubeRegions is not None:
+            for i in range(len(datcubeRegions)):
+                componentid = datcubeRegions[i].get("componentId", None)
+                componentvalues = [datcubeRegions[i]["selectionValues"][j]["memberValue"] for j in range(len(datcubeRegions[i]["selectionValues"]))]
+                for z in range(len(componentvalues)):
+                    if componentvalues[z] is not None:
+                        component = {
+                            "ComponentID": componentid,
+                            "ComponentValue": componentvalues[z],
+                        }
+                        components.append(component)
+
+        available_data = {
+            "DataflowID": datid,
+            "DataflowName": datname,
+            "DataflowVersion": datversion,
+            "DataflowAgencyID": datagencyID,
+            "DataflowDescription": datdescription,
+            "Components": components,
+        }
+
+        return available_data
+
+    except:
+        return {"Error": "Failed to fetch availability data. Please check the dataflow ID or the API endpoint."}
+
+
+json_response = dataflow_availability("CPI")
