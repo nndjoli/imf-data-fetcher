@@ -5,7 +5,7 @@
 <h2>Requirements & Installation :</h2>
 
 - Requirements: `httpx`, `pandas`, `nest_asyncio`.  
-- Install using: `pip install imf-data-fetcher==0.1` (https://pypi.org/project/imf-data-fetcher/0.1//)
+- Install using: `pip install imf-data-fetcher==0.1` (https://pypi.org/project/imf-data-fetcher/0.1/)
  
 
 
